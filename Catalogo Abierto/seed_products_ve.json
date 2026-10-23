@@ -1,0 +1,8257 @@
+{
+ "version": 15,
+ "country": "VE",
+ "language": "es-VE",
+ "count": 673,
+ "products": [
+  {
+   "id": "ve-harina-p-a-n",
+   "name": "Harina P.A.N.",
+   "brand": "P.A.N.",
+   "category": "harinas",
+   "size": null,
+   "aliases": [
+    "Harina PAN",
+    "Harina de maíz P.A.N.",
+    "Harina de maíz precocida P.A.N.",
+    "HARINA P.A.N. 1KG"
+   ],
+   "spoken": [
+    "harina pan",
+    "harina pe a ene",
+    "arina pan",
+    "yarina pan",
+    "harina pam"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-harina-juana",
+   "name": "Harina Juana",
+   "brand": "Juana",
+   "category": "harinas",
+   "size": null,
+   "aliases": [
+    "Harina de maíz Juana",
+    "Juana"
+   ],
+   "spoken": [
+    "harina juana",
+    "arina juana",
+    "harina huana"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-harina-dona-emilia",
+   "name": "Harina Doña Emilia",
+   "brand": "Doña Emilia",
+   "category": "harinas",
+   "size": null,
+   "aliases": [
+    "Doña Emilia",
+    "Dona Emilia"
+   ],
+   "spoken": [
+    "harina doña emilia",
+    "harina dona emilia"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-maizina-americana",
+   "name": "Maizina Americana",
+   "brand": "Maizina",
+   "category": "harinas",
+   "size": null,
+   "aliases": [
+    "Maizina",
+    "Maicena"
+   ],
+   "spoken": [
+    "maisina americana",
+    "maizina",
+    "maicina"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-avena-quaker",
+   "name": "Avena Quaker",
+   "brand": "Quaker",
+   "category": "cereales",
+   "size": null,
+   "aliases": [
+    "Quaker",
+    "Avena en hojuelas Quaker"
+   ],
+   "spoken": [
+    "avena quaker",
+    "avena cuaker",
+    "avena kuaker"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cerelac",
+   "name": "Cerelac",
+   "brand": "Nestlé",
+   "category": "cereales",
+   "size": null,
+   "aliases": [
+    "Cerelac Nestlé"
+   ],
+   "spoken": [
+    "cerelac",
+    "serelac",
+    "cerelak"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-nestum",
+   "name": "Nestum",
+   "brand": "Nestlé",
+   "category": "cereales",
+   "size": null,
+   "aliases": [
+    "Nestum Nestlé"
+   ],
+   "spoken": [
+    "nestum",
+    "nestun"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-toddy",
+   "name": "Toddy",
+   "brand": "Toddy",
+   "category": "bebidas en polvo",
+   "size": null,
+   "aliases": [
+    "Chocolate Toddy"
+   ],
+   "spoken": [
+    "toddy",
+    "todi",
+    "tody"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-nesquik",
+   "name": "Nesquik",
+   "brand": "Nestlé",
+   "category": "bebidas en polvo",
+   "size": null,
+   "aliases": [
+    "Nesquick"
+   ],
+   "spoken": [
+    "nesquik",
+    "nescuik",
+    "neskuik"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-milo",
+   "name": "Milo",
+   "brand": "Nestlé",
+   "category": "bebidas en polvo",
+   "size": null,
+   "aliases": [
+    "Milo Nestlé"
+   ],
+   "spoken": [
+    "milo",
+    "mailo"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-pasta-primor",
+   "name": "Pasta Primor",
+   "brand": "Primor",
+   "category": "pastas",
+   "size": null,
+   "aliases": [
+    "Espagueti Primor",
+    "Pasta larga Primor",
+    "Primor pasta"
+   ],
+   "spoken": [
+    "pasta primor",
+    "espagueti primor"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-pasta-capri",
+   "name": "Pasta Capri",
+   "brand": "Capri",
+   "category": "pastas",
+   "size": null,
+   "aliases": [
+    "Capri pasta",
+    "Espagueti Capri"
+   ],
+   "spoken": [
+    "pasta capri",
+    "pasta kapri"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-arroz-mary",
+   "name": "Arroz Mary",
+   "brand": "Mary",
+   "category": "arroz",
+   "size": null,
+   "aliases": [
+    "Arroz blanco Mary",
+    "Mary arroz"
+   ],
+   "spoken": [
+    "arroz mary",
+    "arroz mari"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-arroz-primor",
+   "name": "Arroz Primor",
+   "brand": "Primor",
+   "category": "arroz",
+   "size": null,
+   "aliases": [
+    "Arroz blanco Primor"
+   ],
+   "spoken": [
+    "arroz primor"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-leche-en-polvo-nido",
+   "name": "Leche en Polvo Nido",
+   "brand": "Nestlé",
+   "category": "lácteos",
+   "size": null,
+   "aliases": [
+    "Nido",
+    "Leche Nido",
+    "Nido Nestlé"
+   ],
+   "spoken": [
+    "leche nido",
+    "nido",
+    "leche en polvo nido"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-margarina-rikesa",
+   "name": "Margarina Rikesa",
+   "brand": "Rikesa",
+   "category": "grasas",
+   "size": null,
+   "aliases": [
+    "Rikesa",
+    "Margarina Rikesa"
+   ],
+   "spoken": [
+    "rikesa",
+    "ricesa",
+    "rikessa",
+    "ri kesa",
+    "margarina rikesa"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-margarina-mavesa",
+   "name": "Margarina Mavesa",
+   "brand": "Mavesa",
+   "category": "grasas",
+   "size": null,
+   "aliases": [
+    "Mavesa",
+    "Margarina Mavesa"
+   ],
+   "spoken": [
+    "mavesa",
+    "mabesa",
+    "margarina mavesa"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-mayonesa-mavesa",
+   "name": "Mayonesa Mavesa",
+   "brand": "Mavesa",
+   "category": "salsas",
+   "size": null,
+   "aliases": [
+    "Mayonesa Mavesa"
+   ],
+   "spoken": [
+    "mayonesa mavesa",
+    "mallonesa mavesa"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-aceite-vatel",
+   "name": "Aceite Vatel",
+   "brand": "Vatel",
+   "category": "aceites",
+   "size": null,
+   "aliases": [
+    "Vatel",
+    "Aceite vegetal Vatel"
+   ],
+   "spoken": [
+    "aceite vatel",
+    "aceite batel"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-aceite-diana",
+   "name": "Aceite Diana",
+   "brand": "Diana",
+   "category": "aceites",
+   "size": null,
+   "aliases": [
+    "Diana aceite",
+    "Aceite vegetal Diana"
+   ],
+   "spoken": [
+    "aceite diana"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-azucar-montalban",
+   "name": "Azúcar Montalbán",
+   "brand": "Montalbán",
+   "category": "azúcar",
+   "size": null,
+   "aliases": [
+    "Azucar Montalban",
+    "Montalbán"
+   ],
+   "spoken": [
+    "azucar montalban",
+    "asucar montalban"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cafe-fama-de-america",
+   "name": "Café Fama de América",
+   "brand": "Fama de América",
+   "category": "café",
+   "size": null,
+   "aliases": [
+    "Fama de America",
+    "Café molido Fama de América"
+   ],
+   "spoken": [
+    "cafe fama de america",
+    "fama de america"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cafe-madrid",
+   "name": "Café Madrid",
+   "brand": "Madrid",
+   "category": "café",
+   "size": null,
+   "aliases": [
+    "Cafe Madrid",
+    "Café molido Madrid"
+   ],
+   "spoken": [
+    "cafe madrid"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-caraotas-negras",
+   "name": "Caraotas Negras",
+   "brand": null,
+   "category": "granos",
+   "size": null,
+   "aliases": [
+    "Caraotas",
+    "Frijoles negros",
+    "Caraota negra"
+   ],
+   "spoken": [
+    "caraotas negras",
+    "garaotas",
+    "caraotas"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-atun-en-lata",
+   "name": "Atún en Lata",
+   "brand": null,
+   "category": "enlatados",
+   "size": null,
+   "aliases": [
+    "Atun en lata",
+    "Atún",
+    "Atun"
+   ],
+   "spoken": [
+    "atun en lata",
+    "atun"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-sardinas-en-lata",
+   "name": "Sardinas en Lata",
+   "brand": null,
+   "category": "enlatados",
+   "size": null,
+   "aliases": [
+    "Sardinas",
+    "Sardina en lata"
+   ],
+   "spoken": [
+    "sardinas en lata",
+    "sardinas"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-queso-telita",
+   "name": "Queso Telita",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Queso telita",
+    "Telita"
+   ],
+   "spoken": [
+    "queso telita",
+    "queso telíta",
+    "telita"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-queso-guayanes",
+   "name": "Queso Guayanés",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Queso Guayanes",
+    "Guayanés",
+    "Guayanes"
+   ],
+   "spoken": [
+    "queso guayanes",
+    "queso guayanés",
+    "queso guallanes",
+    "queso guayanez"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-queso-llanero",
+   "name": "Queso Llanero",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Llanero",
+    "Queso llanero"
+   ],
+   "spoken": [
+    "queso llanero",
+    "queso yanero"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-queso-de-mano",
+   "name": "Queso de Mano",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Queso de mano",
+    "Queso mano"
+   ],
+   "spoken": [
+    "queso de mano"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-queso-blanco-duro",
+   "name": "Queso Blanco Duro",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Queso blanco",
+    "Queso duro",
+    "Queso blanco pasteurizado"
+   ],
+   "spoken": [
+    "queso blanco",
+    "queso blanco duro"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cuajada",
+   "name": "Cuajada",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Queso cuajada"
+   ],
+   "spoken": [
+    "cuajada",
+    "cuajá"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-nata",
+   "name": "Nata",
+   "brand": null,
+   "category": "lácteos",
+   "size": null,
+   "aliases": [
+    "Nata fresca",
+    "Crema de leche"
+   ],
+   "spoken": [
+    "nata"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-jamon-plumrose",
+   "name": "Jamón Plumrose",
+   "brand": "Plumrose",
+   "category": "charcutería",
+   "size": null,
+   "aliases": [
+    "Jamón Plumrose",
+    "Jamon Plumrose",
+    "Plumrose jamón"
+   ],
+   "spoken": [
+    "jamon plumrose",
+    "jamon plumros",
+    "plumrose"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-salchichas-plumrose",
+   "name": "Salchichas Plumrose",
+   "brand": "Plumrose",
+   "category": "charcutería",
+   "size": null,
+   "aliases": [
+    "Salchicha Plumrose"
+   ],
+   "spoken": [
+    "salchichas plumrose",
+    "salchicha plumrose"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-diablitos-underwood",
+   "name": "Diablitos Underwood",
+   "brand": "Underwood",
+   "category": "enlatados",
+   "size": null,
+   "aliases": [
+    "Diablitos",
+    "Diablito",
+    "Jamón endiablado Underwood",
+    "Deviled ham Underwood"
+   ],
+   "spoken": [
+    "diablitos",
+    "diablito",
+    "diablitos underwood",
+    "diablitos anderwud",
+    "diablitos anderwood",
+    "los diablitos"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-guasacaca",
+   "name": "Guasacaca",
+   "brand": null,
+   "category": "salsas",
+   "size": null,
+   "aliases": [
+    "Salsa guasacaca",
+    "Guasacaca"
+   ],
+   "spoken": [
+    "guasacaca",
+    "guasa caca",
+    "guazacaca",
+    "guasacaka"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-ketchup-heinz",
+   "name": "Ketchup Heinz",
+   "brand": "Heinz",
+   "category": "salsas",
+   "size": null,
+   "aliases": [
+    "Salsa de tomate Heinz",
+    "Heinz ketchup"
+   ],
+   "spoken": [
+    "ketchup heinz",
+    "salsa de tomate heinz",
+    "catsup heinz"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cocosette",
+   "name": "Cocosette",
+   "brand": "Savoy",
+   "category": "dulces",
+   "size": null,
+   "aliases": [
+    "Cocosette Savoy"
+   ],
+   "spoken": [
+    "cocosette",
+    "cocoset",
+    "cocosete",
+    "coco sette"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-susy",
+   "name": "Susy",
+   "brand": "Savoy",
+   "category": "dulces",
+   "size": null,
+   "aliases": [
+    "Susy Savoy",
+    "Galleta Susy"
+   ],
+   "spoken": [
+    "susy",
+    "susi",
+    "suzi"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cri-cri",
+   "name": "Cri Cri",
+   "brand": "Savoy",
+   "category": "dulces",
+   "size": null,
+   "aliases": [
+    "Cri-Cri",
+    "Cricri",
+    "Chocolate Cri Cri"
+   ],
+   "spoken": [
+    "cri cri",
+    "cricri",
+    "cri-cri",
+    "kri kri"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-pirulin",
+   "name": "Pirulín",
+   "brand": null,
+   "category": "dulces",
+   "size": null,
+   "aliases": [
+    "Pirulin",
+    "Pirulín Savoy"
+   ],
+   "spoken": [
+    "pirulin",
+    "pirulín",
+    "pirulim"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-samba",
+   "name": "Samba",
+   "brand": "Savoy",
+   "category": "dulces",
+   "size": null,
+   "aliases": [
+    "Chocolate Samba",
+    "Samba Savoy"
+   ],
+   "spoken": [
+    "samba",
+    "sanba"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-toronto",
+   "name": "Toronto",
+   "brand": "Savoy",
+   "category": "dulces",
+   "size": null,
+   "aliases": [
+    "Chocolate Toronto",
+    "Toronto Savoy"
+   ],
+   "spoken": [
+    "toronto",
+    "toronto savoy"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cheese-tris",
+   "name": "Cheese Tris",
+   "brand": null,
+   "category": "snacks",
+   "size": null,
+   "aliases": [
+    "Cheese Tris",
+    "Chis Tris",
+    "Cheestris",
+    "Cheez Tris"
+   ],
+   "spoken": [
+    "cheese tris",
+    "chis tris",
+    "chistris",
+    "chis tri",
+    "chees tris"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-galletas-maria",
+   "name": "Galletas María",
+   "brand": null,
+   "category": "galletas",
+   "size": null,
+   "aliases": [
+    "Galleta Maria",
+    "Galletas Maria"
+   ],
+   "spoken": [
+    "galletas maria",
+    "galletas mari"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-galletas-club-social",
+   "name": "Galletas Club Social",
+   "brand": null,
+   "category": "galletas",
+   "size": null,
+   "aliases": [
+    "Club Social",
+    "Galleta Club Social"
+   ],
+   "spoken": [
+    "galletas club social",
+    "club sosial",
+    "klub social"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-nutella",
+   "name": "Nutella",
+   "brand": "Ferrero",
+   "category": "dulces",
+   "size": null,
+   "aliases": [
+    "Nutella Ferrero",
+    "Crema de avellanas"
+   ],
+   "spoken": [
+    "nutella",
+    "nutela"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-frescolita",
+   "name": "Frescolita",
+   "brand": null,
+   "category": "refrescos",
+   "size": null,
+   "aliases": [
+    "Refresco Frescolita",
+    "Frescolita 2L"
+   ],
+   "spoken": [
+    "frescolita",
+    "fresco lita",
+    "frescolíta",
+    "fresco lita roja"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-chinotto",
+   "name": "Chinotto",
+   "brand": null,
+   "category": "refrescos",
+   "size": null,
+   "aliases": [
+    "Refresco Chinotto"
+   ],
+   "spoken": [
+    "chinotto",
+    "chinoto",
+    "chinoto polar"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-malta-polar",
+   "name": "Malta Polar",
+   "brand": "Polar",
+   "category": "refrescos",
+   "size": null,
+   "aliases": [
+    "Maltín Polar",
+    "Malta"
+   ],
+   "spoken": [
+    "malta polar",
+    "maltin polar",
+    "malta"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cerveza-polar",
+   "name": "Cerveza Polar",
+   "brand": "Polar",
+   "category": "licores",
+   "size": null,
+   "aliases": [
+    "Polar Pilsen",
+    "Polar Pilsen 36",
+    "Polarcita"
+   ],
+   "spoken": [
+    "cerveza polar",
+    "polar",
+    "polarcita",
+    "polar pilsen"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-polar-light",
+   "name": "Polar Light",
+   "brand": "Polar",
+   "category": "licores",
+   "size": null,
+   "aliases": [
+    "Cerveza Polar Light",
+    "Polar Ice"
+   ],
+   "spoken": [
+    "polar light",
+    "polar lait",
+    "polar ice"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cerveza-solera",
+   "name": "Cerveza Solera",
+   "brand": "Solera",
+   "category": "licores",
+   "size": null,
+   "aliases": [
+    "Solera",
+    "Solera Azul",
+    "Solera Verde"
+   ],
+   "spoken": [
+    "cerveza solera",
+    "solera"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-pepsi",
+   "name": "Pepsi",
+   "brand": "Pepsi",
+   "category": "refrescos",
+   "size": null,
+   "aliases": [
+    "Pepsi Cola",
+    "Pepsi 2L"
+   ],
+   "spoken": [
+    "pepsi",
+    "pepsi cola"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-coca-cola",
+   "name": "Coca-Cola",
+   "brand": "Coca-Cola",
+   "category": "refrescos",
+   "size": null,
+   "aliases": [
+    "Coca Cola",
+    "Cocacola",
+    "Coca-Cola 2L"
+   ],
+   "spoken": [
+    "coca cola",
+    "cocacola",
+    "coca-cola",
+    "coca kola"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-agua-minalba",
+   "name": "Agua Minalba",
+   "brand": "Minalba",
+   "category": "bebidas",
+   "size": null,
+   "aliases": [
+    "Minalba",
+    "Agua mineral Minalba"
+   ],
+   "spoken": [
+    "agua minalba",
+    "minalba",
+    "agua mina alba"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-jugo-yukery",
+   "name": "Jugo Yukery",
+   "brand": "Yukery",
+   "category": "jugos",
+   "size": null,
+   "aliases": [
+    "Yukery",
+    "Jugo Yukery Naranja"
+   ],
+   "spoken": [
+    "jugo yukery",
+    "yukery",
+    "llukeri",
+    "yuqueri",
+    "yukeri"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-jugo-del-valle",
+   "name": "Jugo Del Valle",
+   "brand": "Del Valle",
+   "category": "jugos",
+   "size": null,
+   "aliases": [
+    "Del Valle",
+    "Néctar Del Valle"
+   ],
+   "spoken": [
+    "jugo del valle",
+    "del valle"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-gatorade",
+   "name": "Gatorade",
+   "brand": "Gatorade",
+   "category": "bebidas",
+   "size": null,
+   "aliases": [
+    "Gatorade 500ml"
+   ],
+   "spoken": [
+    "gatorade",
+    "gatorei",
+    "gatoreid"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-ron-santa-teresa",
+   "name": "Ron Santa Teresa",
+   "brand": "Santa Teresa",
+   "category": "licores",
+   "size": null,
+   "aliases": [
+    "Santa Teresa",
+    "Ron Santa Teresa 1796"
+   ],
+   "spoken": [
+    "ron santa teresa",
+    "santa teresa"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-ron-cacique",
+   "name": "Ron Cacique",
+   "brand": "Cacique",
+   "category": "licores",
+   "size": null,
+   "aliases": [
+    "Cacique 500",
+    "Ron Cacique 500"
+   ],
+   "spoken": [
+    "ron cacique",
+    "cacique",
+    "ron kasike"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-ron-diplomatico",
+   "name": "Ron Diplomático",
+   "brand": "Diplomático",
+   "category": "licores",
+   "size": null,
+   "aliases": [
+    "Ron Diplomatico",
+    "Diplomatico",
+    "Diplomático Reserva"
+   ],
+   "spoken": [
+    "ron diplomatico",
+    "diplomatico"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-ron-pampero",
+   "name": "Ron Pampero",
+   "brand": "Pampero",
+   "category": "licores",
+   "size": null,
+   "aliases": [
+    "Pampero",
+    "Pampero Aniversario"
+   ],
+   "spoken": [
+    "ron pampero",
+    "pampero",
+    "ron pampero aniversario"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-papelon",
+   "name": "Papelón",
+   "brand": null,
+   "category": "víveres",
+   "size": null,
+   "aliases": [
+    "Papelon",
+    "Panela",
+    "Papelón en pan"
+   ],
+   "spoken": [
+    "papelon",
+    "papelón",
+    "papelo",
+    "papelón panela"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cambur",
+   "name": "Cambur",
+   "brand": null,
+   "category": "frutas",
+   "size": null,
+   "aliases": [
+    "Cambures",
+    "Banano",
+    "Cambur maduro"
+   ],
+   "spoken": [
+    "cambur",
+    "cambures",
+    "kambur"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-platano",
+   "name": "Plátano",
+   "brand": null,
+   "category": "frutas",
+   "size": null,
+   "aliases": [
+    "Platano",
+    "Plátano maduro",
+    "Plátano verde"
+   ],
+   "spoken": [
+    "platano",
+    "plátano",
+    "plantano"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-parchita",
+   "name": "Parchita",
+   "brand": null,
+   "category": "frutas",
+   "size": null,
+   "aliases": [
+    "Maracuyá",
+    "Parchitas"
+   ],
+   "spoken": [
+    "parchita",
+    "parchitas",
+    "parchíta"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-lechosa",
+   "name": "Lechosa",
+   "brand": null,
+   "category": "frutas",
+   "size": null,
+   "aliases": [
+    "Papaya",
+    "Lechosa madura"
+   ],
+   "spoken": [
+    "lechosa",
+    "lechosas"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-patilla",
+   "name": "Patilla",
+   "brand": null,
+   "category": "frutas",
+   "size": null,
+   "aliases": [
+    "Sandía",
+    "Sandia"
+   ],
+   "spoken": [
+    "patilla",
+    "patía",
+    "patillas"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-auyama",
+   "name": "Auyama",
+   "brand": null,
+   "category": "verduras",
+   "size": null,
+   "aliases": [
+    "Ahuyama",
+    "Calabaza"
+   ],
+   "spoken": [
+    "auyama",
+    "ahuyama",
+    "aullama"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-ocumo",
+   "name": "Ocumo",
+   "brand": null,
+   "category": "verduras",
+   "size": null,
+   "aliases": [
+    "Ocumo chino",
+    "Ocumo blanco"
+   ],
+   "spoken": [
+    "ocumo",
+    "okumo"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-name",
+   "name": "Ñame",
+   "brand": null,
+   "category": "verduras",
+   "size": null,
+   "aliases": [
+    "Name",
+    "Ñame"
+   ],
+   "spoken": [
+    "name",
+    "ñame",
+    "niame"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-yuca",
+   "name": "Yuca",
+   "brand": null,
+   "category": "verduras",
+   "size": null,
+   "aliases": [
+    "Yuca fresca"
+   ],
+   "spoken": [
+    "yuca",
+    "llucca",
+    "iuca"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-topocho",
+   "name": "Topocho",
+   "brand": null,
+   "category": "frutas",
+   "size": null,
+   "aliases": [
+    "Topochos",
+    "Topocho verde"
+   ],
+   "spoken": [
+    "topocho",
+    "topochos"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cebollin",
+   "name": "Cebollín",
+   "brand": null,
+   "category": "verduras",
+   "size": null,
+   "aliases": [
+    "Cebollin",
+    "Cebolla larga"
+   ],
+   "spoken": [
+    "cebollin",
+    "cebollín",
+    "sebollin"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-aji-dulce",
+   "name": "Ají Dulce",
+   "brand": null,
+   "category": "verduras",
+   "size": null,
+   "aliases": [
+    "Aji dulce",
+    "Ají dulce"
+   ],
+   "spoken": [
+    "aji dulce",
+    "ají dulce",
+    "ahi dulce"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-pimenton",
+   "name": "Pimentón",
+   "brand": null,
+   "category": "verduras",
+   "size": null,
+   "aliases": [
+    "Pimenton",
+    "Pimentón rojo",
+    "Pimentón verde"
+   ],
+   "spoken": [
+    "pimenton",
+    "pimentón",
+    "pimentos"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-alinos",
+   "name": "Aliños",
+   "brand": null,
+   "category": "víveres",
+   "size": null,
+   "aliases": [
+    "Alinos",
+    "Aliños frescos",
+    "Aliños verdes"
+   ],
+   "spoken": [
+    "alinos",
+    "aliños",
+    "alillos"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-cachapa",
+   "name": "Cachapa",
+   "brand": null,
+   "category": "panadería",
+   "size": null,
+   "aliases": [
+    "Cachapas",
+    "Cachapa con queso"
+   ],
+   "spoken": [
+    "cachapa",
+    "cachapas",
+    "kachapa"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-casabe",
+   "name": "Casabe",
+   "brand": null,
+   "category": "panadería",
+   "size": null,
+   "aliases": [
+    "Casabe",
+    "Cazabe"
+   ],
+   "spoken": [
+    "casabe",
+    "cazabe",
+    "kasabe"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-tequenos",
+   "name": "Tequeños",
+   "brand": null,
+   "category": "congelados",
+   "size": null,
+   "aliases": [
+    "Tequenos",
+    "Tequeño",
+    "Tequeños"
+   ],
+   "spoken": [
+    "tequenos",
+    "tequeños",
+    "tequeñitos",
+    "tekeños"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-hallaca",
+   "name": "Hallaca",
+   "brand": null,
+   "category": "panadería",
+   "size": null,
+   "aliases": [
+    "Hallacas",
+    "Allaca",
+    "Hayaca"
+   ],
+   "spoken": [
+    "hallaca",
+    "hayaca",
+    "allaca",
+    "hallacas"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-pan-canilla",
+   "name": "Pan Canilla",
+   "brand": null,
+   "category": "panadería",
+   "size": null,
+   "aliases": [
+    "Canilla",
+    "Pan canilla"
+   ],
+   "spoken": [
+    "pan canilla",
+    "canilla",
+    "pan kanilla"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-chicharron",
+   "name": "Chicharrón",
+   "brand": null,
+   "category": "charcutería",
+   "size": null,
+   "aliases": [
+    "Chicharron",
+    "Chicharrones"
+   ],
+   "spoken": [
+    "chicharron",
+    "chicharrón",
+    "chicharones"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-suavitel",
+   "name": "Suavitel",
+   "brand": "Colgate-Palmolive",
+   "category": "limpieza",
+   "size": null,
+   "aliases": [
+    "Suavizante Suavitel",
+    "Suavitel Primavera"
+   ],
+   "spoken": [
+    "suavitel",
+    "suavitell",
+    "suabitel",
+    "suavitel suavizante"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-ariel",
+   "name": "Ariel",
+   "brand": "Ariel",
+   "category": "limpieza",
+   "size": null,
+   "aliases": [
+    "Detergente Ariel",
+    "Ariel en polvo"
+   ],
+   "spoken": [
+    "ariel",
+    "ariel detergente",
+    "ariel jabon"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-las-llaves",
+   "name": "Las Llaves",
+   "brand": "Las Llaves",
+   "category": "limpieza",
+   "size": null,
+   "aliases": [
+    "Jabón Las Llaves",
+    "Jabon Las Llaves",
+    "Detergente Las Llaves"
+   ],
+   "spoken": [
+    "las llaves",
+    "jabon las llaves",
+    "las yaves"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-axion",
+   "name": "Axion",
+   "brand": "Colgate-Palmolive",
+   "category": "limpieza",
+   "size": null,
+   "aliases": [
+    "Lavaplatos Axion",
+    "Axión"
+   ],
+   "spoken": [
+    "axion",
+    "axión",
+    "aksion"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-plagatox",
+   "name": "Plagatox",
+   "brand": "Plagatox",
+   "category": "limpieza",
+   "size": null,
+   "aliases": [
+    "Insecticida Plagatox",
+    "Plagatox aerosol"
+   ],
+   "spoken": [
+    "plagatox",
+    "plagatocs",
+    "plaga tox",
+    "plagatoks"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-mr-musculo",
+   "name": "Mr. Músculo",
+   "brand": "Mr. Músculo",
+   "category": "limpieza",
+   "size": null,
+   "aliases": [
+    "Mr Musculo",
+    "Mister Músculo",
+    "Mr. Musculo"
+   ],
+   "spoken": [
+    "mister musculo",
+    "mr musculo",
+    "mister músculo"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-papel-higienico-rosal",
+   "name": "Papel Higiénico Rosal",
+   "brand": "Rosal",
+   "category": "papel",
+   "size": null,
+   "aliases": [
+    "Rosal",
+    "Papel Rosal",
+    "Papel higienico Rosal"
+   ],
+   "spoken": [
+    "papel rosal",
+    "papel higienico rosal",
+    "rosal"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-papel-higienico-elite",
+   "name": "Papel Higiénico Elite",
+   "brand": "Elite",
+   "category": "papel",
+   "size": null,
+   "aliases": [
+    "Elite",
+    "Papel Elite"
+   ],
+   "spoken": [
+    "papel elite",
+    "elite"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-kotex",
+   "name": "Kotex",
+   "brand": "Kotex",
+   "category": "cuidado personal",
+   "size": null,
+   "aliases": [
+    "Toallas sanitarias Kotex"
+   ],
+   "spoken": [
+    "kotex",
+    "cotex",
+    "kotecs"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-pampers",
+   "name": "Pampers",
+   "brand": "Pampers",
+   "category": "bebé",
+   "size": null,
+   "aliases": [
+    "Pañales Pampers",
+    "Panales Pampers"
+   ],
+   "spoken": [
+    "pampers",
+    "pañales pampers",
+    "pampers panales"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-huggies",
+   "name": "Huggies",
+   "brand": "Huggies",
+   "category": "bebé",
+   "size": null,
+   "aliases": [
+    "Pañales Huggies",
+    "Panales Huggies"
+   ],
+   "spoken": [
+    "huggies",
+    "jugis",
+    "hugis",
+    "pañales huggies"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-protex",
+   "name": "Protex",
+   "brand": "Colgate-Palmolive",
+   "category": "cuidado personal",
+   "size": null,
+   "aliases": [
+    "Jabón Protex",
+    "Jabon Protex"
+   ],
+   "spoken": [
+    "protex",
+    "protecs",
+    "jabon protex"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-colgate",
+   "name": "Colgate",
+   "brand": "Colgate-Palmolive",
+   "category": "cuidado personal",
+   "size": null,
+   "aliases": [
+    "Crema dental Colgate",
+    "Colgate Total"
+   ],
+   "spoken": [
+    "colgate",
+    "colgueit",
+    "crema dental colgate"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-kolynos",
+   "name": "Kolynos",
+   "brand": "Kolynos",
+   "category": "cuidado personal",
+   "size": null,
+   "aliases": [
+    "Crema dental Kolynos"
+   ],
+   "spoken": [
+    "kolynos",
+    "colinos",
+    "kolinos",
+    "colynos"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-rexona",
+   "name": "Rexona",
+   "brand": "Rexona",
+   "category": "cuidado personal",
+   "size": null,
+   "aliases": [
+    "Desodorante Rexona"
+   ],
+   "spoken": [
+    "rexona",
+    "rexsona",
+    "resona"
+   ],
+   "verified": false
+  },
+  {
+   "id": "ve-aceite-de-coco-kaldini",
+   "name": "Aceite de coco Kaldini",
+   "brand": "kaldini",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-de-oliva-extra-virgen-arabito",
+   "name": "Aceite de oliva extra virgen Arabito",
+   "brand": "Arabito",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-mazeite",
+   "name": "Aceite Mazeite",
+   "brand": "Polar",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arroz-integral-mary",
+   "name": "Arroz Integral Mary",
+   "brand": "Mary",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-avena-pantera",
+   "name": "Avena Pantera",
+   "brand": "pantera",
+   "category": "Avena en hojuelas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-memi",
+   "name": "Azúcar Memi",
+   "brand": "Memi",
+   "category": "Azucar-de-uso-domestico",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bebida-de-almendras-greenstar",
+   "name": "Bebida de Almendras GreenStar",
+   "brand": "GreenStar",
+   "category": "Bebidas y preparaciones de bebidas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bloqueador-solar-living",
+   "name": "Bloqueador solar Living",
+   "brand": "living",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-carre-nestle",
+   "name": "Carré Nestlé",
+   "brand": "Nestlé",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chicha-nestle-rica-chicha",
+   "name": "Chicha Nestlé Rica Chicha",
+   "brand": "Nestlé",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-bitter-st-moritz",
+   "name": "Chocolate Bitter St. Moritz",
+   "brand": "St. Moritz",
+   "category": "Botanas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-coca-cola-sin-azucar",
+   "name": "Coca Cola Sin Azúcar",
+   "brand": "Coca-Cola",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-corn-flakes-kellogg-s",
+   "name": "Corn Flakes Kellogg's",
+   "brand": "Kellogg's",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crakenyas-colombina",
+   "name": "Crakeñas Colombina",
+   "brand": "Colombina",
+   "category": "Botanas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crema-de-arroz-primor",
+   "name": "Crema de arroz Primor",
+   "brand": "Primor",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-doritos-mega-queso",
+   "name": "Doritos Mega Queso",
+   "brand": "Doritos",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletas-charmy-moka-caledonia",
+   "name": "Galletas Charmy Moka Caledonia",
+   "brand": "Caledonia",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletas-soda-puig",
+   "name": "Galletas Soda Puig",
+   "brand": "Soda Puig",
+   "category": "Botanas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-harina-de-maiz-blanco-mary",
+   "name": "Harina de maíz blanco Mary",
+   "brand": "Mary",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-kraker-bran-nabisco",
+   "name": "Kraker Bran Nabisco",
+   "brand": "Nabisco",
+   "category": "Botanas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-descremada-deslactosada-purisima",
+   "name": "Leche Descremada Deslactosada Purisima",
+   "brand": "Purisima",
+   "category": "Lácteos",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-descremada-purisima",
+   "name": "Leche descremada Purisima",
+   "brand": "Purisima",
+   "category": "Lácteos",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-en-polvo-la-campinya",
+   "name": "Leche en polvo La Campiña",
+   "brand": "La Campiña",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-maizoritos-siluet-original",
+   "name": "Maizoritos Siluet Original",
+   "brand": "Maizoritos",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-margarina-con-sal-deline",
+   "name": "Margarina con sal Deline",
+   "brand": "Deline",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-margarina-mirasol",
+   "name": "Margarina Mirasol",
+   "brand": "Mirasol",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-margarina-nelly",
+   "name": "Margarina Nelly",
+   "brand": "Nelly",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mayonesa-kraft",
+   "name": "Mayonesa Kraft",
+   "brand": "Kraft",
+   "category": "Condimentos",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mantequilla-mirasol",
+   "name": "Mantequilla Mirasol",
+   "brand": "Mirasol",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nutri-chicha-los-andes",
+   "name": "Nutri Chicha Los Andes",
+   "brand": "Los Andes",
+   "category": "Mezcla en polvo para preparar chicha",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-de-sandwich-integral-con-ajonjoli-crustissimo",
+   "name": "Pan de sándwich integral con ajonjolí Crustissimo",
+   "brand": "Crustissimo",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mayonesa-plan-suarez",
+   "name": "Mayonesa Plan Suárez",
+   "brand": "Mavesa",
+   "category": "Condimentos",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-platanitos-tom",
+   "name": "Platanitos TOM",
+   "brand": "TOM",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-rapiditas-tortillas-diet-bimbo",
+   "name": "Rapiditas Tortillas Diet Bimbo",
+   "brand": "Bimbo",
+   "category": "bimbo",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-rikesa-cheddar",
+   "name": "Rikesa Cheddar",
+   "brand": "Polar",
+   "category": "Lácteos",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salsa-de-tomate-pampero",
+   "name": "Salsa de tomate Pampero",
+   "brand": "Pampero",
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sweetest-monk-fruit",
+   "name": "Sweetest Monk Fruit",
+   "brand": "Alimentos Aglow VE",
+   "category": "Endulzantes",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gelatina-yelight-sabor-cereza",
+   "name": "Gelatina Yelight sabor cereza",
+   "brand": "Alfonso rivas",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-griego-bufalinda",
+   "name": "Yogurt Griego Bufalinda",
+   "brand": "Bufalinda",
+   "category": "Yogurt griego",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-natural-el-griego-bufalinda",
+   "name": "Yogurt natural El Griego Bufalinda",
+   "brand": "Bufalinda",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-plain-yolo",
+   "name": "Yogurt Plain Yolō",
+   "brand": "Yolō",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-7up",
+   "name": "7up",
+   "brand": "7up",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-maizoritos-azucaradas",
+   "name": "Maizoritos Azucaradas",
+   "brand": "Maizoritos",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-amanecer",
+   "name": "Café Amanecer",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chinotto-coca-cola",
+   "name": "Chinotto Coca-Cola",
+   "brand": "Coca cola",
+   "category": "Refresco",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-de-leche-sin-azucar-st-moritz",
+   "name": "Chocolate de leche sin azúcar St. Moritz",
+   "brand": "St. Moritz",
+   "category": "Botanas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crunch-flakes",
+   "name": "Crunch Flakes",
+   "brand": null,
+   "category": "Alimentos y bebidas de origen vegetal",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-dioxogen",
+   "name": "Dioxogen",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-doritos",
+   "name": "Doritos",
+   "brand": "Doritos",
+   "category": "Botanas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-glup-cola",
+   "name": "Glup Cola",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-la-pastorenya",
+   "name": "La Pastoreña",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mostaza-heinz",
+   "name": "Mostaza Heinz",
+   "brand": "Heinz",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pepito-original",
+   "name": "Pepito Original",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-te-dulce-suenyo-mccormick",
+   "name": "Té Dulce Sueño McCormick",
+   "brand": "McCormick",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tostitos",
+   "name": "Tostitos",
+   "brand": null,
+   "category": "Botanas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-de-girasol",
+   "name": "Aceite de girasol",
+   "brand": "Mirasol",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-de-oliva-eureka",
+   "name": "Aceite de oliva Eureka",
+   "brand": "eureka",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-de-oliva-extra-virgen-cocinero",
+   "name": "Aceite de Oliva Extra Virgen Cocinero",
+   "brand": "Cocinero",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-de-oliva-extra-virgen-la-pedriza",
+   "name": "Aceite de oliva extra virgen La Pedriza",
+   "brand": "La pedriza",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-de-oliva-virgen-extra-carbonell",
+   "name": "Aceite de Oliva Virgen Extra Carbonell",
+   "brand": "Carbonell",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceitunas-con-hueso-la-giralda",
+   "name": "Aceitunas con hueso La Giralda",
+   "brand": "La Giralda",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-acqua-postobon",
+   "name": "Acqua Postobón",
+   "brand": "Postobon",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aguakina-schweppes",
+   "name": "Aguakina Schweppes",
+   "brand": "Schweppes",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajor-mini-chocolate-blanco-aguila",
+   "name": "Alfajor mini chocolate blanco Águila",
+   "brand": "Águila",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajor-tofi-negro-arcor",
+   "name": "Alfajor Tofi Negro Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-almendras-sabor-vainilla-vilay",
+   "name": "Almendras sabor Vainilla Vilay",
+   "brand": "Vilay",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-almendras-sin-azucar-anyadida-vilay",
+   "name": "Almendras sin azúcar añadida Vilay",
+   "brand": "Vilay",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arandano-la-campagnola",
+   "name": "Arándano La Campagnola",
+   "brand": "La Campagnola",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arequipe-zero-wepa",
+   "name": "Arequipe Zero Wepa",
+   "brand": "Wepa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arroz-perlado-primor",
+   "name": "Arroz Perlado Primor",
+   "brand": "Primor",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arroz-santoni",
+   "name": "Arroz Santoni",
+   "brand": "Santoni",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-atun-delicias-margarita",
+   "name": "Atún Delicias Margarita",
+   "brand": "Margarita",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-atun-en-aceite-rica-deli",
+   "name": "Atún en aceite Rica Deli",
+   "brand": "rica deli",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-atun-en-aceite-vegetal-polar",
+   "name": "Atún en aceite vegetal Polar",
+   "brand": "polar",
+   "category": "enlatados",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-atun-en-trozos-vegetales-eveba",
+   "name": "Atún en trozos vegetales Eveba",
+   "brand": "Eveba",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-atun-mar-del-norte-nirsa",
+   "name": "Atún Mar del Norte Nirsa",
+   "brand": "Nirsa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-atun-solido-al-natural-eveba",
+   "name": "Atún sólido al natural Eveba",
+   "brand": "Eveba",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-avena-aros-maizoritos",
+   "name": "Avena Aros Maizoritos",
+   "brand": "Maizoritos",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-avena-avelina",
+   "name": "Avena Avelina",
+   "brand": "Avelina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-avena-en-hojuelas-la-lucha",
+   "name": "Avena en hojuelas La Lucha",
+   "brand": "la lucha",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-de-coco-organico-kaldini",
+   "name": "Azúcar de coco orgánico Kaldini",
+   "brand": "kaldini suoerfood",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-la-pastora",
+   "name": "Azúcar La Pastora",
+   "brand": "La Pastora",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-lipton-limon",
+   "name": "Lipton Limón",
+   "brand": "Lipton",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bettercreme-supremo",
+   "name": "Bettercreme Supremo",
+   "brand": "Bettercreme",
+   "category": "cooking helpers",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-biscoff-cookie-butter",
+   "name": "Biscoff Cookie Butter",
+   "brand": "Biscoff",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-boli-krunch-munchy",
+   "name": "Boli Krunch Munchy",
+   "brand": "Munchy",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bon-o-bon-cookie-s-arcor",
+   "name": "Bon o Bon Cookie's Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-butter-toffee-arcor",
+   "name": "Butter Toffee Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-colcafe",
+   "name": "Café Colcafé",
+   "brand": "colcafe",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-molido-gourmet-imperial",
+   "name": "Café Molido Gourmet Imperial",
+   "brand": "Imperial",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-canela-kaldini",
+   "name": "Canela Kaldini",
+   "brand": "kaldini",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cappuccino-mocca-colcafe",
+   "name": "Cappuccino Mocca Colcafé",
+   "brand": "Colcafé",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-carne-de-almuerzo-de-pollo-dora",
+   "name": "Carne de almuerzo de pollo Dora",
+   "brand": "dora",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-carne-molida-rio-vida",
+   "name": "Carne molida Rio Vida",
+   "brand": "rio vida",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-casabe-crunch-casabe-gourmet",
+   "name": "Casabe Crunch Casabe Gourmet",
+   "brand": "Casabe Gourmet",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-casabito-casabe-gourmet",
+   "name": "Casabito Casabe Gourmet",
+   "brand": "CASABE GOURMET",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-celsius-cosmic-fruit-punch",
+   "name": "Celsius Cosmic Fruit Punch",
+   "brand": "Cosmic fruit punch",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-mix-avena-chocolate-arcor",
+   "name": "Cereal Mix Avena & Chocolate Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-mix-avena-manzana-arcor",
+   "name": "Cereal Mix Avena & Manzana Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-mix-avena-pasas-arcor",
+   "name": "Cereal Mix Avena & Pasas Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-mix-frutilla-chia-arcor",
+   "name": "Cereal Mix Frutilla & Chía Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-mix-frutilla-chocolate-arcor",
+   "name": "Cereal Mix Frutilla & Chocolate Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cerveza-ice-polar",
+   "name": "Cerveza Ice Polar",
+   "brand": "Polar",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cheerios-miel-nestle",
+   "name": "Cheerios Miel Nestlé",
+   "brand": "Nestlé",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cheetos-flamin-hot",
+   "name": "Cheetos Flamin' Hot",
+   "brand": "Cheetos",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cherry-lyptus-halls",
+   "name": "Cherry-Lyptus Halls",
+   "brand": "Halls",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chia-emana",
+   "name": "Chía Emana",
+   "brand": "emana",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chicha-campestre",
+   "name": "Chicha Campestre",
+   "brand": "Campestre",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chicha-el-chichero",
+   "name": "Chicha El Chichero",
+   "brand": "El chichero",
+   "category": "beverages and beverages preparations",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-choc-kiss-arcor",
+   "name": "Choc Kiss Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-choclo-amarillo-entero-arcor",
+   "name": "Choclo Amarillo Entero Arcor",
+   "brand": "Arcor",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-choco-listo-nutresa",
+   "name": "Choco Listo Nutresa",
+   "brand": "nutresa",
+   "category": "choco listo chocolate",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-choco-muuu-colombina",
+   "name": "Choco Muuu Colombina",
+   "brand": "Colombina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-con-leche-de-almendras-cacao-avila",
+   "name": "Chocolate con leche de almendras Cacao Ávila",
+   "brand": "cacao Ávila",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-extra-bitter-st-moritz",
+   "name": "Chocolate extra bitter St. Moritz",
+   "brand": "sr Moritz",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolinas-blanco-bagley",
+   "name": "Chocolinas Blanco Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocotony-santoni",
+   "name": "Chocotony Santoni",
+   "brand": "Santoni",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocottone-bauducco",
+   "name": "Chocottone Bauducco",
+   "brand": "Bauducco",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chorizo-ahumado-la-montserratina",
+   "name": "Chorizo ahumado La Montserratina",
+   "brand": "La Montserratina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chubi-arcor",
+   "name": "Chubi Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cloro-titan",
+   "name": "Cloro Titan",
+   "brand": "Titan",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-club-social-integral",
+   "name": "Club Social Integral",
+   "brand": "Club Social",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cofler-leche-arcor",
+   "name": "Cofler Leche Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-colado-heinz",
+   "name": "Colado Heinz",
+   "brand": "Heinz",
+   "category": "compota de pera",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-compota-heinz-manzana",
+   "name": "Compota Heinz Manzana",
+   "brand": "Heinz",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-compuesto-lacteo-tigolac",
+   "name": "Compuesto lácteo Tigolac",
+   "brand": "tigolac",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cookisanas-galletas-chocolate",
+   "name": "CookiSanas Galletas Chocolate",
+   "brand": "CookiSanas",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cookisanas-galletas-manzana",
+   "name": "CookiSanas Galletas Manzana",
+   "brand": "Santiveri",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cookisanas-galletas-naranja",
+   "name": "CookiSanas Galletas Naranja",
+   "brand": "CookiSanas",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-coquitas-bagley",
+   "name": "Coquitas Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-corbatas-carozzi",
+   "name": "Corbatas Carozzi",
+   "brand": "Carozzi",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cornflakes-golden-foods",
+   "name": "Cornflakes Golden Foods",
+   "brand": "golden foods",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-creamos-cheese-kraft",
+   "name": "Creamos Cheese Kraft",
+   "brand": "Kraft",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crema-de-ajonjoli-zumey",
+   "name": "Crema de ajonjolí Zumey",
+   "brand": "Zumey",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crema-de-maiz-maggi",
+   "name": "Crema de maíz Maggi",
+   "brand": "maggi",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crema-de-pistacho-chocolates-cara-que",
+   "name": "Crema de pistacho Chocolates Cara Que",
+   "brand": "Chocolates Cara que",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cremigurt-griego-sapori",
+   "name": "Cremigurt Griego Sapori",
+   "brand": "Sapori",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cremigurt-power-stevia",
+   "name": "Cremigurt Power Stevia",
+   "brand": "Cremigurt",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-croissant-la-panamericana",
+   "name": "Croissant La Panamericana",
+   "brand": "La Panamericana",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crunchy-crema-flips",
+   "name": "Crunchy Crema Flips",
+   "brand": "Flips",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crunchy-peanut-kaldini",
+   "name": "Crunchy Peanut Kaldini",
+   "brand": "kaldini",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cubito-de-pollo-maggi",
+   "name": "Cubito de pollo Maggi",
+   "brand": "maggi",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-culinary-cream-master-top",
+   "name": "Culinary Cream Master Top",
+   "brand": "Master Top",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-dani-chips-danibisk",
+   "name": "Dani Chips Danibisk",
+   "brand": "danibisk",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-detergente-vale",
+   "name": "Detergente Vale",
+   "brand": "Vale",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-dinos-mogul",
+   "name": "Dinos Mogul",
+   "brand": "Mogul",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-donya-fibra-la-integral",
+   "name": "Doña Fibra La Integral",
+   "brand": "la integral",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-durazno-la-campagnola",
+   "name": "Durazno La Campagnola",
+   "brand": "BC La Campagnola",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-el-griego-bufalinda",
+   "name": "El Griego Bufalinda",
+   "brand": "Bufalinda",
+   "category": "yogurt griego",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-endulzante-montalban",
+   "name": "Endulzante Montalbán",
+   "brand": "montalban",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ensalada-italiana-kelly-s",
+   "name": "Ensalada italiana Kelly's",
+   "brand": "Kelly's",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-esparrago-blanco-extra-helios",
+   "name": "Espárrago blanco extra Helios",
+   "brand": "Helios",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-fanta-toronja",
+   "name": "Fanta Toronja",
+   "brand": "Fanta",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-flan-con-fructosa-santiveri",
+   "name": "Flan con fructosa Santiveri",
+   "brand": "Santiveri",
+   "category": "cooking helpers",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-fororo-harina-de-maiz-tostado-valle-hondo",
+   "name": "Fororo Harina de maíz tostado Valle Hondo",
+   "brand": "Valle Hondo",
+   "category": "harinas",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-frigurt-fresa-parmalat",
+   "name": "Frigurt Fresa Parmalat",
+   "brand": "parmalat",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-frutilla-la-campagnola",
+   "name": "Frutilla La Campagnola",
+   "brand": "BC La Campagnola",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-fusilli-tricolor-carozzi",
+   "name": "Fusilli Tricolor Carozzi",
+   "brand": "Carozzi",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galleta-de-sal-nestle",
+   "name": "Galleta de sal Nestlé",
+   "brand": "Nestlé",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galleta-integral-alimentos-fina",
+   "name": "Galleta integral Alimentos Fina",
+   "brand": "alimentos fina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletas-doble-chocolate-harinana",
+   "name": "Galletas doble chocolate Harinana",
+   "brand": "Harinana",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletas-puig",
+   "name": "Galletas Puig",
+   "brand": "Puig",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletas-sabor-vainilla-sin-azucar-kseritas",
+   "name": "Galletas sabor vainilla sin azúcar Kseritas",
+   "brand": "Kseritas",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galleticas-de-arroz-naturgourmet",
+   "name": "Galleticas de arroz NaturGourmet",
+   "brand": "NaturGourmet",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-garbanzos-tostados-pod-snacks",
+   "name": "Garbanzos tostados POD Snacks",
+   "brand": "POD Snacks",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gelatina-sonrisa",
+   "name": "Gelatina Sonrisa",
+   "brand": "sonrisa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gelatina-yelight",
+   "name": "Gelatina Yelight",
+   "brand": "yeligh",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-golpe-arcor",
+   "name": "Golpe Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gomitas-trululu-gusanos-acidos",
+   "name": "Gomitas Trululu Gusanos Ácidos",
+   "brand": "Trululu",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gomitas-trululu-neon",
+   "name": "Gomitas Trululu Neon",
+   "brand": "Trululu",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-grana-padano-zanetti",
+   "name": "Grana Padano Zanetti",
+   "brand": "Zanetti",
+   "category": "dairies",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-granola-light-riovalle",
+   "name": "Granola light Riovalle",
+   "brand": "Riovalle",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-granola-wepa",
+   "name": "Granola Wepa",
+   "brand": "wepa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-granola-yofiit",
+   "name": "Granola Yofiit",
+   "brand": "Yofiit",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-hamburguesas-de-pollo-natural-king",
+   "name": "Hamburguesas de pollo Natural King",
+   "brand": "Natural King",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-harina-de-maiz-blanca-precocida-bellini",
+   "name": "Harina de maíz blanca precocida Bellini",
+   "brand": "Bellini",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-harina-de-maiz-mimasa",
+   "name": "Harina de maíz Mimasa",
+   "brand": "mimasa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-harina-de-trigo-robin-hood",
+   "name": "Harina de trigo Robin Hood",
+   "brand": "Robin hood",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-harina-multiuso-kelin",
+   "name": "Harina multiuso Kelin",
+   "brand": "kelin",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-helado-duo-chocolate-mantecado-efe",
+   "name": "Helado Dúo Chocolate Mantecado EFE",
+   "brand": "Efe",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-hot-dog-bun-gama",
+   "name": "Hot Dog Bun Gama",
+   "brand": "Gama",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-infusion-herbal-mccormick",
+   "name": "Infusión herbal McCormick",
+   "brand": "Mccormick",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-insta-cream",
+   "name": "Insta Cream",
+   "brand": "InstaCream",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-instant-dry-yeast-angel",
+   "name": "Instant Dry Yeast Angel",
+   "brand": "Angel",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-intenso-granulado-colcafe",
+   "name": "Intenso Granulado Colcafé",
+   "brand": "Colcafé",
+   "category": "beverages and beverages preparations",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-jack-s-tortillitas-frito-lay",
+   "name": "Jack's Tortillitas Frito Lay",
+   "brand": "Frito Lay",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-jamon-cocido-superior-plumrose",
+   "name": "Jamón cocido superior Plumrose",
+   "brand": "Plumrose",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ketchup-tiquireflores",
+   "name": "Ketchup Tiquireflores",
+   "brand": "Tiquireflores",
+   "category": "condiments",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sazonador-knorr",
+   "name": "Sazonador Knorr",
+   "brand": "Knorr",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-la-campinya-parmalat",
+   "name": "La Campiña Parmalat",
+   "brand": "Parmalat",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-lacitos-con-fibra-santiveri",
+   "name": "Lacitos con fibra Santiveri",
+   "brand": "Santiveri",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-amanecer",
+   "name": "Leche Amanecer",
+   "brand": "Amanecer",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-condensada-natulac",
+   "name": "Leche condensada Natulac",
+   "brand": "Natulac",
+   "category": "dairies",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-condensada-tigo",
+   "name": "Leche condensada Tigo",
+   "brand": "Tigo",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-descremada-lumalac",
+   "name": "Leche descremada Lumalac",
+   "brand": "Lumalac",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-deslactosada-la-pastorenya",
+   "name": "Leche deslactosada La Pastoreña",
+   "brand": "La Pastoreña",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-deslactosada-zuli-milk",
+   "name": "Leche deslactosada Zuli Milk",
+   "brand": "Zuli Milk",
+   "category": "beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-en-polvo-completa-la-campinya",
+   "name": "Leche en polvo completa La Campiña",
+   "brand": "La Campiña",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-en-polvo-completa-los-andes",
+   "name": "Leche en polvo completa Los Andes",
+   "brand": "Los Andes",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-evaporada-wepa",
+   "name": "Leche evaporada Wepa",
+   "brand": "wepa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-los-andes",
+   "name": "Leche Los Andes",
+   "brand": "Los andes",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-mi-vaca-carabobo",
+   "name": "Leche Mi Vaca Carabobo",
+   "brand": "CARABOBO",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-parmalat-max",
+   "name": "Leche Parmalat Max",
+   "brand": "Parmalat Max",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-perijanera",
+   "name": "Leche Perijanera",
+   "brand": "Perijanera",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-svelty-nestle",
+   "name": "Leche Svelty Nestlé",
+   "brand": "nestle",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-lentejas-mi-chacha",
+   "name": "Lentejas Mi Chacha",
+   "brand": "mi chacha",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-limon-arcor",
+   "name": "Limón Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-limonada-la-campagnola",
+   "name": "Limonada La Campagnola",
+   "brand": "BC La Campagnola",
+   "category": "beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-linaza-molida-lifesystem",
+   "name": "Linaza Molida LifeSystem",
+   "brand": "LifeSystem",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-lipton-te-verde",
+   "name": "Lipton Té Verde",
+   "brand": "Lipton",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-lipton-durazno",
+   "name": "Lipton Durazno",
+   "brand": "Lipton",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-maltin-lata-polar",
+   "name": "Maltín Lata Polar",
+   "brand": "Polar",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mana-sabor-vainilla-arcor",
+   "name": "Maná sabor vainilla Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mantequilla-de-mani-aro",
+   "name": "Mantequilla de maní Aro",
+   "brand": "Aro",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mantequilla-de-mani-kaldini",
+   "name": "Mantequilla de maní Kaldini",
+   "brand": "Kaldini",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mantequilla-delicia",
+   "name": "Mantequilla Delicia",
+   "brand": "delicia",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-masa-pastelitos-mas-q-masa",
+   "name": "Masa Pastelitos Más Q Masa",
+   "brand": "Más Q Masa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mayonesa-rabeko",
+   "name": "Mayonesa Rabeko",
+   "brand": "Rabeko",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mermelada-de-fresa-y-mora-la-vianesa",
+   "name": "Mermelada de fresa y mora La Vianesa",
+   "brand": "La Vianesa",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mermelada-de-guayaba-nina",
+   "name": "Mermelada de guayaba Nina",
+   "brand": "Nina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mermelada-de-mora-vivo",
+   "name": "Mermelada de mora Vivo",
+   "brand": "Vivo",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mermelada-extra-santiveri",
+   "name": "Mermelada extra Santiveri",
+   "brand": "Santiveri",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mermelada-de-fresa-y-kiwi-taeq",
+   "name": "Mermelada de fresa y kiwi Taeq",
+   "brand": "Taeq",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-miel-de-flores-reina",
+   "name": "Miel de flores Reina",
+   "brand": "reina",
+   "category": "breakfasts",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-migurt-polar",
+   "name": "Migurt Polar",
+   "brand": "Migurt alimentos polar",
+   "category": "dairies",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-minitorta-blanco-aguila",
+   "name": "Minitorta Blanco Águila",
+   "brand": "Aguila",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mix-original-manitoba",
+   "name": "Mix Original Manitoba",
+   "brand": "manitoba",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-monstruitos-mogul",
+   "name": "Monstruitos Mogul",
+   "brand": "Mogul",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mortadela-de-pollo-del-llano",
+   "name": "Mortadela de pollo Del Llano",
+   "brand": "del llano",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mortadela-ebenezer",
+   "name": "Mortadela Ebenezer",
+   "brand": "Ebenezer",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mortadela-especial-plumrose",
+   "name": "Mortadela Especial Plumrose",
+   "brand": "Plumrose",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mostaza-honey-mccormick",
+   "name": "Mostaza Honey McCormick",
+   "brand": "McCormick",
+   "category": "condiments",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mostaza-iberia",
+   "name": "Mostaza Iberia",
+   "brand": "IBERIA",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mostaza-picante-mccormick",
+   "name": "Mostaza picante McCormick",
+   "brand": "Mccormcik & Co.",
+   "category": "condiments",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mousse-de-parchita-yogur-griego-yolo",
+   "name": "Mousse de parchita Yogur Griego Yolō",
+   "brand": "Yolo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-multi-cereal-bimbo",
+   "name": "Multi Cereal Bimbo",
+   "brand": "Bimbo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-munchyps-batata-munchy",
+   "name": "Munchyps Batata Munchy",
+   "brand": "Munchy",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-naranjada-yukery",
+   "name": "Naranjada Yukery",
+   "brand": "Yukery",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-navidenyas-colombina",
+   "name": "Navideñas Colombina",
+   "brand": "Colombina",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nectar-de-durazno-yukery",
+   "name": "Néctar de durazno Yukery",
+   "brand": "yukery",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nesfit-sabor-miel-con-almendras-nestle",
+   "name": "Nesfit sabor miel con almendras Nestlé",
+   "brand": "Nestlé",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-noglut-maria-santiveri",
+   "name": "Noglut María Santiveri",
+   "brand": "Santiveri",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nucita-crunch",
+   "name": "Nucita Crunch",
+   "brand": "Nucita",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-oatmeal-pancake-waffle-mix-avelina",
+   "name": "Oatmeal Pancake & Waffle Mix Avelina",
+   "brand": "Avelina",
+   "category": "cooking helpers",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-opera-bagley",
+   "name": "Opera Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-oreo-nabisco",
+   "name": "Oreo Nabisco",
+   "brand": "Nabisco",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-oreo-original",
+   "name": "Oreo Original",
+   "brand": "Oreos",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pesto-ottima",
+   "name": "Pesto Ottima",
+   "brand": "Ottima",
+   "category": "condiments",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-arabe-arabito",
+   "name": "Pan árabe Arabito",
+   "brand": "arabito",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-arabe-el-gigante",
+   "name": "Pan árabe El Gigante",
+   "brand": "El Gigante",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-bimbo-fit-integral",
+   "name": "Pan Bimbo Fit Integral",
+   "brand": "Bimbo",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-blanco-mediano-bimbo",
+   "name": "Pan blanco mediano Bimbo",
+   "brand": "Bimbo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-blanco-super-bimbo",
+   "name": "Pan Blanco Super Bimbo",
+   "brand": "Bimbo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-integral-bauducco",
+   "name": "Pan Integral Bauducco",
+   "brand": "Bauducco",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-integral-crustissimo",
+   "name": "Pan integral Crustissimo",
+   "brand": "crustissimo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-integral-multicereales-puro-y-simple",
+   "name": "Pan integral multicereales Puro y Simple",
+   "brand": "Puro Y Simple",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-mini-canilla-con-oregano-la-panamericana",
+   "name": "Pan mini canilla con orégano La Panamericana",
+   "brand": "La Panamericana",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-para-hamburguesa-con-ajonjoli-bimbo",
+   "name": "Pan para hamburguesa con ajonjolí Bimbo",
+   "brand": "bimbo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-para-perro-caliente-grande-la-panamericana",
+   "name": "Pan para perro caliente grande La Panamericana",
+   "brand": "La Panamericana",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-panettone-con-trocitos-sabor-chocolate-arcor",
+   "name": "Panettone con trocitos sabor chocolate Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-panque-mini-de-chocolate-once-once",
+   "name": "Panqué mini de chocolate Once Once",
+   "brand": "Once Once",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-panque-mini-de-vainilla-once-once",
+   "name": "Panqué mini de vainilla Once Once",
+   "brand": "Once Once",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-papas-fritas-la-granja",
+   "name": "Papas fritas La Granja",
+   "brand": "papas fritas la granja",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-en-plumas-horizonte",
+   "name": "Pasta en plumas Horizonte",
+   "brand": "Horizonte",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-horizonte-tubito-liso",
+   "name": "Pasta Horizonte tubito liso",
+   "brand": "Horizonte tubito liso",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-integral-sanare",
+   "name": "Pasta integral Sanare",
+   "brand": "Sanare",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-linguini-mary",
+   "name": "Pasta linguini Mary",
+   "brand": "Mary",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-pluma-ronco",
+   "name": "Pasta pluma Ronco",
+   "brand": "Ronco",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-tornillo-la-especial",
+   "name": "Pasta Tornillo La Especial",
+   "brand": "La Especial",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pastina-en-forma-de-arrocitos-capri",
+   "name": "Pastina en forma de arrocitos Capri",
+   "brand": "Capri",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pepsi-light",
+   "name": "Pepsi Light",
+   "brand": "Pepsi",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pera-gerber",
+   "name": "Pera Gerber",
+   "brand": "Gerber",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pinguinos-marinela",
+   "name": "Pingüinos Marinela",
+   "brand": "Marinela",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-platanitos-amazonia-fruit",
+   "name": "Platanitos Amazonia Fruit",
+   "brand": "Amazonia fruit",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-platano-chips-natural-con-sal-iselitas",
+   "name": "Plátano chips natural con sal Iselitas",
+   "brand": "Iselitas",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-polenta-instantanea-arcor",
+   "name": "Polenta Instantánea Arcor",
+   "brand": "Arcor",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-colado-polly-pera",
+   "name": "Colado Polly pera",
+   "brand": "polly",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ponque-fudge-once-once",
+   "name": "Ponqué Fudge Once Once",
+   "brand": "Once Once",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-popetas-quala",
+   "name": "Popetas Quala",
+   "brand": "Quala S.A",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-popz-cotufas-para-microondas",
+   "name": "Popz Cotufas para microondas",
+   "brand": "popz",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-powerade-coca-cola",
+   "name": "Powerade Coca-Cola",
+   "brand": "cocacola",
+   "category": "beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arroz-premium-mary",
+   "name": "Arroz Premium Mary",
+   "brand": "Mary",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-prestigio-nestle",
+   "name": "Prestigio Nestlé",
+   "brand": "Nestlé",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pringles-barbacoa",
+   "name": "Pringles Barbacoa",
+   "brand": "Pringles",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-privilegio-arcor",
+   "name": "Privilegio Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-queso-crema-gaby",
+   "name": "Queso crema Gaby",
+   "brand": "gaby",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-queso-de-anyo-fritz",
+   "name": "Queso de año Fritz",
+   "brand": "Fritz",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ricotta-monte-adentro",
+   "name": "Ricotta Monte Adentro",
+   "brand": "Monte Adentro",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-riko-malt-deslactosada-indulac",
+   "name": "Riko Malt deslactosada Indulac",
+   "brand": "Indulac",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-rocklets-galletas-sabor-vainilla-arcor",
+   "name": "Rocklets Galletas sabor vainilla Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-rocklets-mani-arcor",
+   "name": "Rocklets Maní Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ruffles-frito-lay",
+   "name": "Ruffles Frito Lay",
+   "brand": "frito lay",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sal-de-alta-pureza-refisal",
+   "name": "Sal de alta pureza Refisal",
+   "brand": "Refisal",
+   "category": "condiments",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salmas-horneadas-sanissimo",
+   "name": "Salmas horneadas Sanissimo",
+   "brand": "Sanissimo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salsa-a-base-de-tomate-heinz",
+   "name": "Salsa a base de tomate Heinz",
+   "brand": "Heinz",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salsa-de-soya-fritz",
+   "name": "Salsa de soya Fritz",
+   "brand": "fritz",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salsa-de-tomate-del-monte",
+   "name": "Salsa de tomate Del Monte",
+   "brand": "Del Monte",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salsati-la-campagnola",
+   "name": "Salsati La Campagnola",
+   "brand": "La Campagnola",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salticas-superior",
+   "name": "Salticas Superior",
+   "brand": "Superior",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sapito-rellenos-con-leche-y-cereales-arcor",
+   "name": "Sapito rellenos con leche y cereales Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sardina-eveba",
+   "name": "Sardina Eveba",
+   "brand": "Eveba",
+   "category": "seafood",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sardinas-en-salsa-de-tomate-atlantica",
+   "name": "Sardinas en salsa de tomate Atlántica",
+   "brand": "Atlantica",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sardinas-en-salsa-de-tomate-polar",
+   "name": "Sardinas en salsa de tomate Polar",
+   "brand": "Polar",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-serranitas-arcor",
+   "name": "Serranitas Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-soda-el-sol-puig",
+   "name": "Soda El Sol Puig",
+   "brand": "Puig",
+   "category": "galletas de soda",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-solera-light-polar",
+   "name": "Solera Light Polar",
+   "brand": "polar",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sonrisas-bagley",
+   "name": "Sonrisas Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sopa-de-pollo-maggi",
+   "name": "Sopa de pollo Maggi",
+   "brand": "Maggi",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-special-k-kellogg-s",
+   "name": "Special K Kellogg's",
+   "brand": "Kellogg's",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-stevia-splenda",
+   "name": "Stevia Splenda",
+   "brand": "Splenda",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-taco-chocolates-el-rey",
+   "name": "Taco Chocolates El Rey",
+   "brand": "Chocolates el Rey",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-te-listo-verde-mccormick",
+   "name": "Té Listo Verde McCormick",
+   "brand": "Mccormick",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-te-negro-mccormick",
+   "name": "Té negro McCormick",
+   "brand": "Mccormick",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-te-verde-mccormick",
+   "name": "Té verde McCormick",
+   "brand": "Mccormick",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-te-verde-sabor-limon-y-miel-mccormick",
+   "name": "Té verde sabor limón y miel McCormick",
+   "brand": "McCormick",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tomates-peritas-arcor",
+   "name": "Tomates peritas Arcor",
+   "brand": "Arcor",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tornillos-con-tres-vegetales-capri",
+   "name": "Tornillos con tres vegetales Capri",
+   "brand": "Capri",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tortillas-bimbo",
+   "name": "Tortillas Bimbo",
+   "brand": "Bimbo",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tostones-con-ajo-tom",
+   "name": "Tostones con ajo TOM",
+   "brand": "TOM",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-turron-de-mani-con-frutas-arcor",
+   "name": "Turrón de maní con frutas Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-turron-edicion-especial-la-dulceria-gianvalentina",
+   "name": "Turrón edición especial La Dulcería Gianvalentina",
+   "brand": "La Dulcería Gianvalentina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-turron-mani-arcor",
+   "name": "Turrón & Maní Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-turron-mani-sabor-chocolatada-arcor",
+   "name": "Turrón & Maní sabor chocolatada Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-turron-y-mani-misky",
+   "name": "Turrón y Maní Misky",
+   "brand": "Misky",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-vinagre-quidy",
+   "name": "Vinagre Quidy",
+   "brand": "Quidy",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogur-griego-mantecado-yolo",
+   "name": "Yogur griego mantecado Yolō",
+   "brand": "yolo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogur-griego-plain-yolo",
+   "name": "Yogur griego plain Yolō",
+   "brand": "yolo.",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogur-griego-yolo",
+   "name": "Yogur griego Yolō",
+   "brand": "yolo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-alpina",
+   "name": "Yogurt Alpina",
+   "brand": "Alpina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-firme-con-pinya-yoka",
+   "name": "Yogurt firme con piña Yoka",
+   "brand": "Yoka",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-griego-alpina",
+   "name": "Yogurt griego Alpina",
+   "brand": "Alpina",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-light-alpina",
+   "name": "Yogurt Light Alpina",
+   "brand": "Alpina",
+   "category": "dairies",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-yolo-durazno",
+   "name": "Yogurt Yolō durazno",
+   "brand": "Yolo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yolo-fit-proteina",
+   "name": "Yolō Fit Proteína",
+   "brand": "Yolo",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yuca-chips-iselitas",
+   "name": "Yuca chips Iselitas",
+   "brand": "Iselitas",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-7up-lima",
+   "name": "7up Lima",
+   "brand": "7up",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aceite-portumesa",
+   "name": "Aceite Portumesa",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-aderezo-cesar-orinoquia",
+   "name": "Aderezo César Orinoquia",
+   "brand": "orinoquia",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ajinomoto",
+   "name": "Ajinomoto",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajor-blanco-bon-o-bon",
+   "name": "Alfajor Blanco Bon o Bon",
+   "brand": "bon o bon",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajor-bon-o-bon-arcor",
+   "name": "Alfajor Bon o Bon Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajor-cofler-block-arcor",
+   "name": "Alfajor Cofler Block Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajor-tofi-blanco",
+   "name": "Alfajor Tofi Blanco",
+   "brand": "Tofi",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajores-chocolate-clasico-havanna",
+   "name": "Alfajores Chocolate Clásico Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajores-merengue-clasico-havanna",
+   "name": "Alfajores Merengue Clásico Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajores-mixtos-havanna",
+   "name": "Alfajores Mixtos Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-alfajores-nuez-havanna",
+   "name": "Alfajores Nuez Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-champinyones-rebanados-aref",
+   "name": "Champiñones rebanados Aref",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arroz-canta-claro",
+   "name": "Arroz Canta Claro",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arroz-donya-emilia",
+   "name": "Arroz Doña Emilia",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-arroz-kali",
+   "name": "Arroz Kali",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-avena-4-cereales-integral-cisne",
+   "name": "Avena 4 cereales integral Cisne",
+   "brand": "cisne",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-avena-lassie",
+   "name": "Avena Lassie",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-atavenca",
+   "name": "Azúcar Atavenca",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-don-augusto",
+   "name": "Azúcar Don Augusto",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-don-paco",
+   "name": "Azúcar Don Paco",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-konfi",
+   "name": "Azúcar Konfi",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-azucar-santo-melao",
+   "name": "Azúcar Santo Melao",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-balitas-mentolitas-casal",
+   "name": "Balitas Mentolitas Casal",
+   "brand": "Casal",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bitter-70-chocolates-sum",
+   "name": "Bitter 70% Chocolates Sum",
+   "brand": "Chocolates Sum",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bon-o-bon-arcor",
+   "name": "Bon o Bon Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bon-o-bon-blanco-arcor",
+   "name": "Bon o Bon Blanco Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bon-o-bon-chocolate-arcor",
+   "name": "Bon o Bon Chocolate Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-bon-o-bon-leche-arcor",
+   "name": "Bon o Bon Leche Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cacao-en-polvo-organico-cacao-la-hacienda",
+   "name": "Cacao en polvo orgánico Cacao La Hacienda",
+   "brand": "Cacao La Hacienda",
+   "category": "cocoa and its products",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-arauca",
+   "name": "Café Arauca",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-della-nonna-molido-gourmet",
+   "name": "Café Della Nonna molido gourmet",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-heidy",
+   "name": "Café Heidy",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-montanya",
+   "name": "Café Montaña",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-monte-carmelo",
+   "name": "Café Monte Carmelo",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-obelisco",
+   "name": "Café Obelisco",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cafe-san-jose",
+   "name": "Café San José",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cappuccino-vainilla-colcafe",
+   "name": "Cappuccino Vainilla Colcafé",
+   "brand": "Colcafé",
+   "category": "beverages and beverages preparations",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-capri-rigatoni",
+   "name": "Capri Rigatoni",
+   "brand": null,
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-capuchino-clasico-nescafe",
+   "name": "Capuchino clásico Nescafé",
+   "brand": "Nescafé",
+   "category": "beverages and beverages preparations",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-casabe-crujiente-de-yuca-casabe-gourmet",
+   "name": "Casabe crujiente de yuca Casabe Gourmet",
+   "brand": "CASABE GOURMET",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-casabe-gourmet-con-ajo",
+   "name": "Casabe Gourmet con ajo",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-maizoritos",
+   "name": "Cereal Maizoritos",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-mix-chocolate-almendras-arcor",
+   "name": "Cereal Mix Chocolate & Almendras Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cereal-mix-pasion-de-chocolate-arcor",
+   "name": "Cereal Mix Pasión de Chocolate Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cerebritos-rellenos-mogul",
+   "name": "Cerebritos Rellenos Mogul",
+   "brand": "Mogul",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cerveza-zulia-la-original",
+   "name": "Cerveza Zulia La Original",
+   "brand": null,
+   "category": "beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-charge-nestle",
+   "name": "Charge Nestlé",
+   "brand": "Nestlé",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cheetos",
+   "name": "Cheetos",
+   "brand": "Cheetos",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cheetos-horneados",
+   "name": "Cheetos horneados",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cheez-whiz",
+   "name": "Cheez Whiz",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chiclets-menta-adams",
+   "name": "Chiclets Menta Adams",
+   "brand": "Adams",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-amargo-53-arcor",
+   "name": "Chocolate amargo 53% Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-negro-74-cacao-santiveri",
+   "name": "Chocolate negro 74% cacao Santiveri",
+   "brand": "Santiveri",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-oscuro-maduro-70-el-rey",
+   "name": "Chocolate oscuro maduro 70% El Rey",
+   "brand": "El Rey",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-chocolate-paria-70",
+   "name": "Chocolate Paria 70%",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-clasicos-big-ben",
+   "name": "Clásicos Big Ben",
+   "brand": "Big Ben",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cofler-block-mani-con-chocolate-con-leche-arcor",
+   "name": "Cofler Block Maní con chocolate con leche Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cofler-cookies-arcor",
+   "name": "Cofler Cookies Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-colacao-0",
+   "name": "ColaCao 0%",
+   "brand": "ColaCao",
+   "category": "beverages and beverages preparations",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-costa-choco-chips",
+   "name": "Costa Choco Chips",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-costa-maxi-chips",
+   "name": "Costa Maxi Chips",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cream-cracker-renata",
+   "name": "Cream Cracker Renata",
+   "brand": "Renata",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crema-de-leche-la-parisienne",
+   "name": "Crema de leche La Parisienne",
+   "brand": "La Parisienne",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-crema-de-leche-nestle",
+   "name": "Crema de leche Nestlé",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cremadas-vainilla-tosh",
+   "name": "Cremadas Vainilla Tosh",
+   "brand": "Tosh",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cruncky-pepitos-picante",
+   "name": "Cruncky Pepitos Picante",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cubito-de-pollo-nestle",
+   "name": "Cubito de pollo Nestlé",
+   "brand": "nestlé",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-cubitos-laila",
+   "name": "Cubitos Laila",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-d-zumo-limon",
+   "name": "D'Zumo Limón",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-de-todito-frito-lay",
+   "name": "De Todito Frito Lay",
+   "brand": "Frito Lay",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-doritos-dinamita-limon-taquero",
+   "name": "Doritos Dinamita Limón Taquero",
+   "brand": "Doritos",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-diversion-arcor",
+   "name": "Diversión Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-doblon-costa",
+   "name": "Doblón Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ducales-noel",
+   "name": "Ducales Noel",
+   "brand": "Noel",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-dulce-de-leche-havanna",
+   "name": "Dulce de leche Havanna",
+   "brand": "Havanna",
+   "category": "breakfasts",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ensalada-de-frutas-osole",
+   "name": "Ensalada de frutas Osole",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-fanta",
+   "name": "Fanta",
+   "brand": "Fanta",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-fettuccine-carozzi",
+   "name": "Fettuccine Carozzi",
+   "brand": "Carozzi",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-flips-dulce-de-leche",
+   "name": "Flips dulce de leche",
+   "brand": "Flips",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-frac-clasica-costa",
+   "name": "Frac Clásica Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-frac-sabor-chocolate-costa",
+   "name": "Frac sabor chocolate Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-frac-sabor-vainilla-costa",
+   "name": "Frac sabor vainilla Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletas-tipo-leche-noel",
+   "name": "Galletas Tipo Leche Noel",
+   "brand": "Noel",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletitas-de-limon-havanna",
+   "name": "Galletitas de limón Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletitas-de-limon-con-chocolate-havanna",
+   "name": "Galletitas de limón con chocolate Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-glup-colita",
+   "name": "Glup! Colita",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-golazo-ambrosoli",
+   "name": "Golazo Ambrosoli",
+   "brand": "Ambrosoli",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-golden-bar-coco-banana",
+   "name": "Golden Bar Coco Banana",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-golden-uva",
+   "name": "Golden Uva",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gomitas-amberries-ambrosoli",
+   "name": "Gomitas Amberries Ambrosoli",
+   "brand": "Ambrosoli",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gran-cereal-cacao-costa",
+   "name": "Gran Cereal Cacao Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gran-cereal-clasica-costa",
+   "name": "Gran Cereal Clásica Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-gretel-chocolate-costa",
+   "name": "Gretel Chocolate Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-halls-limon-y-miel",
+   "name": "Halls Limón y Miel",
+   "brand": "Halls",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-havannets-chocolate-havanna",
+   "name": "Havannets Chocolate Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-hogarenyas-7-semillas-arcor",
+   "name": "Hogareñas 7 semillas Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-hogarenyas-mix-de-cereales-arcor",
+   "name": "Hogareñas Mix de cereales Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-hogarenyas-sesamo-arcor",
+   "name": "Hogareñas Sésamo Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-kesitas-bagley",
+   "name": "Kesitas Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-kseritas-de-almendra",
+   "name": "Kseritas de almendra",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-lasanya-tradicional-carozzi",
+   "name": "Lasaña tradicional Carozzi",
+   "brand": "Carozzi",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-latti-leche-entera",
+   "name": "Latti Leche Entera",
+   "brand": null,
+   "category": "dairies",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mana-leche-arcor",
+   "name": "Maná leche Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mana-livianas-sabor-limon",
+   "name": "Maná Livianas sabor limón",
+   "brand": "Maná",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mana-rellenas-sabor-chocolate-arcor",
+   "name": "Maná Rellenas sabor chocolate Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mantequilla-con-sal-hacienda-el-tunal",
+   "name": "Mantequilla con sal Hacienda El Tunal",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mantequilla-la-rendidora",
+   "name": "Mantequilla La Rendidora",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mediatarde-clasicas-lia",
+   "name": "Mediatarde Clásicas Lia",
+   "brand": "Lia",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mediatarde-clasicas-arcor",
+   "name": "Mediatarde Clásicas Arcor",
+   "brand": "Arcor",
+   "category": "crackers",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mentitas-ambrosoli",
+   "name": "Mentitas Ambrosoli",
+   "brand": "Ambrosoli",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mezcla-lactea-condensada-azucarada-mococa",
+   "name": "Mezcla láctea condensada azucarada Mococa",
+   "brand": "Mococa",
+   "category": "dairies",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-mini-chips-costa",
+   "name": "Mini Chips Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-minitorta-brownie-aguila",
+   "name": "Minitorta Brownie Águila",
+   "brand": "Águila",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-minitorta-clasica-aguila",
+   "name": "Minitorta Clásica Águila",
+   "brand": "Aguila",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-minitorta-coco-aguila",
+   "name": "Minitorta Coco Águila",
+   "brand": "Aguila",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nescafe-decaf",
+   "name": "Nescafé Decaf",
+   "brand": "Nescafe Decaf",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nescafe-mokaccino",
+   "name": "Nescafé Mokaccino",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nestea-light",
+   "name": "Nestea Light",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nestum-trigo-miel",
+   "name": "Nestum Trigo Miel",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-nik-fresa-costa",
+   "name": "Nik Fresa Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-obsesion-costa",
+   "name": "Obsesión Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-old-england-toffee-mint-ambrosoli",
+   "name": "Old England Toffee Mint Ambrosoli",
+   "brand": "Ambrosoli",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pan-sabor-mantequilla-bimbo",
+   "name": "Pan sabor mantequilla Bimbo",
+   "brand": "Bimbo",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-panettone-premium-chocolate-arcor",
+   "name": "Panettone Premium Chocolate Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-de-semola-de-trigo-durum-sindoni",
+   "name": "Pasta de sémola de trigo durum Sindoni",
+   "brand": "Sindoni",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pasta-allegri",
+   "name": "Pasta Allegri",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-poosh-tuti-frutti",
+   "name": "Poosh! Tuti Frutti",
+   "brand": "Poosh!",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-portenyitas-originales-bagley",
+   "name": "Porteñitas Originales Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-pringles",
+   "name": "Pringles",
+   "brand": "Pringles",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-leche-completa-purisima",
+   "name": "Leche completa Purísima",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-queso-crema-pardito",
+   "name": "Queso crema Pardito",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-ravioli-carne-carozzi",
+   "name": "Ravioli carne Carozzi",
+   "brand": "Carozzi",
+   "category": "meals",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-galletas-de-chocolate-renata",
+   "name": "Galletas de chocolate Renata",
+   "brand": "renata",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-rex-bagley",
+   "name": "Rex Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-saladix-sabor-pizza-arcor",
+   "name": "Saladix sabor pizza Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salchichas-cocidas-tipo-wieners-plumrose",
+   "name": "Salchichas cocidas tipo Wieners Plumrose",
+   "brand": "Plumrose",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salsa-de-soya-iberia",
+   "name": "Salsa de soya Iberia",
+   "brand": "Iberia Foods Corporation",
+   "category": "condiments",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salsa-inglesa-iberia",
+   "name": "Salsa inglesa Iberia",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-saltin-noel-integral",
+   "name": "Saltín Noel Integral",
+   "brand": "Noel",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-salvado-hogarenyas",
+   "name": "Salvado Hogareñas",
+   "brand": "Hogareñas",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sandwich-serranas",
+   "name": "Sandwich Serranas",
+   "brand": "Serranas",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sardina-la-gaviota",
+   "name": "Sardina La Gaviota",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sazonatodo-maggi",
+   "name": "Sazonatodo Maggi",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sodas-noel",
+   "name": "Sodas Noel",
+   "brand": "Noel",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-spaghetti-carozzi",
+   "name": "Spaghetti Carozzi",
+   "brand": "Carozzi",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-spaghetti-don-juan",
+   "name": "Spaghetti Don Juan",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-stax-sabor-queso-cheddar-lay-s",
+   "name": "Stax sabor queso cheddar Lay's",
+   "brand": "Lay's",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sucralosa-sucaryl",
+   "name": "Sucralosa Sucaryl",
+   "brand": "Sucaryl",
+   "category": "specific products",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-sur-del-lago-70",
+   "name": "Sur del Lago 70%",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-surtido-bagley",
+   "name": "Surtido Bagley",
+   "brand": "Bagley",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tableta-70-cacao-havanna",
+   "name": "Tableta 70% cacao Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tableta-de-chocolate-blanco-havanna",
+   "name": "Tableta de chocolate blanco Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tallarines-carozzi",
+   "name": "Tallarines Carozzi",
+   "brand": "Carozzi",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tiburoncitos-sabor-pinya-naranja-y-manzana-mogul",
+   "name": "Tiburoncitos sabor piña, naranja y manzana Mogul",
+   "brand": "Mogul",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-topline-seven-ultra-green-mint-arcor",
+   "name": "Topline Seven Ultra Green Mint Arcor",
+   "brand": "Arcor",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tortellini-queso-carozzi",
+   "name": "Tortellini queso Carozzi",
+   "brand": "Carozzi",
+   "category": "meals",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tortitas-de-arroz-integral-santiveri",
+   "name": "Tortitas de arroz integral Santiveri",
+   "brand": "Santiveri",
+   "category": "plant based foods and beverages",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tostones-don-jose",
+   "name": "Tostones Don José",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-tostones-tom",
+   "name": "Tostones TOM",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-trufas-surtidas-havanna",
+   "name": "Trufas surtidas Havanna",
+   "brand": "Havanna",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-vinagreta-de-miel-y-mostaza-orinoquia",
+   "name": "Vinagreta de miel y mostaza Orinoquia",
+   "brand": "orinoquia",
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-vino-rey-de-copas",
+   "name": "Vino Rey de Copas",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-vizzio-bitter-costa",
+   "name": "Vizzio Bitter Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-vizzio-mix-costa",
+   "name": "Vizzio Mix Costa",
+   "brand": "Costa",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogueta-fresa",
+   "name": "Yogueta Fresa",
+   "brand": "Yogueta",
+   "category": "snacks",
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogur-natural-los-andes",
+   "name": "Yogur natural Los Andes",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-dahlia",
+   "name": "Yogurt Dahlia",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yogurt-griego-opa",
+   "name": "Yogurt griego Opa!",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-yolo-mango",
+   "name": "Yolō mango",
+   "brand": null,
+   "category": null,
+   "size": null,
+   "aliases": [],
+   "spoken": [],
+   "verified": true,
+   "source": "openfoodfacts"
+  },
+  {
+   "id": "ve-carne-para-guisar",
+   "name": "Carne para guisar",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Carne guisar",
+    "Guisar de res",
+    "Carne de res para guisar",
+    "Carne de guisar",
+    "Carne de guisar de res"
+   ],
+   "spoken": [
+    "carne para guisar"
+   ],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-carne-molida",
+   "name": "Carne molida",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Carne molida de res",
+    "Molida de res",
+    "Carne molida corriente",
+    "Carne molida especial"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-bistec-de-res",
+   "name": "Bistec de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Bistec",
+    "Bistec de carne",
+    "Carne para bistec"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-punta-trasera",
+   "name": "Punta trasera",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Punta trasera de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-solomo",
+   "name": "Solomo",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Solomo de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-lomito-de-res",
+   "name": "Lomito de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Lomito"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-muchacho-redondo",
+   "name": "Muchacho redondo",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Muchacho",
+    "Muchacho de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pulpa-negra",
+   "name": "Pulpa negra",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Pulpa negra de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-falda-de-res",
+   "name": "Falda de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Falda"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-costilla-de-res",
+   "name": "Costilla de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Costilla",
+    "Costillas de res",
+    "Costilla de carne"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-osobuco",
+   "name": "Osobuco",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Osobuco de res",
+    "Ossobuco"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-lagarto",
+   "name": "Lagarto",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Lagarto de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-cadera-de-res",
+   "name": "Cadera de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Cadera"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-palomilla",
+   "name": "Palomilla",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Palomilla de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-churrasco",
+   "name": "Churrasco",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Churrasco de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-carne-para-asar",
+   "name": "Carne para asar",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Carne de res para asar"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-higado-de-res",
+   "name": "Hígado de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Higado de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-rabo-de-res",
+   "name": "Rabo de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Rabo",
+    "Cola de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-mondongo",
+   "name": "Mondongo",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Mondongo de res"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-carne-de-res",
+   "name": "Carne de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Carne de res fresca"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pollo-entero",
+   "name": "Pollo entero",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pollo",
+    "Pollo fresco",
+    "Pollo beneficiado"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pechuga-de-pollo",
+   "name": "Pechuga de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pechuga",
+    "Pechuga pollo",
+    "Pechuga fresca"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pechuga-de-pollo-deshuesada",
+   "name": "Pechuga de pollo deshuesada",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pechuga deshuesada",
+    "Pechuga sin hueso",
+    "Pechuga de pollo sin hueso"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-alitas-de-pollo",
+   "name": "Alitas de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Alas de pollo",
+    "Alitas",
+    "Alas",
+    "Alitas de pollo frescas"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-muslo-de-pollo",
+   "name": "Muslo de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Muslos de pollo",
+    "Muslo",
+    "Muslos",
+    "Muslo pollo",
+    "Muslos de pollo frescos"
+   ],
+   "spoken": [
+    "muslo de pollo"
+   ],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-contramuslo-de-pollo",
+   "name": "Contramuslo de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Contramuslo",
+    "Contramuslos",
+    "Contra muslo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pernil-de-pollo",
+   "name": "Pernil de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pierna de pollo",
+    "Piernas de pollo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pollo-despresado",
+   "name": "Pollo despresado",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pollo trozado",
+    "Pollo en presas",
+    "Pollo en piezas"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-milanesa-de-pollo",
+   "name": "Milanesa de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pollo milanesa",
+    "Milanesas de pollo",
+    "Milanesa pollo",
+    "Milanesa de pollo apanada",
+    "Milanesa de pollo empanizada",
+    "Milanesa de pechuga",
+    "Milanesa de pechuga de pollo"
+   ],
+   "spoken": [
+    "milanesa de pollo",
+    "milanesa pollo"
+   ],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-higado-de-pollo",
+   "name": "Hígado de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Higado de pollo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-molleja-de-pollo",
+   "name": "Molleja de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Mollejas de pollo",
+    "Molleja"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-menudencias-de-pollo",
+   "name": "Menudencias de pollo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Menudencia de pollo",
+    "Menudencias"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pechuga-de-pavo",
+   "name": "Pechuga de pavo",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pavo pechuga"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pavo-entero",
+   "name": "Pavo entero",
+   "brand": null,
+   "category": "pollo",
+   "size": null,
+   "aliases": [
+    "Pavo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-chuleta-de-cerdo",
+   "name": "Chuleta de cerdo",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Chuleta de cochino",
+    "Chuletas de cerdo",
+    "Chuletas de cochino",
+    "Chuleta fresca"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-chuleta-ahumada",
+   "name": "Chuleta ahumada",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Chuleta de cerdo ahumada",
+    "Chuleta ahumada de cerdo",
+    "Chuleta de cochino ahumada",
+    "Chuleta ahumada de cochino",
+    "Chuleta ahumada cerdo",
+    "Chuletas ahumadas",
+    "Chuleta humada"
+   ],
+   "spoken": [
+    "chuleta ahumada",
+    "chuleta ahumada de cerdo"
+   ],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-costilla-de-cerdo",
+   "name": "Costilla de cerdo",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Costilla de cochino",
+    "Costillas de cerdo",
+    "Costillas de cochino"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pernil-de-cerdo",
+   "name": "Pernil de cerdo",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Pernil",
+    "Pernil de cochino",
+    "Pernil cerdo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-lomo-de-cerdo",
+   "name": "Lomo de cerdo",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Lomo de cochino",
+    "Lomo cerdo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-paleta-de-cerdo",
+   "name": "Paleta de cerdo",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Paleta de cochino",
+    "Paleta cerdo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-carne-de-cerdo-molida",
+   "name": "Carne de cerdo molida",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Cerdo molido",
+    "Cochino molido",
+    "Molida de cerdo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-carne-de-cerdo-para-guisar",
+   "name": "Carne de cerdo para guisar",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Cerdo para guisar",
+    "Cochino para guisar",
+    "Cochino guisar"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-tocineta",
+   "name": "Tocineta",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Tocino",
+    "Tocineta ahumada",
+    "Tocineta de cerdo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-panceta",
+   "name": "Panceta",
+   "brand": null,
+   "category": "cerdo",
+   "size": null,
+   "aliases": [
+    "Panceta de cerdo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-jamon-de-espalda",
+   "name": "Jamón de espalda",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Jamón espalda"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-jamon-de-pierna",
+   "name": "Jamón de pierna",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Jamón pierna"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-jamon-ahumado",
+   "name": "Jamón ahumado",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Jamón ahumado de cerdo"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-salchichon",
+   "name": "Salchichón",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Salchichon"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-salami",
+   "name": "Salami",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Salame"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-mortadela",
+   "name": "Mortadela",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Mortadela corriente"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-chorizo-parrillero",
+   "name": "Chorizo parrillero",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Chorizo para parrilla",
+    "Chorizo de parrilla"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-filete-de-pescado",
+   "name": "Filete de pescado",
+   "brand": null,
+   "category": "pescados",
+   "size": null,
+   "aliases": [
+    "Pescado filete"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pargo",
+   "name": "Pargo",
+   "brand": null,
+   "category": "pescados",
+   "size": null,
+   "aliases": [
+    "Pargo fresco"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-cazon",
+   "name": "Cazón",
+   "brand": null,
+   "category": "pescados",
+   "size": null,
+   "aliases": [
+    "Cazon"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-camarones",
+   "name": "Camarones",
+   "brand": null,
+   "category": "pescados",
+   "size": null,
+   "aliases": [
+    "Camarón",
+    "Camarones frescos"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-calamares",
+   "name": "Calamares",
+   "brand": null,
+   "category": "pescados",
+   "size": null,
+   "aliases": [
+    "Calamar"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-salmon",
+   "name": "Salmón",
+   "brand": null,
+   "category": "pescados",
+   "size": null,
+   "aliases": [
+    "Salmon",
+    "Salmón fresco"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-queso-mozzarella",
+   "name": "Queso mozzarella",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Mozzarella",
+    "Mozarella",
+    "Queso mozarella"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-queso-amarillo",
+   "name": "Queso amarillo",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Queso amarillo en lonjas",
+    "Queso amarillo en lonchas"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-queso-parmesano",
+   "name": "Queso parmesano",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Parmesano"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-queso-rallado",
+   "name": "Queso rallado",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Parmesano rallado",
+    "Queso parmesano rallado"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-queso-paisa",
+   "name": "Queso paisa",
+   "brand": null,
+   "category": "quesos",
+   "size": null,
+   "aliases": [
+    "Paisa"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-huevos",
+   "name": "Huevos",
+   "brand": null,
+   "category": "huevos",
+   "size": null,
+   "aliases": [
+    "Huevo",
+    "Cartón de huevos",
+    "Carton de huevos",
+    "Huevos de gallina"
+   ],
+   "spoken": [],
+   "verified": true,
+   "source": "manual"
+  },
+  {
+   "id": "ve-milanesa-de-res",
+   "name": "Milanesa de res",
+   "brand": null,
+   "category": "carnes",
+   "size": null,
+   "aliases": [
+    "Milanesa de carne",
+    "Milanesas de res",
+    "Milanesa res",
+    "Milanesa de carne de res"
+   ],
+   "spoken": [
+    "milanesa de res",
+    "milanesa de carne"
+   ],
+   "verified": false,
+   "source": "manual"
+  },
+  {
+   "id": "ve-salchicha-viena",
+   "name": "Salchicha viena",
+   "brand": null,
+   "category": "embutidos",
+   "size": null,
+   "aliases": [
+    "Salchichas viena",
+    "Salchicha viena corta",
+    "Salchicha viena larga",
+    "Salchicha tipo viena",
+    "Salchichas tipo viena"
+   ],
+   "spoken": [
+    "salchicha viena"
+   ],
+   "verified": false,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pasas",
+   "name": "Pasas",
+   "brand": null,
+   "category": "frutos secos",
+   "size": null,
+   "aliases": [
+    "Uvas pasas",
+    "Pasas de uva",
+    "Pasas sin semilla"
+   ],
+   "spoken": [
+    "pasas",
+    "uvas pasas"
+   ],
+   "verified": false,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pasta-larga",
+   "name": "Pasta larga",
+   "brand": null,
+   "category": "pastas",
+   "size": null,
+   "aliases": [
+    "Espagueti",
+    "Spaghetti",
+    "Pasta espagueti",
+    "Pasta tipo espagueti"
+   ],
+   "spoken": [
+    "pasta larga",
+    "espagueti",
+    "espagueti pasta"
+   ],
+   "verified": false,
+   "source": "manual"
+  },
+  {
+   "id": "ve-pasta-corta",
+   "name": "Pasta corta",
+   "brand": null,
+   "category": "pastas",
+   "size": null,
+   "aliases": [
+    "Coditos",
+    "Pasta codito",
+    "Pasta tornillo",
+    "Pasta pluma",
+    "Macarrones"
+   ],
+   "spoken": [
+    "pasta corta",
+    "coditos"
+   ],
+   "verified": false,
+   "source": "manual"
+  }
+ ]
+}
