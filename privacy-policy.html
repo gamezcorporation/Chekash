@@ -64,7 +64,7 @@
   <ul>
     <li><strong>Sin cuenta, tus datos se quedan en tu teléfono.</strong> Crear una cuenta es opcional.</li>
     <li>Las <strong>fotos de la cámara no se guardan ni se envían</strong>: el texto se lee dentro del teléfono.</li>
-    <li>La app <strong>no graba ni guarda tu voz</strong>; solo recibe el texto que devuelve el reconocedor de voz de tu teléfono.</li>
+    <li>La app <strong>no usa el micrófono</strong> y no pide ese permiso.</li>
     <li>Si creas una cuenta, subimos una <strong>copia de tu historial de compras, tu lista de mercado y tus ajustes</strong> para que no los pierdas si cambias de teléfono.</li>
     <li><strong>No hay publicidad, ni rastreo, ni venta de datos, ni acceso a tu ubicación, contactos, fotos o archivos.</strong></li>
     <li>Puedes <strong>borrar tu cuenta y todo lo que subiste</strong> desde la propia app, o escribiéndonos a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a>.</li>
@@ -77,7 +77,6 @@
     <li><a href="#quienes">Quiénes somos y alcance</a></li>
     <li><a href="#datos">Qué información tratamos</a></li>
     <li><a href="#camara">Cámara</a></li>
-    <li><a href="#microfono">Micrófono y dictado por voz</a></li>
     <li><a href="#local">Información guardada en tu teléfono</a></li>
     <li><a href="#cuenta">Cuenta y respaldo en la nube</a></li>
     <li><a href="#internet">Conexión a internet y tasas de cambio</a></li>
@@ -110,10 +109,9 @@
   <tbody>
     <tr><td>Imágenes de la cámara</td><td>Mientras el escáner está abierto</td><td><strong>En ningún lado</strong>: se procesan al instante en el teléfono y se descartan</td><td>Leer precios y nombres de productos</td></tr>
     <tr><td>Texto leído (precio, nombre, peso)</td><td>Al detectar un producto</td><td>En tu teléfono (compra en curso e historial)</td><td>Sumar tu compra</td></tr>
-    <tr><td>Voz</td><td>Solo al tocar Dictar o el micrófono de un campo</td><td><strong>En ningún lado</strong>: la app no guarda audio; recibe solo el texto</td><td>Escribir por ti un precio, producto, tienda, presupuesto o ítem de la lista</td></tr>
     <tr><td>Compras (productos, cantidades, precios, IVA, tienda, fecha, tasa usada, totales)</td><td>Al finalizar una compra</td><td>En tu teléfono; y en la nube <em>solo si tienes cuenta</em></td><td>Historial, comparar precios, exportar</td></tr>
     <tr><td>Lista de mercado</td><td>Cuando la usas</td><td>En tu teléfono; y en la nube solo si tienes cuenta</td><td>Tu lista de pendientes</td></tr>
-    <tr><td>Ajustes (tasa manual, fuente de la tasa, IVA, IGTF, presupuesto, moneda, sonido, vibración, voz)</td><td>Al cambiarlos</td><td>En tu teléfono; y en la nube solo si tienes cuenta</td><td>Que la app funcione como la dejaste</td></tr>
+    <tr><td>Ajustes (tasa manual, fuente de la tasa, IVA, IGTF, presupuesto, moneda, sonido, vibración)</td><td>Al cambiarlos</td><td>En tu teléfono; y en la nube solo si tienes cuenta</td><td>Que la app funcione como la dejaste</td></tr>
     <tr><td>Correo electrónico y clave</td><td>Solo si creas una cuenta</td><td>En el servicio de cuentas de Supabase (la clave se guarda cifrada con hash; no podemos verla)</td><td>Identificarte y proteger tu respaldo</td></tr>
     <tr><td>Sesión de la cuenta (token)</td><td>Si has iniciado sesión</td><td>En tu teléfono, cifrada con una llave del Android Keystore que no sale del dispositivo</td><td>Mantener tu sesión abierta</td></tr>
     <tr><td>Dirección IP y datos técnicos de conexión</td><td>Cada vez que la app se conecta a internet</td><td>Los ven los servidores a los que te conectas (ver secciones 7 y 8)</td><td>Funcionamiento normal de internet</td></tr>
@@ -125,54 +123,45 @@
 <h2 id="camara">3. Cámara</h2>
 <p>La app usa la cámara únicamente para leer precios y nombres de productos en las etiquetas. El reconocimiento de texto se hace <strong>dentro de tu teléfono</strong>, con Google ML Kit (reconocimiento de texto «en el dispositivo»). Las imágenes <strong>no se guardan, no se envían a ningún servidor nuestro y no se comparten</strong>. Mientras el escáner está abierto la pantalla se mantiene encendida para que no se apague en el mercado.</p>
 
-<h2 id="microfono">4. Micrófono y dictado por voz</h2>
-<p>El micrófono se usa <strong>solo cuando tocas Dictar o el ícono de micrófono</strong> de un campo. La app <strong>no graba, no guarda y no envía audio</strong> a ningún servidor propio: pide al reconocedor de voz de Android que escuche y recibe de vuelta únicamente el texto. Ese reconocedor es un servicio del sistema de tu teléfono (normalmente «Servicios de voz de Google», pero puede ser el de otro fabricante), no una parte de Chekash.</p>
-<ul>
-  <li><strong>Modo sin conexión (valor por defecto):</strong> la app pide procesar la voz en el teléfono. Con el idioma descargado, el audio no sale del dispositivo. En Android 13 o superior se usa el reconocedor del propio dispositivo; en versiones anteriores la app pide el modo sin conexión, pero el cumplimiento depende del servicio de voz de tu teléfono.</li>
-  <li><strong>Modo con internet:</strong> si tú eliges «Usar internet esta vez» o desactivas «Dictar solo sin internet» en Ajustes, el servicio de voz de tu teléfono puede enviar el audio a sus servidores para transcribirlo, bajo las condiciones y la política de privacidad de ese servicio. Chekash no recibe ni conserva ese audio.</li>
-  <li>Para mejorar lo que entiende, la app ayuda al reconocedor con una lista de frases de productos comunes y corrige el texto con un catálogo de productos que viene <strong>dentro de la propia app</strong> (no se descarga ni se envía nada).</li>
-  <li>Puedes quitar el permiso de micrófono en los ajustes de Android cuando quieras: la app sigue funcionando escribiendo a mano.</li>
-</ul>
-
-<h2 id="local">5. Información guardada en tu teléfono</h2>
+<h2 id="local">4. Información guardada en tu teléfono</h2>
 <p>La app guarda <strong>en tu teléfono</strong>: la compra en curso (carrito), el historial de compras, la lista de mercado, el presupuesto, tus ajustes y la última tasa conocida (para poder calcular sin internet). Sin cuenta, nada de esto sale de tu dispositivo.</p>
 <ul>
   <li><strong>Borrarla:</strong> puedes borrar una compra desde el historial, vaciar el carrito o la lista, o borrar todo desinstalando la app o usando «Borrar datos» en los ajustes de Android de la app.</li>
   <li><strong>Copias de seguridad de Android:</strong> tu teléfono puede incluir los datos de la app en la copia de seguridad automática de tu cuenta de Google o en la transferencia a un teléfono nuevo, según tu configuración de Android. Chekash excluye de esas copias la sesión de la cuenta y los datos internos de sincronización. Esa copia la gestiona Google/Android, no nosotros.</li>
 </ul>
 
-<h2 id="cuenta">6. Cuenta y respaldo en la nube (opcional)</h2>
+<h2 id="cuenta">5. Cuenta y respaldo en la nube (opcional)</h2>
 <p>Crear una cuenta es <strong>opcional</strong>: la app funciona completa sin ella, y puedes pulsar «Ahora no» en la pantalla de bienvenida. Si decides crearla (con tu correo electrónico y una clave), ocurre lo siguiente:</p>
 <h3>Qué se guarda en la nube</h3>
 <ul>
   <li>Tu correo electrónico y tu clave (la clave, cifrada; no podemos verla).</li>
   <li>Una copia de tu <strong>historial de compras</strong> (productos, cantidades, precios, IVA aplicado, tienda, fecha, tasa usada y totales).</li>
   <li>Una copia de tu <strong>lista de mercado</strong>.</li>
-  <li>Una copia de tus <strong>ajustes</strong> (tasa manual, fuente de la tasa, IVA, IGTF, presupuesto, moneda, sonido, vibración y opciones de voz).</li>
+  <li>Una copia de tus <strong>ajustes</strong> (tasa manual, fuente de la tasa, IVA, IGTF, presupuesto, moneda, sonido y vibración).</li>
   <li>Fechas de creación y de último cambio de esos datos, necesarias para sincronizar.</li>
 </ul>
 <h3>Qué NO se sube nunca</h3>
-<p>Las imágenes de la cámara, el audio de tu voz, tu ubicación, tu lista de contactos, el registro de diagnóstico ni la compra en curso (el carrito) que aún no has finalizado.</p>
+<p>Las imágenes de la cámara, tu ubicación, tu lista de contactos, el registro de diagnóstico ni la compra en curso (el carrito) que aún no has finalizado.</p>
 <h3>Cómo funciona</h3>
 <ul>
   <li>La app funciona sin internet: lo que haces se guarda en el teléfono y se sube sola cuando vuelve la conexión.</li>
   <li>Cada persona solo puede ver y cambiar <strong>lo suyo</strong>: la base de datos tiene reglas de seguridad por usuario (Row Level Security), de modo que tu información está separada de la de los demás usuarios.</li>
   <li>Al crear la cuenta, el servicio de cuentas puede enviarte un correo de confirmación a la dirección que escribiste. Ese correo se envía con un proveedor de correo electrónico y solo contiene el enlace de confirmación.</li>
-  <li>Cuando borras una compra o un ítem de la lista estando con cuenta, queda marcado como «borrado» en la nube (para que el borrado también llegue a tus otros teléfonos) y deja de mostrarse. Se elimina de forma definitiva cuando borras tu cuenta o nos lo pides (ver sección 14).</li>
+  <li>Cuando borras una compra o un ítem de la lista estando con cuenta, queda marcado como «borrado» en la nube (para que el borrado también llegue a tus otros teléfonos) y deja de mostrarse. Se elimina de forma definitiva cuando borras tu cuenta o nos lo pides (ver sección 13).</li>
   <li>Cerrar sesión no borra tus datos del teléfono; la opción «Cerrar sesión y borrar este teléfono» sube lo pendiente y borra el historial y la lista de este teléfono.</li>
 </ul>
 <div class="nota"><strong>Importante:</strong> esta versión de Chekash <strong>no ofrece inicio de sesión con Google ni con redes sociales</strong>. Si olvidas tu clave, en la pantalla de «Entrar» puedes pedir un código de recuperación a tu correo y crear una clave nueva. Si no te llega, escríbenos a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a> desde el correo de tu cuenta y te ayudaremos.</div>
 
-<h2 id="internet">7. Conexión a internet y tasas de cambio</h2>
+<h2 id="internet">6. Conexión a internet y tasas de cambio</h2>
 <p>La app se conecta a internet para (a) consultar la tasa del dólar y del euro y (b) si tienes cuenta, para respaldar y recuperar tus datos. Las consultas de tasas se hacen a:</p>
 <ul>
   <li><strong>bcv.org.ve</strong> — sitio oficial del Banco Central de Venezuela (tasa oficial).</li>
-  <li><strong>ve.dolarapi.com</strong> — servicio público de consulta de tasas (tasa paralela y respaldo de la oficial).</li>
+  <li><strong>ve.dolarapi.com</strong> — servicio público de consulta de tasas (tasa USDT y respaldo de la oficial).</li>
 </ul>
 <p>En esas consultas <strong>no se envía ningún dato personal ni de tus compras</strong>. Como en cualquier conexión a internet, esos sitios pueden ver la dirección IP desde la que se conecta tu teléfono y los datos técnicos habituales de la conexión (por ejemplo, el tipo de dispositivo o la versión de Android). Todas las conexiones usan HTTPS (cifradas); la app no permite conexiones sin cifrar.</p>
 <p>La tasa se muestra con fines informativos y puede diferir de la tasa que aplique un comercio o un banco (ver también los <a href="terminos-de-uso.html">términos de uso</a>).</p>
 
-<h2 id="terceros">8. Servicios de terceros</h2>
+<h2 id="terceros">7. Servicios de terceros</h2>
 <p>Chekash no incluye publicidad ni herramientas de análisis, estadísticas de uso, atribución, mapas de calor ni reporte automático de fallos. Los únicos servicios de terceros que intervienen son estos:</p>
 <div class="tabla"><table>
   <thead><tr><th>Servicio</th><th>Para qué</th><th>Qué datos recibe</th></tr></thead>
@@ -180,26 +169,23 @@
     <tr><td><strong>Supabase</strong> (supabase.com)</td><td>Cuentas y respaldo en la nube. Solo si creas una cuenta.</td><td>Tu correo, tu clave (cifrada), las copias de tu historial, lista y ajustes, y datos técnicos de conexión como la IP. <a href="https://supabase.com/privacy">Su política</a>.</td></tr>
     <tr><td><strong>Proveedor de correo de Supabase / SMTP</strong></td><td>Enviar el correo de confirmación de la cuenta.</td><td>Tu correo electrónico y el enlace de confirmación.</td></tr>
     <tr><td><strong>Google ML Kit</strong> (reconocimiento de texto en el dispositivo)</td><td>Leer el texto de las etiquetas dentro del teléfono.</td><td>Las imágenes se procesan localmente y no se envían. Como otras bibliotecas de Google, ML Kit puede enviar a Google datos técnicos y de rendimiento (por ejemplo, versión de la biblioteca o del dispositivo), pero no las imágenes. <a href="https://developers.google.com/ml-kit/terms">Términos de ML Kit</a>.</td></tr>
-    <tr><td><strong>Servicio de reconocimiento de voz de Android</strong> (Google u otro fabricante)</td><td>Convertir tu voz en texto cuando dictas.</td><td>El audio, solo si el servicio lo procesa con internet (ver sección 4). Chekash no recibe ni guarda el audio.</td></tr>
-    <tr><td><strong>Banco Central de Venezuela</strong> y <strong>DolarApi</strong></td><td>Consultar la tasa de cambio.</td><td>Solo la IP y los datos técnicos de la conexión (ver sección 7).</td></tr>
+    <tr><td><strong>Banco Central de Venezuela</strong> y <strong>DolarApi</strong></td><td>Consultar la tasa de cambio.</td><td>Solo la IP y los datos técnicos de la conexión (ver sección 6).</td></tr>
     <tr><td><strong>Google Play</strong></td><td>Distribuir e instalar la app.</td><td>Lo que Google Play recoge sobre tu instalación según su propia política; Chekash no tiene acceso a tu cuenta de Google.</td></tr>
   </tbody>
 </table></div>
-<p><strong>Catálogo de productos y créditos.</strong> Para reconocer productos, Chekash trae un catálogo de nombres, marcas y tamaños. Una parte de ese catálogo contiene información de <a href="https://world.openfoodfacts.org">Open Food Facts</a> (© Open Food Facts contributors), disponible bajo la <a href="https://opendatacommons.org/licenses/odbl/1-0/">Licencia Abierta de Bases de Datos (ODbL) 1.0</a>. El catálogo resultante se publica como datos abiertos bajo esa misma licencia en <a href="https://github.com/gamezcorporation/Chekash">github.com/gamezcorporation/Chekash</a>. El catálogo se procesa en tu teléfono y no contiene datos personales tuyos.</p>
-
 <p>No vendemos ni alquilamos tu información. No la compartimos con terceros para publicidad o con fines comerciales. Solo la divulgaríamos si una autoridad competente nos lo exigiera por ley mediante un requerimiento válido.</p>
 
-<h2 id="compartir">9. Compartir y exportar tus compras</h2>
+<h2 id="compartir">8. Compartir y exportar tus compras</h2>
 <p>Desde el historial puedes compartir una compra como texto, PDF o CSV. Al hacerlo, la app genera el archivo en una carpeta temporal interna y abre el menú de compartir de Android para que <strong>tú elijas</strong> a qué aplicación o contacto enviarlo. Chekash no comparte nada por su cuenta, y no tiene acceso al resto de tus archivos. Una vez que lo envías a otra aplicación, esa aplicación aplica su propia política de privacidad. Esta función también te sirve para llevarte una copia de tus datos (portabilidad).</p>
 
-<h2 id="diagnostico">10. Registro de diagnóstico (opcional)</h2>
+<h2 id="diagnostico">9. Registro de diagnóstico (opcional)</h2>
 <p>En Ajustes existe una opción llamada «Registro del lector», pensada para pruebas, que está <strong>apagada por defecto</strong>. Si la activas, la app guarda en un archivo local de tu teléfono el texto que lee la cámara y las decisiones que toma la app. <strong>No guarda fotos, no se sube a ningún servidor y no sale del teléfono</strong> a menos que tú pulses «Compartir registro» y elijas con quién. Puedes borrarlo en cualquier momento con «Borrar registro» o apagando la opción y borrando los datos de la app.</p>
 
-<h2 id="no-hacemos">11. Lo que Chekash NO hace</h2>
+<h2 id="no-hacemos">10. Lo que Chekash NO hace</h2>
 <ul>
   <li><span class="no">No</span> te obliga a crear una cuenta ni pide tu nombre, correo o teléfono si no la creas.</li>
   <li><span class="no">No</span> usa tu ubicación ni accede a tus contactos, fotos, galería o archivos.</li>
-  <li><span class="no">No</span> graba ni guarda audio, ni guarda ni envía imágenes de la cámara.</li>
+  <li><span class="no">No</span> usa el micrófono ni graba audio, ni guarda ni envía imágenes de la cámara.</li>
   <li><span class="no">No</span> incluye publicidad, análisis de uso, rastreadores ni identificadores publicitarios.</li>
   <li><span class="no">No</span> vende, alquila ni comparte tu información con terceros para fines comerciales.</li>
   <li><span class="no">No</span> toma decisiones automatizadas que te afecten legalmente ni crea perfiles sobre ti.</li>
@@ -207,15 +193,15 @@
   <li><span class="no">No</span> usa cookies en la app. Esta página web tampoco usa cookies, ni rastreadores, ni fuentes o scripts externos.</li>
 </ul>
 
-<h2 id="base">12. Por qué usamos tu información</h2>
+<h2 id="base">11. Por qué usamos tu información</h2>
 <ul>
   <li><strong>Para prestarte el servicio que pides</strong> (leer precios, sumar tu compra, guardar tu historial, respaldar tu cuenta): es necesario para que la app haga lo que le pides.</li>
-  <li><strong>Con tu consentimiento</strong>: al conceder el permiso de cámara o micrófono, al crear una cuenta y al activar el registro de diagnóstico. Puedes retirar el consentimiento en cualquier momento (quitando el permiso en Android, cerrando sesión, borrando tu cuenta o apagando la opción), sin que eso afecte a lo hecho antes.</li>
+  <li><strong>Con tu consentimiento</strong>: al conceder el permiso de cámara, al crear una cuenta y al activar el registro de diagnóstico. Puedes retirar el consentimiento en cualquier momento (quitando el permiso en Android, cerrando sesión, borrando tu cuenta o apagando la opción), sin que eso afecte a lo hecho antes.</li>
   <li><strong>Para cumplir la ley</strong> y proteger la seguridad de la app y de los usuarios (por ejemplo, evitar accesos no autorizados).</li>
 </ul>
 <p>Solo usamos tu información para esos fines. No la usamos para publicidad ni para entrenar modelos de inteligencia artificial.</p>
 
-<h2 id="conservacion">13. Cuánto tiempo la conservamos</h2>
+<h2 id="conservacion">12. Cuánto tiempo la conservamos</h2>
 <ul>
   <li><strong>En tu teléfono:</strong> hasta que tú la borres (desde la app, desinstalando o borrando los datos de la app).</li>
   <li><strong>En la nube (solo con cuenta):</strong> mientras tu cuenta exista. Al borrar tu cuenta se elimina de forma definitiva todo lo que subiste (historial, lista, ajustes y tu registro de usuario).</li>
@@ -224,7 +210,7 @@
   <li><strong>Copias de seguridad del proveedor:</strong> el proveedor de la base de datos puede mantener copias técnicas de respaldo durante un periodo limitado; los datos borrados desaparecen de ellas al rotarse esas copias.</li>
 </ul>
 
-<h2 id="eliminar-cuenta">14. Cómo borrar tu cuenta y tus datos</h2>
+<h2 id="eliminar-cuenta">13. Cómo borrar tu cuenta y tus datos</h2>
 <h3>Opción 1 — Desde la app (inmediato)</h3>
 <ol>
   <li>Abre Chekash y toca el ícono de <strong>Cuenta</strong> (arriba a la derecha del escáner), o ve a <strong>Ajustes → tarjeta de cuenta</strong>.</li>
@@ -240,12 +226,12 @@
   <li><strong>Si no tienes cuenta</strong> no tenemos ningún dato tuyo que borrar: todo está en tu teléfono.</li>
 </ul>
 
-<h2 id="derechos">15. Tus derechos</h2>
+<h2 id="derechos">14. Tus derechos</h2>
 <p>Con independencia del país desde el que uses la app, puedes pedirnos en cualquier momento:</p>
 <ul>
   <li><strong>Acceso:</strong> saber qué datos tuyos tenemos en la nube y recibir una copia. También puedes exportar tus compras desde el historial (texto, PDF o CSV).</li>
   <li><strong>Rectificación:</strong> corregir datos inexactos (por ejemplo, tu correo).</li>
-  <li><strong>Eliminación:</strong> borrar tu cuenta y tus datos (sección 14).</li>
+  <li><strong>Eliminación:</strong> borrar tu cuenta y tus datos (sección 13).</li>
   <li><strong>Oposición y limitación:</strong> oponerte a un tratamiento o pedir que lo limitemos.</li>
   <li><strong>Portabilidad:</strong> recibir tus datos en un formato de uso común (CSV).</li>
   <li><strong>Retirar tu consentimiento</strong> en cualquier momento.</li>
@@ -253,41 +239,40 @@
 </ul>
 <p>Para ejercerlos escribe a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a> desde el correo de tu cuenta. Responderemos en un plazo máximo de <strong>30 días</strong>. Si hay que verificar tu identidad, te lo diremos para proteger tu información. El ejercicio de tus derechos es gratuito.</p>
 
-<h2 id="seguridad">16. Seguridad</h2>
+<h2 id="seguridad">15. Seguridad</h2>
 <ul>
   <li>Todas las conexiones de la app usan <strong>HTTPS</strong>; la configuración de red de la app prohíbe el tráfico sin cifrar.</li>
   <li>La clave de tu cuenta se guarda <strong>cifrada (hash)</strong> en el servicio de cuentas; nunca la vemos y la app no la conserva en el teléfono.</li>
   <li>La sesión de tu cuenta se guarda en el teléfono <strong>cifrada con una llave del Android Keystore</strong> que no sale del dispositivo.</li>
   <li>La base de datos de la nube usa <strong>reglas de seguridad por usuario</strong>: cada persona solo accede a sus filas. La clave pública incluida en la app no da acceso a nada sin haber iniciado sesión.</li>
-  <li>El reconocimiento de texto y gran parte del dictado se hacen <strong>en el dispositivo</strong>, lo que evita enviar tus imágenes o tu voz.</li>
+  <li>El reconocimiento de texto se hace <strong>en el dispositivo</strong>, lo que evita enviar tus imágenes.</li>
 </ul>
 <p>Ningún sistema es 100 % invulnerable. Si detectáramos una brecha de seguridad que afecte a datos personales de cuentas, te lo notificaremos por correo y por los medios disponibles sin demora injustificada, indicando qué ocurrió y qué puedes hacer. Si tienes una duda de seguridad o quieres reportar una vulnerabilidad, escribe a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a>.</p>
 
-<h2 id="transferencias">17. Dónde se almacenan los datos</h2>
-<p>Los datos de las cuentas se almacenan en la infraestructura en la nube de Supabase, que puede estar ubicada fuera de Venezuela (por ejemplo, en Estados Unidos u otra región). Al crear una cuenta aceptas que tu información se trate y almacene en esos servidores, protegida con las medidas descritas en la sección 16. Los datos que no subes (sin cuenta) nunca salen de tu teléfono.</p>
+<h2 id="transferencias">16. Dónde se almacenan los datos</h2>
+<p>Los datos de las cuentas se almacenan en la infraestructura en la nube de Supabase, que puede estar ubicada fuera de Venezuela (por ejemplo, en Estados Unidos u otra región). Al crear una cuenta aceptas que tu información se trate y almacene en esos servidores, protegida con las medidas descritas en la sección 15. Los datos que no subes (sin cuenta) nunca salen de tu teléfono.</p>
 
-<h2 id="menores">18. Menores de edad</h2>
+<h2 id="menores">17. Menores de edad</h2>
 <p>Chekash no está dirigida a niños menores de 13 años y no recopila a sabiendas datos personales de ellos. Las personas menores de 18 años deben usar las funciones de cuenta con el permiso de su madre, padre o representante. Si crees que un menor ha creado una cuenta sin autorización, escríbenos y la borraremos.</p>
 
-<h2 id="permisos">19. Permisos de Android que usa la app</h2>
+<h2 id="permisos">18. Permisos de Android que usa la app</h2>
 <div class="tabla"><table>
   <thead><tr><th>Permiso</th><th>Para qué</th><th>¿Es obligatorio?</th></tr></thead>
   <tbody>
     <tr><td><code>CAMERA</code> (Cámara)</td><td>Escanear etiquetas de precios</td><td>Necesario para el escáner. Puedes usar «Escribir a mano» sin darlo.</td></tr>
-    <tr><td><code>RECORD_AUDIO</code> (Micrófono)</td><td>Dictar precios y nombres (solo al tocar Dictar)</td><td>No. La app funciona sin él.</td></tr>
     <tr><td><code>INTERNET</code></td><td>Consultar las tasas y, si tienes cuenta, respaldar tus datos</td><td>Sin internet la app sigue funcionando con la última tasa guardada.</td></tr>
     <tr><td><code>VIBRATE</code> (Vibración)</td><td>Avisos táctiles al leer y agregar productos</td><td>Puedes apagarlo en Ajustes.</td></tr>
   </tbody>
 </table></div>
 <p>La app no pide permisos de ubicación, contactos, almacenamiento, teléfono ni SMS.</p>
 
-<h2 id="cambios">20. Cambios en esta política</h2>
+<h2 id="cambios">19. Cambios en esta política</h2>
 <p>Si la app cambia la forma de tratar tu información (por ejemplo, al agregar nuevas funciones), actualizaremos esta página y la fecha de arriba. Si el cambio es importante, te lo avisaremos dentro de la app antes de que se aplique. Las versiones anteriores se pueden pedir por correo.</p>
 
-<h2 id="ley">21. Ley aplicable</h2>
+<h2 id="ley">20. Ley aplicable</h2>
 <p>Esta política se rige por las leyes de la República Bolivariana de Venezuela, incluyendo los derechos a la privacidad y a la protección de los datos personales reconocidos en su Constitución, sin perjuicio de los derechos que te correspondan según la legislación de tu país de residencia (por ejemplo, el Reglamento General de Protección de Datos de la Unión Europea o las leyes de privacidad de California, cuando apliquen).</p>
 
-<h2 id="contacto">22. Contacto</h2>
+<h2 id="contacto">21. Contacto</h2>
 <p>Para cualquier pregunta, solicitud o reclamo sobre esta política o sobre tus datos:</p>
 <p><strong>Correo:</strong> <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a><br>
 <strong>Aplicación:</strong> Chekash (<code>com.chekash.app</code>)<br>
@@ -297,13 +282,12 @@
 <p>Chekash is an Android app that reads price tags with the phone camera and adds up purchases in US dollars, euros and Venezuelan bolívares.</p>
 <ul>
   <li><strong>Camera:</strong> text is read on-device (Google ML Kit); images are never stored or sent.</li>
-  <li><strong>Microphone:</strong> used only when you tap Dictate. Chekash never records, stores or transmits audio; it receives only the transcribed text from your phone's Android speech recognizer. Offline mode is the default; if you choose online dictation, your phone's speech service (e.g. Google) may process audio under its own policy.</li>
+  <li><strong>Microphone:</strong> the app does not use the microphone and does not request that permission.</li>
   <li><strong>Data:</strong> purchases, shopping list and settings stay on your device. An account is optional; if you create one (email and password), a copy of your purchase history, shopping list and settings is stored with our cloud provider Supabase, protected by per-user access rules.</li>
   <li><strong>No</strong> ads, analytics, tracking, location access, data selling or sharing for commercial purposes.</li>
-  <li><strong>Third parties:</strong> Supabase (accounts/backup, only if you sign up), Google ML Kit (on-device OCR), your phone's speech recognizer, and public exchange-rate sources (bcv.org.ve, ve.dolarapi.com) which only see your IP address.</li>
+  <li><strong>Third parties:</strong> Supabase (accounts/backup, only if you sign up), Google ML Kit (on-device OCR), and public exchange-rate sources (bcv.org.ve, ve.dolarapi.com) which only see your IP address.</li>
   <li><strong>Delete your account and data:</strong> in the app (Account → Delete my account) or by emailing <a href="mailto:gamezcorporation@gmail.com?subject=Delete%20my%20Chekash%20account">gamezcorporation@gmail.com</a> from your account email; completed within 30 days.</li>
   <li><strong>Your rights:</strong> access, rectification, deletion, portability, objection and withdrawal of consent — write to the same address.</li>
-  <li><strong>Product catalog:</strong> contains information from Open Food Facts (© Open Food Facts contributors), available under the ODbL 1.0; the resulting catalog is published as open data under the same license.</li>
   <li><strong>Children:</strong> not directed to children under 13.</li>
   <li><strong>Contact:</strong> <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a></li>
 </ul>
