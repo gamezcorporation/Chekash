@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Correo confirmado – Chekash</title>
+<style>
+  :root { --bg: #F5F2E9; --card: #FFFDF8; --ink: #101C15; --muted: #5B665F; --line: #E4DFD0; --green: #64DD17; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0C1510; --card: #12201A; --ink: #EEF2EC; --muted: #A5B2A9; --line: #243329; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 20px; background: var(--bg); color: var(--ink);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 440px; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px 26px; text-align: center; }
+  .logo { width: 96px; height: 96px; display: block; margin: 0 auto 18px; filter: drop-shadow(0 4px 10px rgba(16,28,21,.18)); }
+  h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 10px; letter-spacing: -0.02em; }
+  p { margin: 0 0 12px; color: var(--muted); }
+  strong { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <svg class="logo" viewBox="0 0 108 108" role="img" aria-label="Logo de Chekash" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#8CF040"/><stop offset="1" stop-color="#4FC20E"/>
+      </linearGradient>
+    </defs>
+    <rect width="108" height="108" rx="26" fill="url(#g)"/>
+    <g transform="translate(14.4 14.4) scale(0.66)">
+      <path fill="#FFFDF4" d="M32,22 L88,22 L88,90 L81,98 L74,90 L67,98 L60,90 L53,98 L46,90 L39,98 L32,90 Z"/>
+      <path fill="#101C15" fill-opacity="0.22" d="M44.5,32 H59.5 a2.5,2.5 0 0 1 2.5,2.5 a2.5,2.5 0 0 1 -2.5,2.5 H44.5 a2.5,2.5 0 0 1 -2.5,-2.5 a2.5,2.5 0 0 1 2.5,-2.5 Z"/>
+      <path fill="none" stroke="#101C15" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" d="M43,58 L55,70 L77,43"/>
+      <path fill="#76DE2A" d="M68,32 a16,16 0 1 0 32,0 a16,16 0 1 0 -32,0 Z"/>
+      <path fill="#FFC83D" d="M71.5,32 a12.5,12.5 0 1 0 25,0 a12.5,12.5 0 1 0 -25,0 Z"/>
+      <path fill="none" stroke="#101C15" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M89,27.5 C89,24 79.5,24 79.5,28.2 C79.5,32.4 89,31.6 89,35.8 C89,40 79.5,40 79.5,36.5 M84.2,22.5 L84.2,41.5"/>
+    </g>
+  </svg>
+  <h1>¡Tu correo quedó confirmado!</h1>
+  <p>Ya puedes volver a <strong>Chekash</strong>, escribir tu correo y tu clave, y entrar a tu cuenta.</p>
+  <p>Puedes cerrar esta página.</p>
+</main>
+</body>
+</html>
