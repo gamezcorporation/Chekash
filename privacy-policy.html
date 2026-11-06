@@ -44,6 +44,14 @@
 </head>
 <body>
 <main>
+<!-- REVISAR ANTES DE PUBLICAR (v3.0). Decisiones del encargo que quedaron sin contestar; se redactó lo que hace HOY el código:
+  1) Cuenta y respaldo: escrito como función de Premium (quien ya tenía sesión la conserva), igual que Ads.accountAllowed.
+     Si pasa a ser para todos, cambiar el resumen y las secciones 5 y 9.
+  2) Consentimiento de anuncios (UMP / RGPD): el código NO lo tiene y esta política NO lo menciona. DECIDIDO: la app no se publicará
+     en la Unión Europea ni en el Reino Unido. Si eso cambia, hay que agregar el formulario de Google (UMP) al código y a esta política.
+  3) AD_ID y BILLING (sección 20): confirmar en Android Studio -> AndroidManifest.xml -> pestaña "Merged Manifest".
+  4) Que un abogado revise el texto antes de publicar.
+-->
 
 <header>
   <svg width="56" height="56" viewBox="0 0 120 120" role="img" aria-label="Logo de Chekash">
@@ -55,19 +63,21 @@
   </svg>
   <h1>Política de privacidad de Chekash</h1>
 </header>
-<p class="meta">Versión 2.2 · Última actualización: 27 de octubre de 2026 · Aplicación para Android «Chekash» (<code>com.chekash.app</code>)</p>
+<p class="meta">Versión 3.0 · Última actualización: 5 de noviembre de 2026 · Aplicación para Android «Chekash» (<code>com.chekash.app</code>)</p>
 
-<p>Chekash es una aplicación que lee precios con la cámara del teléfono, los suma en dólares, euros y bolívares y ayuda a llevar el control de las compras del mercado. Esta política explica, sin letra chica, <strong>qué información usa la app, dónde se guarda, con quién se comparte (con nadie, salvo los servicios técnicos que se explican abajo), cuánto tiempo se conserva y cómo puedes borrarla o ejercer tus derechos</strong>.</p>
+<p>Chekash es una aplicación que lee precios con la cámara del teléfono, los suma en dólares, euros y bolívares y ayuda a llevar el control de las compras del mercado. Esta política explica, sin letra chica, <strong>qué información usa la app, dónde se guarda, con quién se comparte (no vendemos tus datos; solo intervienen los servicios técnicos y de Google que se explican abajo, como los anuncios y los pagos), cuánto tiempo se conserva y cómo puedes borrarla o ejercer tus derechos</strong>.</p>
 
 <section class="resumen" aria-labelledby="resumen">
   <h2 id="resumen">Resumen en 30 segundos</h2>
   <ul>
-    <li><strong>Sin cuenta, tus datos se quedan en tu teléfono.</strong> Crear una cuenta es opcional.</li>
+    <li><strong>Sin cuenta, tus datos se quedan en tu teléfono.</strong> La cuenta y el respaldo en la nube son opcionales y forman parte de Chekash Premium.</li>
     <li>Las <strong>fotos de la cámara no se guardan ni se envían</strong>: el texto se lee dentro del teléfono.</li>
     <li>La app <strong>no usa el micrófono</strong> y no pide ese permiso.</li>
     <li>Si creas una cuenta, subimos una <strong>copia de tu historial de compras, tu lista de mercado y tus ajustes</strong> para que no los pierdas si cambias de teléfono.</li>
-    <li><strong>No hay publicidad, ni rastreo de terceros, ni venta de datos, ni acceso a tu ubicación, contactos, fotos o archivos.</strong></li>
-    <li>Si tú lo aceptas (es opcional y empieza apagado), enviamos <strong>estadísticas de uso anónimas</strong>: qué pantallas se abren y si se llega a finalizar una compra, nunca precios, productos ni tiendas.</li>
+    <li><strong>El plan gratis muestra anuncios de Google AdMob.</strong> Google puede recoger datos de tu dispositivo (como el ID de publicidad) para mostrarlos y medirlos. Chekash <strong>no le envía tus compras, precios, productos, correo ni fotos</strong>. Con Premium no hay anuncios.</li>
+    <li><strong>Premium se paga con Google Play.</strong> Chekash no recibe ni guarda los datos de tu tarjeta.</li>
+    <li><strong>No vendemos tus datos y la app no accede a tu ubicación, contactos, fotos o archivos.</strong></li>
+    <li>Si tú lo aceptas (es opcional y empieza apagado), enviamos <strong>estadísticas de uso anónimas</strong>: qué pantallas se abren y si se llega a finalizar una compra, nunca precios, productos ni tiendas. Son nuestras y no se comparten con AdMob.</li>
     <li>Puedes <strong>borrar tu cuenta y todo lo que subiste</strong> desde la propia app, o escribiéndonos a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a>.</li>
   </ul>
 </section>
@@ -82,6 +92,8 @@
     <li><a href="#cuenta">Cuenta y respaldo en la nube</a></li>
     <li><a href="#internet">Conexión a internet y tasas de cambio</a></li>
     <li><a href="#terceros">Servicios de terceros</a></li>
+    <li><a href="#anuncios">Anuncios (Google AdMob)</a></li>
+    <li><a href="#pagos">Pagos y suscripción (Google Play Billing)</a></li>
     <li><a href="#compartir">Compartir y exportar tus compras</a></li>
     <li><a href="#diagnostico">Registro de diagnóstico (opcional)</a></li>
     <li><a href="#no-hacemos">Lo que Chekash NO hace</a></li>
@@ -102,7 +114,7 @@
 
 <h2 id="quienes">1. Quiénes somos y alcance</h2>
 <p>Chekash es desarrollada y mantenida por su equipo desarrollador independiente en Venezuela, que es quien decide qué datos se tratan y para qué (el «responsable»). Puedes escribirnos en cualquier momento a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a>.</p>
-<p>Esta política aplica a la aplicación Chekash para Android y a las funciones de cuenta y respaldo que ofrece. No aplica a los sitios o servicios de terceros que se mencionan más abajo (cada uno tiene su propia política).</p>
+<p>Esta política aplica a la aplicación Chekash para Android y a sus funciones de cuenta, respaldo y suscripción. No aplica a los sitios o servicios de terceros que se mencionan más abajo (cada uno tiene su propia política).</p>
 
 <h2 id="datos">2. Qué información tratamos</h2>
 <div class="tabla"><table>
@@ -115,26 +127,31 @@
     <tr><td>Ajustes (tasa manual, fuente de la tasa, IVA, presupuesto, moneda, sonido, vibración)</td><td>Al cambiarlos</td><td>En tu teléfono; y en la nube solo si tienes cuenta</td><td>Que la app funcione como la dejaste</td></tr>
     <tr><td>Correo electrónico y clave</td><td>Solo si creas una cuenta</td><td>En el servicio de cuentas de Supabase (la clave se guarda cifrada con hash; no podemos verla)</td><td>Identificarte y proteger tu respaldo</td></tr>
     <tr><td>Sesión de la cuenta (token)</td><td>Si has iniciado sesión</td><td>En tu teléfono, cifrada con una llave del Android Keystore que no sale del dispositivo</td><td>Mantener tu sesión abierta</td></tr>
-    <tr><td>Dirección IP y datos técnicos de conexión</td><td>Cada vez que la app se conecta a internet</td><td>Los ven los servidores a los que te conectas (ver secciones 7 y 8)</td><td>Funcionamiento normal de internet</td></tr>
+    <tr><td>Dirección IP y datos técnicos de conexión</td><td>Cada vez que la app se conecta a internet</td><td>Los ven los servidores a los que te conectas (ver secciones 6, 7 y 8)</td><td>Funcionamiento normal de internet</td></tr>
     <tr><td>Contadores anónimos de uso</td><td>Al decidir el aviso del registro del lector y, mientras la app está abierta, cada pocos minutos</td><td>En nuestro servidor (Supabase), solo como números sumados: cuántas personas aceptaron o rechazaron el aviso y cuántas aperturas hubo en cada tramo de 5 minutos. <strong>No llevan tu nombre, correo, ID de dispositivo ni ningún identificador</strong></td><td>Saber cuántas personas usan la app y cuántas aceptan el aviso</td></tr>
-    <tr><td>Estadísticas de uso anónimas (opcionales)</td><td>Solo si las aceptas en el aviso o las activas en Ajustes → Diagnóstico y uso: al abrir la app, al cambiar de pantalla, al agregar un producto y en los pasos de «Finalizar compra»</td><td>En nuestro servidor (Supabase): un número al azar creado en tu teléfono, la fecha, el nombre del evento (por ejemplo «pantalla: historial», «producto agregado: escáner o a mano», «finalizar compra: tocado, cancelado o completado») y la versión de la app. <strong>Sin precios, productos, tiendas, textos, fotos, correo, cuenta ni ID del dispositivo</strong></td><td>Saber cuántas personas usan la app, si vuelven, qué pantallas se usan más y en qué paso de la compra se detienen, para mejorarla</td></tr>
+    <tr><td>Estadísticas de uso anónimas (opcionales)</td><td>Solo si las aceptas en el aviso o las activas en Ajustes → Diagnóstico y uso: al abrir la app, al cambiar de pantalla, al agregar un producto y en los pasos de «Finalizar compra»</td><td>En nuestro servidor (Supabase): un número al azar creado en tu teléfono, la fecha, el nombre del evento (por ejemplo «pantalla: historial», «producto agregado: escáner o a mano», «finalizar compra: tocado, cancelado o completado») y la versión de la app. <strong>Sin precios, productos, tiendas, textos, fotos, correo, cuenta ni ID del dispositivo.</strong> No se comparten con Google AdMob</td><td>Saber cuántas personas usan la app, si vuelven, qué pantallas se usan más y en qué paso de la compra se detienen, para mejorarla</td></tr>
     <tr><td>Registro de diagnóstico</td><td>Solo si lo aceptas en el aviso de la primera vez (o lo activas en Ajustes), y solo cuando el lector falla</td><td>En nuestro servidor (Supabase), de forma <strong>anónima</strong> (sin tu cuenta ni identificadores), durante un máximo de 14 días</td><td>Corregir fallos de lectura y mejorar el lector</td></tr>
+    <tr><td>Estado de tu suscripción Premium</td><td>Si compras Premium</td><td>En tu teléfono, solo si Premium está activo o no. El pago y el historial de cobros los guarda Google Play (ver sección 9)</td><td>Quitar los anuncios y no perder Premium si abres la app sin internet</td></tr>
+    <tr><td>Contadores del plan gratis (cuántos anuncios salieron hoy, cuándo salió el último, cuántas veces abriste la app, exportaciones del día y la última vez que la app vio internet)</td><td>En el plan gratis</td><td>Solo en tu teléfono; no se suben a ningún servidor</td><td>Aplicar las reglas del plan gratis: no repetir anuncios muy seguido, el máximo diario y la exportación gratis del día</td></tr>
+    <tr><td>Datos de anuncios (ID de publicidad, IP, identificadores del dispositivo, datos de uso e interacción con el anuncio)</td><td>En el plan gratis, cuando se carga o se muestra un anuncio</td><td>Los recoge y trata <strong>Google AdMob</strong>, no Chekash (ver sección 8)</td><td>Mostrar y medir anuncios, evitar fraude y, según tu configuración y tu región, personalizarlos</td></tr>
+    <tr><td>Código de verificación del anuncio con recompensa</td><td>Solo si decides ver un anuncio con recompensa</td><td>En nuestro servidor (Supabase): un código al azar, un número de transacción de Google, la hora y qué anuncio y recompensa fueron. Si tenías sesión iniciada, también el identificador interno de tu cuenta (un código al azar, <strong>no tu correo</strong>). Se borra a los 2 días, aproximadamente</td><td>Comprobar que el anuncio se vio completo y evitar que se repita (ver sección 8)</td></tr>
   </tbody>
 </table></div>
-<p>No pedimos ni tratamos tu nombre, número de teléfono, dirección, ubicación, contactos, fotos de tu galería, archivos ni datos de pago. La app no tiene compras dentro de la aplicación ni cobra nada.</p>
+<p>Chekash no pide ni trata tu nombre, número de teléfono, dirección, ubicación, contactos, fotos de tu galería ni archivos. Tampoco recibe datos de pago: la suscripción Premium la cobra Google Play y Chekash nunca ve tu tarjeta ni tus datos bancarios (ver sección 9). Los anuncios del plan gratis los muestra Google AdMob (ver sección 8).</p>
 
 <h2 id="camara">3. Cámara</h2>
-<p>La app usa la cámara únicamente para leer precios y nombres de productos en las etiquetas. El reconocimiento de texto se hace <strong>dentro de tu teléfono</strong>, con Google ML Kit (reconocimiento de texto «en el dispositivo»). Las imágenes <strong>no se guardan, no se envían a ningún servidor nuestro y no se comparten</strong>. Mientras el escáner está abierto la pantalla se mantiene encendida para que no se apague en el mercado.</p>
+<p>La app usa la cámara únicamente para leer precios y nombres de productos en las etiquetas. El reconocimiento de texto se hace <strong>dentro de tu teléfono</strong>, con Google ML Kit (reconocimiento de texto «en el dispositivo»). Las imágenes <strong>no se guardan, no se envían a ningún servidor nuestro y no se comparten</strong>. Mientras el escáner está abierto la pantalla se mantiene encendida para que no se apague en el mercado. Tampoco se muestran anuncios mientras escaneas con la cámara.</p>
 
 <h2 id="local">4. Información guardada en tu teléfono</h2>
 <p>La app guarda <strong>en tu teléfono</strong>: la compra en curso (carrito), el historial de compras, la lista de mercado, el presupuesto, tus ajustes y la última tasa conocida (para poder calcular sin internet). Sin cuenta, nada de esto sale de tu dispositivo.</p>
 <ul>
+  <li><strong>Premium y plan gratis:</strong> también se guardan en tu teléfono si Premium está activo y los contadores del plan gratis (cuántos anuncios salieron, la exportación del día y la última vez que la app vio internet). No se suben a ningún servidor.</li>
   <li><strong>Borrarla:</strong> puedes borrar una compra desde el historial, vaciar el carrito o la lista, o borrar todo desinstalando la app o usando «Borrar datos» en los ajustes de Android de la app.</li>
   <li><strong>Copias de seguridad de Android:</strong> tu teléfono puede incluir los datos de la app en la copia de seguridad automática de tu cuenta de Google o en la transferencia a un teléfono nuevo, según tu configuración de Android. Chekash excluye de esas copias la sesión de la cuenta y los datos internos de sincronización. Esa copia la gestiona Google/Android, no nosotros.</li>
 </ul>
 
 <h2 id="cuenta">5. Cuenta y respaldo en la nube (opcional)</h2>
-<p>Crear una cuenta es <strong>opcional</strong>: la app funciona completa sin ella, y puedes pulsar «Ahora no» en la pantalla de bienvenida. Si decides crearla (con tu correo electrónico y una clave), ocurre lo siguiente:</p>
+<p>Crear una cuenta es <strong>opcional</strong> y, desde esta versión, es una función de <strong>Chekash Premium</strong> (ver sección 9): la app funciona sin cuenta, tanto en el plan gratis como en Premium. Si ya tenías una sesión iniciada, la conservas y puedes seguir usando tu respaldo y borrar tu cuenta cuando quieras. Que tu Premium termine no borra tu cuenta ni lo que ya subiste. Si decides crearla (con tu correo electrónico y una clave), ocurre lo siguiente:</p>
 <h3>Qué se guarda en la nube</h3>
 <ul>
   <li>Tu correo electrónico y tu clave (la clave, cifrada; no podemos verla).</li>
@@ -150,7 +167,7 @@
   <li>La app funciona sin internet: lo que haces se guarda en el teléfono y se sube sola cuando vuelve la conexión.</li>
   <li>Cada persona solo puede ver y cambiar <strong>lo suyo</strong>: la base de datos tiene reglas de seguridad por usuario (Row Level Security), de modo que tu información está separada de la de los demás usuarios.</li>
   <li>Al crear la cuenta, el servicio de cuentas puede enviarte un correo de confirmación a la dirección que escribiste. Ese correo se envía con un proveedor de correo electrónico y solo contiene el enlace de confirmación.</li>
-  <li>Cuando borras una compra o un ítem de la lista estando con cuenta, queda marcado como «borrado» en la nube (para que el borrado también llegue a tus otros teléfonos) y deja de mostrarse. Se elimina de forma definitiva cuando borras tu cuenta o nos lo pides (ver sección 13).</li>
+  <li>Cuando borras una compra o un ítem de la lista estando con cuenta, queda marcado como «borrado» en la nube (para que el borrado también llegue a tus otros teléfonos) y deja de mostrarse. Se elimina de forma definitiva cuando borras tu cuenta o nos lo pides (ver sección 15).</li>
   <li>Cerrar sesión no borra tus datos del teléfono; la opción «Cerrar sesión y borrar este teléfono» sube lo pendiente y borra el historial y la lista de este teléfono.</li>
 </ul>
 <div class="nota"><strong>Importante:</strong> esta versión de Chekash <strong>no ofrece inicio de sesión con Google ni con redes sociales</strong>. Si olvidas tu clave, en la pantalla de «Entrar» puedes pedir un código de recuperación a tu correo y crear una clave nueva. Si no te llega, escríbenos a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a> desde el correo de tu cuenta y te ayudaremos.</div>
@@ -165,7 +182,7 @@
 <p>La tasa se muestra con fines informativos y puede diferir de la tasa que aplique un comercio o un banco (ver también los <a href="terminos-de-uso.html">términos de uso</a>).</p>
 
 <h2 id="terceros">7. Servicios de terceros</h2>
-<p>Chekash no incluye publicidad ni herramientas de análisis de terceros, atribución, mapas de calor ni reporte automático de fallos. Las estadísticas de uso anónimas, si las aceptas, se guardan en nuestro propio servidor en Supabase (ver sección 9) y no se envían a ningún otro servicio. Los únicos servicios de terceros que intervienen son estos:</p>
+<p>Chekash muestra publicidad de Google AdMob en el plan gratis y cobra Premium a través de Google Play. Aparte de eso, no incluye otras herramientas de publicidad ni de análisis de terceros, atribución, mapas de calor ni reporte automático de fallos. Las estadísticas de uso anónimas, si las aceptas, se guardan en nuestro propio servidor en Supabase (ver sección 11) y no se envían a Google AdMob ni a ningún otro servicio. Los servicios de terceros que intervienen son estos:</p>
 <div class="tabla"><table>
   <thead><tr><th>Servicio</th><th>Para qué</th><th>Qué datos recibe</th></tr></thead>
   <tbody>
@@ -173,56 +190,107 @@
     <tr><td><strong>Proveedor de correo de Supabase / SMTP</strong></td><td>Enviar el correo de confirmación de la cuenta.</td><td>Tu correo electrónico y el enlace de confirmación.</td></tr>
     <tr><td><strong>Google ML Kit</strong> (reconocimiento de texto en el dispositivo)</td><td>Leer el texto de las etiquetas dentro del teléfono.</td><td>Las imágenes se procesan localmente y no se envían. Como otras bibliotecas de Google, ML Kit puede enviar a Google datos técnicos y de rendimiento (por ejemplo, versión de la biblioteca o del dispositivo), pero no las imágenes. <a href="https://developers.google.com/ml-kit/terms">Términos de ML Kit</a>.</td></tr>
     <tr><td><strong>Banco Central de Venezuela</strong> y <strong>DolarApi</strong></td><td>Consultar la tasa de cambio.</td><td>Solo la IP y los datos técnicos de la conexión (ver sección 6).</td></tr>
+    <tr><td><strong>Google AdMob</strong> (Google)</td><td>Mostrar anuncios en el plan gratis y verificar los anuncios con recompensa (ver sección 8).</td><td>Datos que Google recoge por su cuenta: ID de publicidad, dirección IP, identificadores del dispositivo y datos de uso e interacción con los anuncios. Chekash no le envía tus compras, precios, productos, correo ni fotos. Si tienes sesión iniciada y ves un anuncio con recompensa, recibe el identificador interno de tu cuenta (un código al azar, no tu correo). <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google los datos</a> · <a href="https://policies.google.com/privacy">Política de Google</a>.</td></tr>
+    <tr><td><strong>Google Play Billing</strong> (Google Play)</td><td>Cobrar y administrar la suscripción Premium (ver sección 9).</td><td>Google procesa el pago con tus datos de pago y de tu cuenta de Google, según su propia política. Chekash no recibe tu tarjeta ni tus datos bancarios; la app solo le pregunta a Google si tu suscripción está activa. <a href="https://play.google.com/about/play-terms/">Términos de Google Play</a>.</td></tr>
     <tr><td><strong>Google Play</strong></td><td>Distribuir e instalar la app.</td><td>Lo que Google Play recoge sobre tu instalación según su propia política; Chekash no tiene acceso a tu cuenta de Google.</td></tr>
   </tbody>
 </table></div>
-<p>No vendemos ni alquilamos tu información. No la compartimos con terceros para publicidad o con fines comerciales. Solo la divulgaríamos si una autoridad competente nos lo exigiera por ley mediante un requerimiento válido.</p>
+<p>No vendemos ni alquilamos tu información. No entregamos tus compras, precios, productos, correo ni fotos a nadie para publicidad o con fines comerciales. La única publicidad la muestra Google AdMob, que por su cuenta recoge los datos técnicos descritos en la sección 8. Solo divulgaríamos tu información si una autoridad competente nos lo exigiera por ley mediante un requerimiento válido.</p>
 
-<h2 id="compartir">8. Compartir y exportar tus compras</h2>
-<p>Desde el historial puedes compartir una compra como texto, PDF o CSV. Al hacerlo, la app genera el archivo en una carpeta temporal interna y abre el menú de compartir de Android para que <strong>tú elijas</strong> a qué aplicación o contacto enviarlo. Chekash no comparte nada por su cuenta, y no tiene acceso al resto de tus archivos. Una vez que lo envías a otra aplicación, esa aplicación aplica su propia política de privacidad. Esta función también te sirve para llevarte una copia de tus datos (portabilidad).</p>
+<h2 id="anuncios">8. Anuncios (Google AdMob)</h2>
+<p>El plan gratis de Chekash muestra anuncios. Los carga y los muestra <strong>Google AdMob</strong>, un servicio de publicidad de Google. <strong>Con Chekash Premium no se muestra ningún anuncio</strong> (ver sección 9).</p>
+<h3>Cuándo salen y cuándo no</h3>
+<ul>
+  <li><strong>Al abrir la app,</strong> a partir de la segunda vez que la usas: <strong>la primera sesión no tiene anuncios</strong>.</li>
+  <li><strong>Anuncios de pantalla completa</strong> al entrar a Historial o a Mi lista, al fijar el presupuesto, al finalizar una compra y al reiniciar la cuenta.</li>
+  <li><strong>Un banner</strong> en la parte de abajo de Historial y de Mi lista.</li>
+  <li><strong>Un anuncio con recompensa,</strong> que tú decides si ver, para desbloquear la exportación gratis (ver más abajo).</li>
+  <li><strong>Nunca</strong> salen mientras escaneas con la cámara.</li>
+  <li>Entre dos anuncios de pantalla completa pasan al menos 3 minutos, y hay un máximo de 10 por día; los de entrar a pantallas o fijar el presupuesto, además, esperan al menos 5 minutos entre sí. Después de algunos anuncios, la app te ofrece Premium para quitarlos.</li>
+</ul>
+<h3>Qué datos puede recoger Google</h3>
+<p>Para mostrar y medir los anuncios, Google puede recoger datos de tu dispositivo, como el <strong>ID de publicidad</strong>, la <strong>dirección IP</strong> (con la que también puede deducir tu ubicación aproximada), otros <strong>identificadores del dispositivo</strong> y <strong>datos de uso e interacción con el anuncio</strong> (por ejemplo, si se mostró o si lo tocaste). Los usa para mostrar y medir anuncios, evitar fraude y abusos y, según tu configuración y tu región, personalizarlos. Eso lo hace Google con su propia política de privacidad, no Chekash. Puedes leer <a href="https://policies.google.com/technologies/partner-sites">cómo usa Google la información de las apps que usan sus servicios</a> y su <a href="https://policies.google.com/privacy">política de privacidad</a>.</p>
+<div class="nota"><strong>Lo que Chekash NO le envía a AdMob:</strong> tus compras, precios, productos, correo ni fotos. La única excepción técnica es el identificador interno de tu cuenta en los anuncios con recompensa, explicada abajo.</div>
+<h3>Cómo controlar la personalización</h3>
+<ul>
+  <li>En los ajustes de Android, en <strong>Google → Anuncios</strong> (la ruta exacta puede variar según tu teléfono), puedes <strong>restablecer</strong> o <strong>eliminar</strong> tu ID de publicidad y desactivar la personalización de anuncios.</li>
+  <li>También puedes ver y cambiar tus preferencias de anuncios en <a href="https://myadcenter.google.com/">Mi Centro de anuncios</a> de Google.</li>
+  <li>Si eliminas el ID de publicidad o desactivas la personalización, seguirás viendo anuncios, pero serán menos relevantes para ti.</li>
+  <li>Si no quieres ver anuncios, puedes quitarlos con <strong>Premium</strong>.</li>
+</ul>
+<h3>Anuncios con recompensa y su verificación</h3>
+<p>Si decides ver un anuncio con recompensa para exportar gratis, la app crea en tu teléfono <strong>un código al azar</strong> y se lo pasa a AdMob. Cuando el anuncio termina, Google avisa a una función de nuestro servidor en Supabase (<code>admob-ssv</code>) de que se vio completo, con una firma que solo Google puede hacer, y la app comprueba ese aviso una sola vez para darte la recompensa.</p>
+<ul>
+  <li><strong>Qué se guarda:</strong> el código al azar, un número de transacción del anuncio que pone Google, la hora, qué anuncio y qué recompensa fueron, y la hora en que la app lo usó. Si en ese momento tenías sesión iniciada, también el <strong>identificador interno de tu cuenta</strong> (un código al azar, no tu correo ni tu nombre), que la app le pasa a AdMob solo para esta verificación. Sin sesión, el código no está ligado a ninguna persona.</li>
+  <li><strong>Cuánto dura:</strong> la app solo acepta el aviso durante 15 minutos y una sola vez. El registro se borra automáticamente pasados 2 días; como la limpieza ocurre cuando se usa la función, puede tardar algo más.</li>
+  <li><strong>Para qué:</strong> únicamente para comprobar que el anuncio se vio completo y evitar que se repita. No se usa para publicidad ni para perfiles.</li>
+  <li>Esa tabla no se puede leer ni escribir desde la app: solo la función de verificación, con permiso de servidor, la escribe.</li>
+</ul>
+<h3>Contenido de los anuncios</h3>
+<p>El contenido de los anuncios lo ponen los anunciantes, no Chekash. Si un anuncio te lleva a un sitio web o a otra app, esa página o app tiene su propia política de privacidad, que no controlamos. Sobre menores de edad, ver la sección 19.</p>
 
-<h2 id="diagnostico">9. Registro de diagnóstico (opcional)</h2>
+<h2 id="pagos">9. Pagos y suscripción (Google Play Billing)</h2>
+<p><strong>Chekash Premium</strong> es una suscripción con renovación automática, mensual o anual, que quita los anuncios y desbloquea las funciones completas (precios y condiciones, en los <a href="terminos-de-uso.html">términos de uso</a>). Se compra y se cobra <strong>con Google Play</strong>.</p>
+<ul>
+  <li><strong>Quién cobra:</strong> Google Play procesa el pago con los medios de pago de tu cuenta de Google. <strong>Chekash no recibe, no ve y no guarda los datos de tu tarjeta</strong> ni de tu medio de pago. Los cobros, las facturas y los impuestos los gestiona Google Play según sus propias políticas.</li>
+  <li><strong>Qué hace la app:</strong> le pide a Google el precio en tu moneda, abre la pantalla de pago de Google Play, le confirma a Google que recibió la compra y, al abrirse, le pregunta si tu suscripción sigue activa. Con «Restaurar compra» recupera Premium si cambias de teléfono.</li>
+  <li><strong>Qué se guarda en tu teléfono:</strong> solo si Premium está activo o no, para que no se pierda si abres la app sin internet.</li>
+  <li><strong>Qué recibe nuestro servidor:</strong> tu compra y su comprobante (el «token de compra») <strong>no se envían</strong> a ningún servidor propio: el estado de Premium se comprueba directamente con Google Play desde tu teléfono. Si algún día agregamos una verificación en nuestro servidor, actualizaremos esta política antes y te avisaremos en la app.</li>
+  <li><strong>Qué puede ver el desarrollador:</strong> Google Play puede mostrarnos, en su consola, información de las ventas y suscripciones (por ejemplo, cuántas hay activas y de qué países), según las reglas de Google.</li>
+  <li><strong>Cancelar:</strong> en Google Play → <strong>Pagos y suscripciones → Suscripciones</strong> (<a href="https://play.google.com/store/account/subscriptions">play.google.com/store/account/subscriptions</a>). <strong>Desinstalar la app no cancela la suscripción.</strong></li>
+  <li><strong>Reembolsos:</strong> los gestiona Google Play según sus propias políticas.</li>
+  <li><strong>Cuando Premium termina:</strong> vuelven los anuncios y los límites del plan gratis. Tus datos no se borran: el historial más antiguo queda bloqueado, no eliminado, y lo recuperas al volver a Premium.</li>
+</ul>
+
+<h2 id="compartir">10. Compartir y exportar tus compras</h2>
+<p>Desde el historial puedes compartir una compra como texto, PDF o CSV (en el plan gratis, solo texto, una vez al día y después de ver un anuncio con recompensa; PDF y CSV son de Premium). Al hacerlo, la app genera el archivo en una carpeta temporal interna y abre el menú de compartir de Android para que <strong>tú elijas</strong> a qué aplicación o contacto enviarlo. Chekash no comparte nada por su cuenta, y no tiene acceso al resto de tus archivos. Una vez que lo envías a otra aplicación, esa aplicación aplica su propia política de privacidad. Esta función también te sirve para llevarte una copia de tus datos (portabilidad).</p>
+
+<h2 id="diagnostico">11. Registro de diagnóstico (opcional)</h2>
 <p>La opción «Registro del lector» (Ajustes → Diagnóstico) está <strong>apagada hasta que tú lo decidas</strong>: la primera vez que entras al escáner la app te pregunta si aceptas, y puedes cambiarlo cuando quieras en Ajustes.</p>
-<p>Si la activas, la app guarda <strong>solo en la memoria del teléfono y por unos instantes</strong> las últimas lecturas de la cámara (el texto de las etiquetas, su posición y tamaño; <strong>nunca fotos</strong>). <strong>Únicamente cuando el lector falla</strong>, es decir, cuando descartas, renombras, eliminas o deshaces una lectura, la app envía un reporte corto y <strong>anónimo</strong> a nuestro servidor en Supabase, por conexión cifrada (HTTPS), con ese texto leído, la acción que hiciste, la versión de la app y el modelo de tu teléfono. El reporte <strong>no incluye tu cuenta, correo, nombre ni ningún identificador</strong>, no se comparte con terceros ni se usa para publicidad, tiene un tamaño máximo, hay límites de cantidad, y se <strong>borra automáticamente a los 14 días</strong>. Cuando el lector acierta no se envía nada.</p>
+<p>Si la activas, la app guarda <strong>solo en la memoria del teléfono y por unos instantes</strong> las últimas lecturas de la cámara (el texto de las etiquetas, su posición y tamaño; <strong>nunca fotos</strong>). <strong>Únicamente cuando el lector falla</strong>, es decir, cuando descartas, renombras, eliminas o deshaces una lectura, la app envía un reporte corto y <strong>anónimo</strong> a nuestro servidor en Supabase, por conexión cifrada (HTTPS), con ese texto leído, la acción que hiciste, la versión de la app y el modelo de tu teléfono. El reporte <strong>no incluye tu cuenta, correo, nombre ni ningún identificador</strong>, es nuestro (no se comparte con terceros, no se envía a Google AdMob y no se usa para publicidad), tiene un tamaño máximo, hay límites de cantidad, y se <strong>borra automáticamente a los 14 días</strong>. Cuando el lector acierta no se envía nada.</p>
 <p>Como el texto que lee la cámara depende de lo que apuntes, evita enfocar documentos o pantallas con datos personales mientras esta opción esté activa. Para dejar de enviar, apaga la opción en Ajustes.</p>
 <h3>Contadores anónimos</h3>
 <p>Además, la app suma números anónimos en nuestro servidor: cuántas personas aceptaron y cuántas rechazaron el aviso anterior, y un «latido» cada 5 minutos mientras la app está abierta, para saber aproximadamente cuántas personas la usan a la vez. Estos contadores <strong>no incluyen ningún identificador tuyo</strong> y no se pueden asociar a una cuenta ni a un teléfono. Como en cualquier conexión a internet, el servidor ve la dirección IP en el momento de la llamada, pero no la guarda junto a esos números.</p>
 
 <h3>Estadísticas de uso anónimas (opcional)</h3>
-<p>La opción «Uso anónimo de la app» (Ajustes → Diagnóstico y uso) está <strong>apagada hasta que tú la aceptes</strong>: después del aviso del lector, la app te pregunta una sola vez. Si aceptas, la app crea en tu teléfono <strong>un número al azar</strong> (no es el ID de tu dispositivo, ni tu correo, ni tu cuenta, y no se puede usar para saber quién eres) y envía a nuestro servidor en Supabase, por conexión cifrada (HTTPS), eventos de una lista cerrada: que abriste la app, qué pantalla abriste, que agregaste un producto (escaneado o escrito a mano) y si tocaste, cancelaste o completaste «Finalizar compra», junto con la fecha y la versión de la app. <strong>Nunca se envían precios, nombres de productos, tiendas, textos, fotos, tu correo ni tu cuenta.</strong> Sirven para contar cuántas personas usan la app, cuántas vuelven, qué pantallas se usan más y en qué paso de la compra la gente se detiene. No se comparten con terceros ni se usan para publicidad.</p>
+<p>La opción «Uso anónimo de la app» (Ajustes → Diagnóstico y uso) está <strong>apagada hasta que tú la aceptes</strong>: después del aviso del lector, la app te pregunta una sola vez. Si aceptas, la app crea en tu teléfono <strong>un número al azar</strong> (no es el ID de tu dispositivo, ni tu correo, ni tu cuenta, y no se puede usar para saber quién eres) y envía a nuestro servidor en Supabase, por conexión cifrada (HTTPS), eventos de una lista cerrada: que abriste la app, qué pantalla abriste, que agregaste un producto (escaneado o escrito a mano) y si tocaste, cancelaste o completaste «Finalizar compra», junto con la fecha y la versión de la app. <strong>Nunca se envían precios, nombres de productos, tiendas, textos, fotos, tu correo ni tu cuenta.</strong> Sirven para contar cuántas personas usan la app, cuántas vuelven, qué pantallas se usan más y en qué paso de la compra la gente se detiene. Son datos nuestros: no se comparten con terceros, no se envían a Google AdMob y no se usan para publicidad.</p>
 <p>El detalle de cada evento se borra a los <strong>60 días</strong>; el registro de los días en que usaste la app (solo el número al azar y la fecha) se conserva como máximo <strong>1 año</strong>. Puedes apagar la opción cuando quieras: al hacerlo, la app borra el número de tu teléfono y pide al servidor que <strong>borre todo lo guardado con ese número</strong> (si en ese momento no tienes internet, la orden queda pendiente y se envía cuando haya conexión). Como en cualquier conexión a internet, el servidor ve la dirección IP en el momento de la llamada, pero no la guarda junto a estos datos.</p>
 
-<h2 id="no-hacemos">10. Lo que Chekash NO hace</h2>
+<h2 id="no-hacemos">12. Lo que Chekash NO hace</h2>
 <ul>
   <li><span class="no">No</span> te obliga a crear una cuenta ni pide tu nombre, correo o teléfono si no la creas.</li>
-  <li><span class="no">No</span> usa tu ubicación ni accede a tus contactos, fotos, galería o archivos.</li>
+  <li><span class="no">No</span> usa tu ubicación ni accede a tus contactos, fotos, galería o archivos. (Google AdMob puede deducir tu ubicación aproximada a partir de la dirección IP; ver sección 8.)</li>
   <li><span class="no">No</span> usa el micrófono ni graba audio, ni guarda ni envía imágenes de la cámara.</li>
-  <li><span class="no">No</span> incluye publicidad, rastreadores de terceros ni identificadores publicitarios. Las estadísticas de uso anónimas solo existen si tú las aceptas.</li>
-  <li><span class="no">No</span> vende, alquila ni comparte tu información con terceros para fines comerciales.</li>
+  <li><span class="no">No</span> incluye rastreadores ni herramientas de análisis de terceros. La única publicidad es la de Google AdMob, solo en el plan gratis (ver sección 8); con Premium no hay anuncios. Las estadísticas de uso anónimas solo existen si tú las aceptas y no se comparten con AdMob.</li>
+  <li><span class="no">No</span> vende ni alquila tu información, y no entrega tus compras, precios, productos, correo ni fotos a nadie para publicidad o fines comerciales.</li>
   <li><span class="no">No</span> toma decisiones automatizadas que te afecten legalmente ni crea perfiles sobre ti.</li>
-  <li><span class="no">No</span> procesa pagos ni guarda datos de tarjetas o cuentas bancarias.</li>
+  <li><span class="no">No</span> procesa pagos ni guarda datos de tarjetas o cuentas bancarias: la suscripción Premium la cobra Google Play.</li>
   <li><span class="no">No</span> usa cookies en la app. Esta página web tampoco usa cookies, ni rastreadores, ni fuentes o scripts externos.</li>
 </ul>
 
-<h2 id="base">11. Por qué usamos tu información</h2>
+<h2 id="base">13. Por qué usamos tu información</h2>
 <ul>
   <li><strong>Para prestarte el servicio que pides</strong> (leer precios, sumar tu compra, guardar tu historial, respaldar tu cuenta): es necesario para que la app haga lo que le pides.</li>
   <li><strong>Con tu consentimiento</strong>: al conceder el permiso de cámara, al crear una cuenta y al activar el registro de diagnóstico. Puedes retirar el consentimiento en cualquier momento (quitando el permiso en Android, cerrando sesión, borrando tu cuenta o apagando la opción), sin que eso afecte a lo hecho antes.</li>
+  <li><strong>Para sostener la app:</strong> mostrar anuncios en el plan gratis (a través de Google AdMob) y gestionar la suscripción Premium con Google Play.</li>
   <li><strong>Para cumplir la ley</strong> y proteger la seguridad de la app y de los usuarios (por ejemplo, evitar accesos no autorizados).</li>
 </ul>
-<p>Solo usamos tu información para esos fines. No la usamos para publicidad ni para entrenar modelos de inteligencia artificial.</p>
+<p>Solo usamos tu información para esos fines. Nosotros no la usamos para hacer publicidad ni para entrenar modelos de inteligencia artificial; los anuncios del plan gratis los muestra Google AdMob con el tratamiento descrito en la sección 8.</p>
 
-<h2 id="conservacion">12. Cuánto tiempo la conservamos</h2>
+<h2 id="conservacion">14. Cuánto tiempo la conservamos</h2>
 <ul>
   <li><strong>En tu teléfono:</strong> hasta que tú la borres (desde la app, desinstalando o borrando los datos de la app).</li>
   <li><strong>En la nube (solo con cuenta):</strong> mientras tu cuenta exista. Al borrar tu cuenta se elimina de forma definitiva todo lo que subiste (historial, lista, ajustes y tu registro de usuario).</li>
   <li><strong>Cuentas inactivas:</strong> si una cuenta lleva mucho tiempo sin usarse podremos pedirte que confirmes si quieres conservarla; puedes borrarla cuando quieras.</li>
   <li><strong>Estadísticas de uso anónimas (solo si las aceptaste):</strong> el detalle de cada evento, 60 días; los días de uso (número al azar y fecha), como máximo 1 año; todo se borra al apagar la opción.</li>
+  <li><strong>Estado de Premium y contadores del plan gratis (en tu teléfono):</strong> hasta que borres los datos de la app o la desinstales.</li>
+  <li><strong>Código de verificación de la recompensa (en nuestro servidor):</strong> unos 2 días como máximo (la app solo lo acepta durante 15 minutos y una sola vez).</li>
+  <li><strong>Datos de anuncios y de pagos:</strong> los conservan Google AdMob y Google Play según sus propias políticas; Chekash no controla cuánto tiempo.</li>
   <li><strong>Correos que nos escribas:</strong> los conservamos el tiempo necesario para atender tu solicitud y cumplir obligaciones legales.</li>
   <li><strong>Copias de seguridad del proveedor:</strong> el proveedor de la base de datos puede mantener copias técnicas de respaldo durante un periodo limitado; los datos borrados desaparecen de ellas al rotarse esas copias.</li>
 </ul>
 
-<h2 id="eliminar-cuenta">13. Cómo borrar tu cuenta y tus datos</h2>
+<h2 id="eliminar-cuenta">15. Cómo borrar tu cuenta y tus datos</h2>
 <h3>Opción 1 — Desde la app (inmediato)</h3>
 <ol>
   <li>Abre Chekash y toca el ícono de <strong>Cuenta</strong> (arriba a la derecha del escáner), o ve a <strong>Ajustes → tarjeta de cuenta</strong>.</li>
@@ -234,24 +302,25 @@
 <h3>Qué se borra y qué no</h3>
 <ul>
   <li><strong>Se borra de la nube:</strong> tu correo, tu registro de usuario, tus compras y sus productos, tu lista de mercado y tus ajustes.</li>
-  <li><strong>No lo podemos borrar nosotros:</strong> lo que está guardado en tu teléfono (lo borras desinstalando la app o limpiando sus datos), los archivos que hayas exportado o compartido con otras apps, y cualquier copia de seguridad de Android en tu cuenta de Google.</li>
-  <li><strong>Si no tienes cuenta</strong> no tenemos ningún dato tuyo que borrar: todo está en tu teléfono.</li>
+  <li><strong>No lo podemos borrar nosotros:</strong> lo que está guardado en tu teléfono (lo borras desinstalando la app o limpiando sus datos), los archivos que hayas exportado o compartido con otras apps, y cualquier copia de seguridad de Android en tu cuenta de Google. Tampoco los datos que Google AdMob y Google Play tengan sobre ti, que se gestionan con Google (ver secciones 8 y 9).</li>
+  <li><strong>Los códigos de verificación de recompensas</strong> que llevaran el identificador de tu cuenta se borran solos en unos 2 días (ver sección 8).</li>
+  <li><strong>Si no tienes cuenta</strong> no tenemos ningún dato personal tuyo que borrar en nuestros servidores: todo está en tu teléfono (lo de anuncios y pagos lo tiene Google).</li>
 </ul>
 
-<h2 id="derechos">14. Tus derechos</h2>
+<h2 id="derechos">16. Tus derechos</h2>
 <p>Con independencia del país desde el que uses la app, puedes pedirnos en cualquier momento:</p>
 <ul>
-  <li><strong>Acceso:</strong> saber qué datos tuyos tenemos en la nube y recibir una copia. También puedes exportar tus compras desde el historial (texto, PDF o CSV).</li>
+  <li><strong>Acceso:</strong> saber qué datos tuyos tenemos en la nube y recibir una copia. También puedes exportar tus compras desde el historial (texto en el plan gratis; PDF y CSV con Premium).</li>
   <li><strong>Rectificación:</strong> corregir datos inexactos (por ejemplo, tu correo).</li>
-  <li><strong>Eliminación:</strong> borrar tu cuenta y tus datos (sección 13).</li>
+  <li><strong>Eliminación:</strong> borrar tu cuenta y tus datos (sección 15).</li>
   <li><strong>Oposición y limitación:</strong> oponerte a un tratamiento o pedir que lo limitemos.</li>
-  <li><strong>Portabilidad:</strong> recibir tus datos en un formato de uso común (CSV).</li>
+  <li><strong>Portabilidad:</strong> recibir tus datos en un formato de uso común (CSV). Si tu plan no incluye la exportación en CSV, pídenoslo por correo.</li>
   <li><strong>Retirar tu consentimiento</strong> en cualquier momento.</li>
   <li><strong>Reclamar</strong> ante la autoridad de protección de datos de tu país, si tu legislación lo contempla.</li>
 </ul>
-<p>Para ejercerlos escribe a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a> desde el correo de tu cuenta. Responderemos en un plazo máximo de <strong>30 días</strong>. Si hay que verificar tu identidad, te lo diremos para proteger tu información. El ejercicio de tus derechos es gratuito.</p>
+<p>Para ejercerlos escribe a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a> desde el correo de tu cuenta. Responderemos en un plazo máximo de <strong>30 días</strong>. Si hay que verificar tu identidad, te lo diremos para proteger tu información. El ejercicio de tus derechos es gratuito. Sobre los datos que Google trata por su cuenta (anuncios y pagos), puedes ejercer tus derechos directamente con Google, por ejemplo desde tus ajustes de anuncios (ver sección 8).</p>
 
-<h2 id="seguridad">15. Seguridad</h2>
+<h2 id="seguridad">17. Seguridad</h2>
 <ul>
   <li>Todas las conexiones de la app usan <strong>HTTPS</strong>; la configuración de red de la app prohíbe el tráfico sin cifrar.</li>
   <li>La clave de tu cuenta se guarda <strong>cifrada (hash)</strong> en el servicio de cuentas; nunca la vemos y la app no la conserva en el teléfono.</li>
@@ -261,30 +330,34 @@
 </ul>
 <p>Ningún sistema es 100 % invulnerable. Si detectáramos una brecha de seguridad que afecte a datos personales de cuentas, te lo notificaremos por correo y por los medios disponibles sin demora injustificada, indicando qué ocurrió y qué puedes hacer. Si tienes una duda de seguridad o quieres reportar una vulnerabilidad, escribe a <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a>.</p>
 
-<h2 id="transferencias">16. Dónde se almacenan los datos</h2>
-<p>Los datos de las cuentas se almacenan en la infraestructura en la nube de Supabase, que puede estar ubicada fuera de Venezuela (por ejemplo, en Estados Unidos u otra región). Al crear una cuenta aceptas que tu información se trate y almacene en esos servidores, protegida con las medidas descritas en la sección 15. Los datos que no subes (sin cuenta) nunca salen de tu teléfono.</p>
+<h2 id="transferencias">18. Dónde se almacenan los datos</h2>
+<p>Los datos de las cuentas se almacenan en la infraestructura en la nube de Supabase, que puede estar ubicada fuera de Venezuela (por ejemplo, en Estados Unidos u otra región). Al crear una cuenta aceptas que tu información se trate y almacene en esos servidores, protegida con las medidas descritas en la sección 17. Los datos que no subes (sin cuenta) nunca salen de tu teléfono. El código de verificación de las recompensas también se guarda en Supabase. Los datos que tratan Google AdMob y Google Play se almacenan y transfieren según las políticas de Google, que puede hacerlo en distintos países.</p>
 
-<h2 id="menores">17. Menores de edad</h2>
-<p>Chekash no está dirigida a niños menores de 13 años y no recopila a sabiendas datos personales de ellos. Las personas menores de 18 años deben usar las funciones de cuenta con el permiso de su madre, padre o representante. Si crees que un menor ha creado una cuenta sin autorización, escríbenos y la borraremos.</p>
+<h2 id="menores">19. Menores de edad</h2>
+<p>Chekash no está dirigida a niños menores de 13 años y no recopila a sabiendas datos personales de ellos. Las personas de 13 a 17 años deben usar la app, incluidas las funciones de cuenta y las compras de Premium, con el permiso de su madre, padre o representante. Si crees que un menor ha creado una cuenta sin autorización, escríbenos y la borraremos.</p>
+<p>Como el plan gratis muestra anuncios: Chekash no pide la edad de nadie, pero según las políticas de Google, en las cuentas de Google que Google sabe que pertenecen a personas menores de 18 años se desactiva la personalización de anuncios y se restringen ciertas categorías de anuncios sensibles. Esa protección la aplica Google, no Chekash. Si eres madre, padre o representante y crees que un menor está viendo anuncios que no corresponden, escríbenos.</p>
 
-<h2 id="permisos">18. Permisos de Android que usa la app</h2>
+<h2 id="permisos">20. Permisos de Android que usa la app</h2>
 <div class="tabla"><table>
   <thead><tr><th>Permiso</th><th>Para qué</th><th>¿Es obligatorio?</th></tr></thead>
   <tbody>
     <tr><td><code>CAMERA</code> (Cámara)</td><td>Escanear etiquetas de precios</td><td>Necesario para el escáner. Puedes usar «Escribir a mano» sin darlo.</td></tr>
     <tr><td><code>INTERNET</code></td><td>Consultar las tasas y, si tienes cuenta, respaldar tus datos</td><td>Sin internet la app sigue funcionando con la última tasa guardada.</td></tr>
     <tr><td><code>VIBRATE</code> (Vibración)</td><td>Avisos táctiles al leer y agregar productos</td><td>Puedes apagarlo en Ajustes.</td></tr>
+    <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Saber si el teléfono tiene conexión (no envía nada), por ejemplo para pedirte que te conectes cada cierto tiempo en el plan gratis</td><td>Android la concede automáticamente; no te pregunta.</td></tr>
+    <tr><td><code>com.google.android.gms.permission.AD_ID</code> (ID de publicidad)</td><td>La agrega la biblioteca de anuncios de Google (AdMob). Permite que Google lea el ID de publicidad de tu teléfono para mostrar y medir anuncios (ver sección 8)</td><td>Android la concede automáticamente. Puedes restablecer o eliminar tu ID de publicidad en los ajustes de Android.</td></tr>
+    <tr><td><code>com.android.vending.BILLING</code></td><td>La agrega la biblioteca de Google Play Billing. Permite comprar la suscripción Premium con Google Play</td><td>Android la concede automáticamente; solo se usa si compras Premium.</td></tr>
   </tbody>
 </table></div>
-<p>La app no pide permisos de ubicación, contactos, almacenamiento, teléfono ni SMS.</p>
+<p>La app no pide permisos de ubicación, contactos, almacenamiento, teléfono ni SMS. Algunos permisos de la tabla los agregan por su cuenta las bibliotecas de Google que usa la app (anuncios y pagos).</p>
 
-<h2 id="cambios">19. Cambios en esta política</h2>
-<p>Si la app cambia la forma de tratar tu información (por ejemplo, al agregar nuevas funciones), actualizaremos esta página y la fecha de arriba. Si el cambio es importante, te lo avisaremos dentro de la app antes de que se aplique. Las versiones anteriores se pueden pedir por correo.</p>
+<h2 id="cambios">21. Cambios en esta política</h2>
+<p>Si la app cambia la forma de tratar tu información (por ejemplo, al agregar nuevas funciones), actualizaremos esta página y la fecha de arriba. Si el cambio es importante, te lo avisaremos dentro de la app antes de que se aplique. Las versiones anteriores se pueden pedir por correo. La versión 3.0 agrega los anuncios de Google AdMob, la suscripción Premium con Google Play y la verificación de los anuncios con recompensa.</p>
 
-<h2 id="ley">20. Ley aplicable</h2>
+<h2 id="ley">22. Ley aplicable</h2>
 <p>Esta política se rige por las leyes de la República Bolivariana de Venezuela, incluyendo los derechos a la privacidad y a la protección de los datos personales reconocidos en su Constitución, sin perjuicio de los derechos que te correspondan según la legislación de tu país de residencia (por ejemplo, el Reglamento General de Protección de Datos de la Unión Europea o las leyes de privacidad de California, cuando apliquen).</p>
 
-<h2 id="contacto">21. Contacto</h2>
+<h2 id="contacto">23. Contacto</h2>
 <p>Para cualquier pregunta, solicitud o reclamo sobre esta política o sobre tus datos:</p>
 <p><strong>Correo:</strong> <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a><br>
 <strong>Aplicación:</strong> Chekash (<code>com.chekash.app</code>)<br>
@@ -295,12 +368,15 @@
 <ul>
   <li><strong>Camera:</strong> text is read on-device (Google ML Kit); images are never stored or sent.</li>
   <li><strong>Microphone:</strong> the app does not use the microphone and does not request that permission.</li>
-  <li><strong>Data:</strong> purchases, shopping list and settings stay on your device. An account is optional; if you create one (email and password), a copy of your purchase history, shopping list and settings is stored with our cloud provider Supabase, protected by per-user access rules.</li>
-  <li><strong>No</strong> ads, third-party analytics or trackers, location access, data selling or sharing for commercial purposes. Optional, opt-in anonymous usage statistics (screens opened, whether a purchase is finished; never prices, products or stores) are stored on our own server using a random number created on your phone, and are deleted when you switch the option off.</li>
-  <li><strong>Third parties:</strong> Supabase (accounts/backup, only if you sign up), Google ML Kit (on-device OCR), and public exchange-rate sources (bcv.org.ve, ve.dolarapi.com) which only see your IP address.</li>
+  <li><strong>Data:</strong> purchases, shopping list and settings stay on your device. An account (cloud backup) is optional and is a Premium feature; if you create one (email and password), a copy of your purchase history, shopping list and settings is stored with our cloud provider Supabase, protected by per-user access rules. People who already had a session keep it.</li>
+  <li><strong>Ads:</strong> the free plan shows ads from Google AdMob, which may collect device data such as the advertising ID, IP address and ad interaction data to show and measure ads and, depending on your settings and region, personalize them. Chekash does not send your purchases, prices, products, email or photos to AdMob. There are no ads in Premium, none in your first session and never while you scan. You can reset or delete your advertising ID in Android settings.</li>
+  <li><strong>Rewarded ads:</strong> if you choose to watch one, a random code (and, if you are signed in, your internal account ID, not your email) is recorded on our Supabase server so Google can confirm the ad was watched; it is deleted after about 2 days.</li>
+  <li><strong>Payments:</strong> Premium is an auto-renewing monthly or yearly subscription bought and billed through Google Play. Chekash never sees your card details. Cancel in Google Play → Payments &amp; subscriptions → Subscriptions; uninstalling the app does not cancel it. When Premium ends your data is not deleted.</li>
+  <li><strong>No</strong> third-party analytics or trackers (other than AdMob for ads), location access, data selling, or sharing of your purchases for commercial purposes. Optional, opt-in anonymous usage statistics (screens opened, whether a purchase is finished; never prices, products or stores) are stored on our own server using a random number created on your phone, are not shared with AdMob, and are deleted when you switch the option off.</li>
+  <li><strong>Third parties:</strong> Google AdMob (ads), Google Play and Google Play Billing (distribution and payments), Supabase (accounts/backup and reward verification), Google ML Kit (on-device OCR), and public exchange-rate sources (bcv.org.ve, ve.dolarapi.com) which only see your IP address.</li>
   <li><strong>Delete your account and data:</strong> in the app (Account → Delete my account) or by emailing <a href="mailto:gamezcorporation@gmail.com?subject=Delete%20my%20Chekash%20account">gamezcorporation@gmail.com</a> from your account email; completed within 30 days.</li>
   <li><strong>Your rights:</strong> access, rectification, deletion, portability, objection and withdrawal of consent — write to the same address.</li>
-  <li><strong>Children:</strong> not directed to children under 13.</li>
+  <li><strong>Children:</strong> not directed to children under 13; ages 13–17 need a parent's or guardian's permission. Google limits ad personalization on accounts it knows belong to people under 18.</li>
   <li><strong>Contact:</strong> <a href="mailto:gamezcorporation@gmail.com">gamezcorporation@gmail.com</a></li>
 </ul>
 
