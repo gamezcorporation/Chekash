@@ -1,0 +1,5 @@
+PAQUETE 2 de 2: va en el repo Chekash (gamezcorporation.github.io/Chekash/)
+Sube TODO lo que hay aqui (privacy-policy.html, terminos-de-uso.html, logo.svg, favicon-32.png, apple-touch-icon.png y la carpeta assets).
+Reemplaza privacy-policy.html y terminos-de-uso.html: las URLs siguen siendo las mismas.
+Los enlaces de la barra y del pie que van al inicio apuntan a la raiz (/).
+Cuando publiques en Google Play: pon tambien el enlace en PLAY_URL al inicio de assets/site.js de ESTE repo.
