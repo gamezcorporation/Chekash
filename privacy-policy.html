@@ -24,6 +24,9 @@
      en la Unión Europea ni en el Reino Unido. Si eso cambia, hay que agregar el formulario de Google (UMP) al código y a esta política.
   3) AD_ID y BILLING (sección 20): confirmar en Android Studio -> AndroidManifest.xml -> pestaña "Merged Manifest".
   4) Que un abogado revise el texto antes de publicar.
+  5) v3.1: se aclaró que funcionar sin internet (sin la reconexión periódica) es una función de Premium. El código del plan gratis sigue
+     dejando usar la app sin conexión dentro de la ventana de 10 productos / 24 h (OfflinePolicy); si se quiere bloquear desde el primer momento,
+     hay que cambiar el código y las secciones 5 y 20.
 -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
 <defs><linearGradient id="lg" x1="0" y1="0" x2="260" y2="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#68ED24"/><stop offset="1" stop-color="#39C900"/></linearGradient></defs>
@@ -63,7 +66,7 @@
   </div>
 </header>
 <main id="contenido">
-  <div class="legal-top"><div class="wrap"><h1>Política de privacidad de Chekash</h1><p class="meta">Versión 3.0 · Última actualización: 6 de noviembre de 2026 · Aplicación para Android «Chekash» (<code>com.chekash.app</code>)</p></div></div>
+  <div class="legal-top"><div class="wrap"><h1>Política de privacidad de Chekash</h1><p class="meta">Versión 3.1 · Última actualización: 7 de noviembre de 2026 · Aplicación para Android «Chekash» (<code>com.chekash.app</code>)</p></div></div>
   <div class="wrap legal-grid">
     <details class="toc" open><summary>Contenido</summary><nav aria-label="Contenido"><ol><li><a href="#quienes">1. Quiénes somos y alcance</a></li><li><a href="#datos">2. Qué información tratamos</a></li><li><a href="#camara">3. Cámara</a></li><li><a href="#local">4. Información guardada en tu teléfono</a></li><li><a href="#cuenta">5. Cuenta y respaldo en la nube (opcional)</a></li><li><a href="#internet">6. Conexión a internet y tasas de cambio</a></li><li><a href="#terceros">7. Servicios de terceros</a></li><li><a href="#anuncios">8. Anuncios (Google AdMob)</a></li><li><a href="#pagos">9. Pagos y suscripción (Google Play Billing)</a></li><li><a href="#compartir">10. Compartir y exportar tus compras</a></li><li><a href="#diagnostico">11. Registro de diagnóstico (opcional)</a></li><li><a href="#no-hacemos">12. Lo que Chekash NO hace</a></li><li><a href="#base">13. Por qué usamos tu información</a></li><li><a href="#conservacion">14. Cuánto tiempo la conservamos</a></li><li><a href="#eliminar-cuenta">15. Cómo borrar tu cuenta y tus datos</a></li><li><a href="#derechos">16. Tus derechos</a></li><li><a href="#seguridad">17. Seguridad</a></li><li><a href="#transferencias">18. Dónde se almacenan los datos</a></li><li><a href="#menores">19. Menores de edad</a></li><li><a href="#permisos">20. Permisos de Android que usa la app</a></li><li><a href="#cambios">21. Cambios en esta política</a></li><li><a href="#ley">22. Ley aplicable</a></li><li><a href="#contacto">23. Contacto</a></li><li><a href="#english">English summary</a></li></ol></nav></details>
     <article class="legal-body">
@@ -110,7 +113,7 @@
 <h2 id="camara">3. Cámara</h2>
 <p>La app usa la cámara únicamente para leer precios y nombres de productos en las etiquetas. El reconocimiento de texto se hace <strong>dentro de tu teléfono</strong>, con Google ML Kit (reconocimiento de texto «en el dispositivo»). Las imágenes <strong>no se guardan, no se envían a ningún servidor nuestro y no se comparten</strong>. Mientras el escáner está abierto la pantalla se mantiene encendida para que no se apague en el mercado. Tampoco se muestran anuncios mientras escaneas con la cámara.</p>
 <h2 id="local">4. Información guardada en tu teléfono</h2>
-<p>La app guarda <strong>en tu teléfono</strong>: la compra en curso (carrito), el historial de compras, la lista de mercado, el presupuesto, tus ajustes y la última tasa conocida (para poder calcular sin internet). Sin cuenta, nada de esto sale de tu dispositivo.</p>
+<p>La app guarda <strong>en tu teléfono</strong>: la compra en curso (carrito), el historial de compras, la lista de mercado, el presupuesto, tus ajustes y la última tasa conocida (para poder calcular cuando no hay conexión). Sin cuenta, nada de esto sale de tu dispositivo.</p>
 <ul>
 <li><strong>Premium y plan gratis:</strong> también se guardan en tu teléfono si Premium está activo y los contadores del plan gratis (cuántos anuncios salieron y la última vez que la app vio internet). No se suben a ningún servidor.</li>
 <li><strong>Borrarla:</strong> puedes borrar una compra desde el historial, vaciar el carrito o la lista, o borrar todo desinstalando la app o usando «Borrar datos» en los ajustes de Android de la app.</li>
@@ -130,7 +133,7 @@
 <p>Las imágenes de la cámara, tu ubicación, tu lista de contactos, la compra en curso (el carrito) que aún no has finalizado.</p>
 <h3>Cómo funciona</h3>
 <ul>
-<li>La app funciona sin internet: lo que haces se guarda en el teléfono y se sube sola cuando vuelve la conexión.</li>
+<li>Con Premium, la app funciona sin internet: lo que haces se guarda en el teléfono y se sube sola cuando vuelve la conexión.</li>
 <li>Cada persona solo puede ver y cambiar <strong>lo suyo</strong>: la base de datos tiene reglas de seguridad por usuario (Row Level Security), de modo que tu información está separada de la de los demás usuarios.</li>
 <li>Al crear la cuenta, el servicio de cuentas puede enviarte un correo de confirmación a la dirección que escribiste. Ese correo se envía con un proveedor de correo electrónico y solo contiene el enlace de confirmación.</li>
 <li>Cuando borras una compra o un ítem de la lista estando con cuenta, queda marcado como «borrado» en la nube (para que el borrado también llegue a tus otros teléfonos) y deja de mostrarse. Se elimina de forma definitiva cuando borras tu cuenta o nos lo pides (ver sección 15).</li>
@@ -292,7 +295,7 @@
 <thead><tr><th>Permiso</th><th>Para qué</th><th>¿Es obligatorio?</th></tr></thead>
 <tbody>
 <tr><td><code>CAMERA</code> (Cámara)</td><td>Escanear etiquetas de precios</td><td>Necesario para el escáner. Puedes usar «Escribir a mano» sin darlo.</td></tr>
-<tr><td><code>INTERNET</code></td><td>Consultar las tasas y, si tienes cuenta, respaldar tus datos</td><td>Sin internet la app sigue funcionando con la última tasa guardada.</td></tr>
+<tr><td><code>INTERNET</code></td><td>Consultar las tasas y, si tienes cuenta, respaldar tus datos</td><td>Con Premium, la app sigue funcionando sin internet con la última tasa guardada. El plan gratis necesita conectarse a internet cada cierto tiempo.</td></tr>
 <tr><td><code>VIBRATE</code> (Vibración)</td><td>Avisos táctiles al leer y agregar productos</td><td>Puedes apagarlo en Ajustes.</td></tr>
 <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Saber si el teléfono tiene conexión (no envía nada), por ejemplo para pedirte que te conectes cada cierto tiempo en el plan gratis</td><td>Android la concede automáticamente; no te pregunta.</td></tr>
 <tr><td><code>com.google.android.gms.permission.AD_ID</code> (ID de publicidad)</td><td>La agrega la biblioteca de anuncios de Google (AdMob). Permite que Google lea el ID de publicidad de tu teléfono para mostrar y medir anuncios (ver sección 8)</td><td>Android la concede automáticamente. Puedes restablecer o eliminar tu ID de publicidad en los ajustes de Android.</td></tr>
@@ -301,7 +304,7 @@
 </table></div>
 <p>La app no pide permisos de ubicación, contactos, almacenamiento, teléfono ni SMS. Algunos permisos de la tabla los agregan por su cuenta las bibliotecas de Google que usa la app (anuncios y pagos).</p>
 <h2 id="cambios">21. Cambios en esta política</h2>
-<p>Si la app cambia la forma de tratar tu información (por ejemplo, al agregar nuevas funciones), actualizaremos esta página y la fecha de arriba. Si el cambio es importante, te lo avisaremos dentro de la app antes de que se aplique. Las versiones anteriores se pueden pedir por correo. La versión 3.0 agrega los anuncios de Google AdMob, la suscripción Premium con Google Play y la verificación de los anuncios con recompensa.</p>
+<p>Si la app cambia la forma de tratar tu información (por ejemplo, al agregar nuevas funciones), actualizaremos esta página y la fecha de arriba. Si el cambio es importante, te lo avisaremos dentro de la app antes de que se aplique. Las versiones anteriores se pueden pedir por correo. La versión 3.0 agrega los anuncios de Google AdMob, la suscripción Premium con Google Play y la verificación de los anuncios con recompensa. La versión 3.1 aclara que usar la app sin internet es una función de Premium y que el plan gratis necesita conectarse a internet cada cierto tiempo.</p>
 <h2 id="ley">22. Ley aplicable</h2>
 <p>Esta política se rige por las leyes de la República Bolivariana de Venezuela, incluyendo los derechos a la privacidad y a la protección de los datos personales reconocidos en su Constitución, sin perjuicio de los derechos que te correspondan según la legislación de tu país de residencia (por ejemplo, el Reglamento General de Protección de Datos de la Unión Europea o las leyes de privacidad de California, cuando apliquen).</p>
 <h2 id="contacto">23. Contacto</h2>
@@ -317,6 +320,7 @@
 <li><strong>Microphone:</strong> the app does not use the microphone and does not request that permission.</li>
 <li><strong>Data:</strong> purchases, shopping list and settings stay on your device. An account (cloud backup) is optional and is a Premium feature; if you create one (email and password), a copy of your purchase history, shopping list and settings is stored with our cloud provider Supabase, protected by per-user access rules. People who already had a session keep it.</li>
 <li><strong>Ads:</strong> the free plan shows ads from Google AdMob, which may collect device data such as the advertising ID, IP address and ad interaction data to show and measure ads and, depending on your settings and region, personalize them. Chekash does not send your purchases, prices, products, email or photos to AdMob. There are no ads in Premium, none in your first session and never while you scan. You can reset or delete your advertising ID in Android settings.</li>
+<li><strong>Offline use:</strong> working without internet is a Premium feature. The free plan needs to connect to the internet every so often.</li>
 <li><strong>Rewarded ads:</strong> if you choose to watch one, a random code (and, if you are signed in, your internal account ID, not your email) is recorded on our Supabase server so Google can confirm the ad was watched; it is deleted after about 2 days.</li>
 <li><strong>Payments:</strong> Premium is an auto-renewing monthly or yearly subscription bought and billed through Google Play. Chekash never sees your card details. Cancel in Google Play → Payments &amp; subscriptions → Subscriptions; uninstalling the app does not cancel it. When Premium ends your data is not deleted.</li>
 <li><strong>No</strong> third-party analytics or trackers (other than AdMob for ads), location access, data selling, or sharing of your purchases for commercial purposes. Optional, opt-in anonymous usage statistics (screens opened, whether a purchase is finished; never prices, products or stores) are stored on our own server using a random number created on your phone, are not shared with AdMob, and are deleted when you switch the option off.</li>

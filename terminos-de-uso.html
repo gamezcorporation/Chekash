@@ -25,6 +25,9 @@
   3) Prueba gratis o descuentos: no se mencionan porque hoy no existen. Si se agregan, hay que describirlos en la sección 6.
   4) Anuncio "cada 10 escaneos": no está en el código; no se menciona. Si se agrega, sumarlo a la lista de la sección 7.
   5) Que un abogado revise el texto antes de publicar.
+  6) v2.1: se aclaró que funcionar sin internet (sin la reconexión periódica) es una función de Premium. El código del plan gratis sigue
+     dejando usar la app sin conexión dentro de la ventana de 10 productos / 24 h (OfflinePolicy); si se quiere bloquear desde el primer momento,
+     hay que cambiar el código y las secciones 4 y 5.
 -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
 <defs><linearGradient id="lg" x1="0" y1="0" x2="260" y2="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#68ED24"/><stop offset="1" stop-color="#39C900"/></linearGradient></defs>
@@ -64,7 +67,7 @@
   </div>
 </header>
 <main id="contenido">
-  <div class="legal-top"><div class="wrap"><h1>Términos de uso de Chekash</h1><p class="meta">Versión 2.0 · Última actualización: 6 de noviembre de 2026</p></div></div>
+  <div class="legal-top"><div class="wrap"><h1>Términos de uso de Chekash</h1><p class="meta">Versión 2.1 · Última actualización: 7 de noviembre de 2026</p></div></div>
   <div class="wrap legal-grid">
     <details class="toc" open><summary>Contenido</summary><nav aria-label="Contenido"><ol><li><a href="#sec-1">1. Qué es Chekash</a></li><li><a href="#sec-2">2. Uso permitido</a></li><li><a href="#sec-3">3. La app es una ayuda, no una factura</a></li><li><a href="#sec-4">4. Tasas de cambio</a></li><li><a href="#sec-5">5. Planes gratis y Premium</a></li><li><a href="#sec-6">6. Suscripción, precios, cobro, cancelación y reembolsos</a></li><li><a href="#sec-7">7. Anuncios</a></li><li><a href="#sec-8">8. Tu cuenta</a></li><li><a href="#sec-9">9. Tus datos y tu contenido</a></li><li><a href="#sec-10">10. Disponibilidad y cambios</a></li><li><a href="#sec-11">11. Propiedad intelectual</a></li><li><a href="#sec-12">12. Sin garantías</a></li><li><a href="#sec-13">13. Límite de responsabilidad</a></li><li><a href="#sec-14">14. Menores</a></li><li><a href="#sec-15">15. Terminación</a></li><li><a href="#sec-16">16. Ley aplicable y disputas</a></li><li><a href="#sec-17">17. Si alguna parte no se puede aplicar</a></li><li><a href="#sec-18">18. Contacto</a></li></ol></nav></details>
     <article class="legal-body">
@@ -74,7 +77,7 @@
 <ul>
 <li>Chekash es una <strong>ayuda para calcular</strong>: revisa siempre el precio y el total en la caja.</li>
 <li>Las tasas de cambio son <strong>informativas</strong> y vienen de fuentes públicas.</li>
-<li>Hay un <strong>plan gratis con anuncios y límites</strong> y un plan <strong>Premium</strong> de pago, sin anuncios y con todo desbloqueado.</li>
+<li>Hay un <strong>plan gratis con anuncios y límites</strong> y un plan <strong>Premium</strong> de pago, sin anuncios, con todo desbloqueado y con funcionamiento sin internet.</li>
 <li>Premium es una <strong>suscripción con renovación automática</strong>: la cobra y la administra Google Play, y la cancelas allí cuando quieras. <strong>Desinstalar la app no la cancela.</strong></li>
 <li>Si Premium termina, <strong>tus datos no se borran</strong>: vuelven los anuncios y los límites.</li>
 <li>La cuenta es opcional y puedes borrarla cuando quieras.</li>
@@ -93,7 +96,7 @@
 <li><strong>Comparaciones de precios.</strong> Los avisos como «subió» o «más barato en…» se basan únicamente en lo que tú mismo escaneaste antes.</li>
 </ul>
 <h2 id="sec-4">4. Tasas de cambio</h2>
-<p>Las tasas se obtienen de fuentes públicas de terceros (el sitio del Banco Central de Venezuela y servicios públicos de consulta) o de la tasa manual que tú escribes. Pueden tener retrasos, estar temporalmente sin disponibilidad o diferir de la tasa que aplique un comercio, un banco o una casa de cambio. <strong>Chekash no garantiza que la tasa mostrada sea exacta, oficial o vigente</strong> en todo momento, y no ofrece asesoría financiera, cambiaria ni de inversión. Sin internet la app usa la última tasa guardada y te lo indica.</p>
+<p>Las tasas se obtienen de fuentes públicas de terceros (el sitio del Banco Central de Venezuela y servicios públicos de consulta) o de la tasa manual que tú escribes. Pueden tener retrasos, estar temporalmente sin disponibilidad o diferir de la tasa que aplique un comercio, un banco o una casa de cambio. <strong>Chekash no garantiza que la tasa mostrada sea exacta, oficial o vigente</strong> en todo momento, y no ofrece asesoría financiera, cambiaria ni de inversión. Con Premium, sin internet la app usa la última tasa guardada y te lo indica; el plan gratis necesita conectarse a internet cada cierto tiempo (ver sección 5).</p>
 <h2 id="sec-5">5. Planes gratis y Premium</h2>
 <p><strong>Plan gratis.</strong> Puedes usar el escáner, la suma en dólares, euros y bolívares, el presupuesto y la lista de mercado, con estos límites:</p>
 <ul>
@@ -102,9 +105,9 @@
 <li><strong>Exportar:</strong> en texto, <strong>cada vez que veas un anuncio con recompensa</strong> (no hay tope diario). La exportación en PDF y en Excel (CSV) es solo de Premium.</li>
 <li><strong>Memoria de precios limitada</strong> (los avisos de lo que pagaste antes, dónde estaba más barato y cuándo sube un precio están completos solo en Premium).</li>
 <li><strong>Cuenta y respaldo en la nube:</strong> son una función de Premium. Si ya tenías una sesión iniciada, la conservas.</li>
-<li><strong>Conexión periódica:</strong> la app funciona sin internet, pero en el plan gratis debe conectarse de vez en cuando (por ejemplo, tras 10 productos agregados sin conexión o 24 horas sin internet); si no, aparece «Conéctate para seguir» hasta que haya conexión.</li>
+<li><strong>Conexión a internet:</strong> el plan gratis necesita conectarse a internet cada cierto tiempo (por ejemplo, tras 10 productos agregados sin conexión o 24 horas sin internet); si no, aparece «Conéctate para seguir» hasta que haya conexión. No se borra nada: sigues justo donde ibas. Usar la app sin internet, sin esa condición, es una función de Premium.</li>
 </ul>
-<p><strong>Chekash Premium</strong> incluye: <strong>sin anuncios</strong>; <strong>historial completo</strong> y exportación en <strong>texto, PDF y Excel (CSV)</strong>; <strong>memoria de precios completa</strong> (lo que pagaste antes, dónde estaba más barato y avisos cuando sube un precio); y <strong>respaldo en la nube</strong>. Premium no tiene la conexión periódica del plan gratis.</p>
+<p><strong>Chekash Premium</strong> incluye: <strong>sin anuncios</strong>; <strong>historial completo</strong> y exportación en <strong>texto, PDF y Excel (CSV)</strong>; <strong>memoria de precios completa</strong> (lo que pagaste antes, dónde estaba más barato y avisos cuando sube un precio); <strong>respaldo en la nube</strong>; y <strong>funcionamiento sin internet</strong>, sin tener que reconectarte cada cierto tiempo como en el plan gratis.</p>
 <p>Podemos ajustar qué incluye cada plan y sus límites; si el cambio es importante te lo avisaremos en la app (ver sección 10).</p>
 <h2 id="sec-6">6. Suscripción, precios, cobro, cancelación y reembolsos</h2>
 <ul>
