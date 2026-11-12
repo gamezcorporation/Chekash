@@ -11,8 +11,8 @@
   @media (prefers-color-scheme: dark){:root{--ink:#eef4ea;--muted:#a9b6ac;--line:#2a362e;--bg:#0f1712;--card:#16211a}}
   *{box-sizing:border-box}
   body{margin:0;font-family:Outfit,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
-  header{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center}
-  header a{color:inherit;text-decoration:none;font-weight:700;font-size:1.25rem}
+  header{padding:20px 24px;border-bottom:1px solid var(--line)}
+  header .brand{display:inline-flex;gap:12px;align-items:center;color:inherit;text-decoration:none;font-weight:700;font-size:1.25rem}
   header img{width:36px;height:36px;border-radius:10px}
   main{max-width:760px;margin:0 auto;padding:32px 24px 64px}
   h1{font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.2;margin:0 0 8px}
@@ -32,8 +32,10 @@
 </head>
 <body>
 <header>
-  <img src="logo.svg" alt="" width="36" height="36">
-  <a href="index.html">chekash.</a>
+  <a class="brand" href="https://gamezcorporation.github.io/" aria-label="Chekash, ir al inicio">
+    <img src="logo.svg" alt="" width="36" height="36">
+    <span>chekash.</span>
+  </a>
 </header>
 <main>
   <h1>Eliminar mi cuenta y mis datos</h1>
