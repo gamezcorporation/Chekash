@@ -2,43 +2,51 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F4F6F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0A120E">
+<meta name="color-scheme" content="light dark">
 <title>Correo confirmado – Chekash</title>
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
-  :root { --bg: #F5F2E9; --card: #FFFDF8; --ink: #101C15; --muted: #5B665F; --line: #E4DFD0; --green: #64DD17; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #0C1510; --card: #12201A; --ink: #EEF2EC; --muted: #A5B2A9; --line: #243329; } }
-  * { box-sizing: border-box; }
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 20px; background: var(--bg); color: var(--ink);
-         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 440px; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px 26px; text-align: center; }
-  .logo { width: 96px; height: 96px; display: block; margin: 0 auto 18px; filter: drop-shadow(0 4px 10px rgba(16,28,21,.18)); }
-  h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 10px; letter-spacing: -0.02em; }
-  p { margin: 0 0 12px; color: var(--muted); }
-  strong { color: var(--ink); }
+  :root{color-scheme:light dark;--bg:#F4F6F2;--surface:#FFFFFF;--ink:#0D1B14;--muted:#44524A;--line:#D8DFD5;--brand:#0B5D40;--signal:#C8F23E}
+  @media (prefers-color-scheme:dark){:root{--bg:#0A120E;--surface:#111C16;--ink:#EAF3ED;--muted:#9DB1A5;--line:#22332A;--brand:#7BE0AE;--signal:#C8F23E}}
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+  body{margin:0;min-height:100vh;min-height:100dvh;display:grid;place-items:center;padding:max(20px,env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) max(20px,env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left));background:var(--bg);color:var(--ink);
+    font:400 17px/1.6 "Outfit",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+  @font-face{font-family:"Outfit";font-weight:400;font-display:swap;src:url("assets/fonts/outfit-regular.woff") format("woff")}
+  @font-face{font-family:"Outfit";font-weight:700;font-display:swap;src:url("assets/fonts/outfit-bold.woff") format("woff")}
+  main{position:relative;width:min(100%,460px);background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:48px 28px 36px;text-align:center}
+  .cm{position:absolute;inset:12px;pointer-events:none}
+  .cm i{position:absolute;width:26px;height:26px;border:0 solid var(--brand)}
+  .cm i:nth-child(1){top:0;left:0;border-top-width:3px;border-left-width:3px;border-top-left-radius:9px}
+  .cm i:nth-child(2){top:0;right:0;border-top-width:3px;border-right-width:3px;border-top-right-radius:9px}
+  .cm i:nth-child(3){bottom:0;left:0;border-bottom-width:3px;border-left-width:3px;border-bottom-left-radius:9px}
+  .cm i:nth-child(4){bottom:0;right:0;border-bottom-width:3px;border-right-width:3px;border-bottom-right-radius:9px}
+  .logo{display:block;width:88px;height:88px;margin:0 auto 22px;border-radius:24px;box-shadow:0 18px 30px -16px rgba(13,27,20,.5)}
+  h1{margin:0 0 12px;font-size:1.75rem;line-height:1.1;letter-spacing:-.04em;text-wrap:balance}
+  p{margin:0 0 12px;color:var(--muted);text-wrap:pretty}
+  strong{color:var(--ink)}
+  a{color:var(--brand);font-weight:700;text-underline-offset:3px}
+  a:focus-visible{outline:3px solid var(--brand);outline-offset:3px;border-radius:6px}
+  .ok{display:inline-flex;align-items:center;gap:8px;margin-bottom:18px;padding:6px 14px 6px 8px;border-radius:999px;background:color-mix(in srgb,var(--brand) 14%,transparent);color:var(--brand);font-weight:700;font-size:.95rem}
+  .ok svg{width:22px;height:22px;padding:4px;border-radius:50%;background:var(--brand);stroke:var(--surface);fill:none;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+  .sub{margin-top:22px;font-size:.95rem}
 </style>
 </head>
 <body>
 <main>
-  <svg class="logo" viewBox="0 0 108 108" role="img" aria-label="Logo de Chekash" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="g" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#8CF040"/><stop offset="1" stop-color="#4FC20E"/>
-      </linearGradient>
-    </defs>
-    <rect width="108" height="108" rx="26" fill="url(#g)"/>
-    <g transform="translate(14.4 14.4) scale(0.66)">
-      <path fill="#FFFDF4" d="M32,22 L88,22 L88,90 L81,98 L74,90 L67,98 L60,90 L53,98 L46,90 L39,98 L32,90 Z"/>
-      <path fill="#101C15" fill-opacity="0.22" d="M44.5,32 H59.5 a2.5,2.5 0 0 1 2.5,2.5 a2.5,2.5 0 0 1 -2.5,2.5 H44.5 a2.5,2.5 0 0 1 -2.5,-2.5 a2.5,2.5 0 0 1 2.5,-2.5 Z"/>
-      <path fill="none" stroke="#101C15" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" d="M43,58 L55,70 L77,43"/>
-      <path fill="#76DE2A" d="M68,32 a16,16 0 1 0 32,0 a16,16 0 1 0 -32,0 Z"/>
-      <path fill="#FFC83D" d="M71.5,32 a12.5,12.5 0 1 0 25,0 a12.5,12.5 0 1 0 -25,0 Z"/>
-      <path fill="none" stroke="#101C15" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M89,27.5 C89,24 79.5,24 79.5,28.2 C79.5,32.4 89,31.6 89,35.8 C89,40 79.5,40 79.5,36.5 M84.2,22.5 L84.2,41.5"/>
-    </g>
-  </svg>
+  <div class="cm" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <svg class="logo" viewBox="0 0 260 260" role="img" aria-label="Logo de Chekash"><linearGradient id="lg" x1="0" y1="0" x2="260" y2="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#68ED24"/><stop offset="1" stop-color="#39C900"/></linearGradient><g><rect width="260" height="260" rx="58" fill="url(#lg)"/><path d="M77 53H177V220L160 204L143 220L126 204L109 220L92 204L77 220Z" fill="#fff"/><rect x="103" y="77" width="47" height="11" rx="5.5" fill="#d0d0ca"/><path d="M96 135L125 163L185 91" fill="none" stroke="#101b16" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/><circle cx="190" cy="84" r="35" fill="#ffca28"/><circle cx="190" cy="84" r="29.25" fill="#ffca28" stroke="#e9b41d" stroke-width="1.5"/><path fill="#172017" stroke="none" d="m189.12,101.69h2.29v-3.35c6.34,-0.32 10.09,-3.47 10.09,-8.57 0,-4.53 -3.18,-7.27 -8.66,-8.47l-1.43,-0.34v-6.06c1.98,0.3 3.1,1.43 3.26,3.18h6.46c-0.06,-4.95 -3.79,-8.42 -9.71,-8.8v-3.35h-2.29v3.35c-5.83,0.4 -9.88,3.81 -9.88,8.74 0,4.27 2.97,6.72 7.86,7.85l2.02,0.48v6.38c-2.46,-0.3 -4.04,-1.68 -4.17,-4.09h-6.46c0.1,6.19 4.19,9.39 10.63,9.71zM191.41,92.71v-5.81c2.23,0.67 3.29,1.49 3.29,2.86 0,1.52 -1.24,2.65 -3.29,2.95zM189.12,80.4c-1.81,-0.57 -2.93,-1.39 -2.93,-2.84 0,-1.35 0.99,-2.38 2.93,-2.67z"/></g></svg>
+  <div class="ok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Listo</div>
   <h1>¡Tu correo quedó confirmado!</h1>
   <p>Ya puedes volver a <strong>Chekash</strong>, escribir tu correo y tu clave, y entrar a tu cuenta.</p>
   <p>Puedes cerrar esta página.</p>
+  <p class="sub"><a href="/">Conocer más sobre Chekash</a></p>
 </main>
 </body>
 </html>
