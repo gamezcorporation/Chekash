@@ -2,35 +2,72 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Términos de uso – Chekash</title>
 <meta name="description" content="Términos de uso de Chekash: qué puedes esperar de la app, sus límites y tus responsabilidades.">
-<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F6F7">
-<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0A0C0B">
+<meta name="theme-color" content="#0A2515">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" type="image/svg+xml" href="logo.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preload" href="outfit-bold.woff" as="font" type="font/woff" crossorigin>
-<link rel="preload" href="outfit-regular.woff" as="font" type="font/woff" crossorigin>
-<link rel="canonical" href="https://gamezcorporation.github.io/Chekash/terminos-de-uso.html">
-<link rel="stylesheet" href="site.css?v=20261114">
+<link rel="preload" href="assets/fonts/outfit-bold.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/outfit-regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
 <script>document.documentElement.classList.add('js')</script>
+
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="260" y2="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#68ED24"/><stop offset="1" stop-color="#39C900"/></linearGradient></defs><symbol id="logo" viewBox="0 0 260 260"><rect width="260" height="260" rx="58" fill="url(#lg)"/><path d="M77 53H177V220L160 204L143 220L126 204L109 220L92 204L77 220Z" fill="#fff"/><rect x="103" y="77" width="47" height="11" rx="5.5" fill="#d0d0ca"/><path d="M96 135L125 163L185 91" fill="none" stroke="#101b16" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/><circle cx="190" cy="84" r="35" fill="#ffca28"/><circle cx="190" cy="84" r="29.25" fill="#ffca28" stroke="#e9b41d" stroke-width="1.5"/><path fill="#172017" stroke="none" d="m189.12,101.69h2.29v-3.35c6.34,-0.32 10.09,-3.47 10.09,-8.57 0,-4.53 -3.18,-7.27 -8.66,-8.47l-1.43,-0.34v-6.06c1.98,0.3 3.1,1.43 3.26,3.18h6.46c-0.06,-4.95 -3.79,-8.42 -9.71,-8.8v-3.35h-2.29v3.35c-5.83,0.4 -9.88,3.81 -9.88,8.74 0,4.27 2.97,6.72 7.86,7.85l2.02,0.48v6.38c-2.46,-0.3 -4.04,-1.68 -4.17,-4.09h-6.46c0.1,6.19 4.19,9.39 10.63,9.71zM191.41,92.71v-5.81c2.23,0.67 3.29,1.49 3.29,2.86 0,1.52 -1.24,2.65 -3.29,2.95zM189.12,80.4c-1.81,-0.57 -2.93,-1.39 -2.93,-2.84 0,-1.35 0.99,-2.38 2.93,-2.67z"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol></svg>
+<!-- REVISAR ANTES DE PUBLICAR (v2.0). Decisiones del encargo que quedaron sin contestar; se redactó lo que hace HOY el código:
+  1) Cuenta y respaldo: escrito como función de Premium (quien ya tenía sesión la conserva), igual que Ads.accountAllowed.
+     Si pasa a ser para todos, cambiar secciones 5 y 8 y el resumen.
+  2) Precios USD 2,99/mes y USD 19,99/año: CONFIRMADOS como oficiales por el desarrollador (ya no se dicen "de referencia"). Si cambian, dejar solo
+     "consulta el precio en Google Play" en la sección 6.
+  3) Prueba gratis o descuentos: no se mencionan porque hoy no existen. Si se agregan, hay que describirlos en la sección 6.
+  4) Anuncio "cada 10 escaneos": no está en el código; no se menciona. Si se agrega, sumarlo a la lista de la sección 7.
+  5) Que un abogado revise el texto antes de publicar.
+  6) v2.1: se aclaró que funcionar sin internet (sin la reconexión periódica) es una función de Premium. El código del plan gratis sigue
+     dejando usar la app sin conexión dentro de la ventana de 10 productos / 24 h (OfflinePolicy); si se quiere bloquear desde el primer momento,
+     hay que cambiar el código y las secciones 4 y 5.
+-->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<defs><linearGradient id="lg" x1="0" y1="0" x2="260" y2="260" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#68ED24"/><stop offset="1" stop-color="#39C900"/></linearGradient></defs>
+<symbol id="logo" viewBox="0 0 260 260"><rect width="260" height="260" rx="58" fill="url(#lg)"/><path d="M77 53H177V220L160 204L143 220L126 204L109 220L92 204L77 220Z" fill="#fff"/><rect x="103" y="77" width="47" height="11" rx="5.5" fill="#d0d0ca"/><path d="M96 135L125 163L185 91" fill="none" stroke="#101b16" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/><circle cx="190" cy="84" r="35" fill="#ffca28"/><circle cx="190" cy="84" r="29.25" fill="#ffca28" stroke="#e9b41d" stroke-width="1.5"/><path fill="#172017" stroke="none" d="m189.12,101.69h2.29v-3.35c6.34,-0.32 10.09,-3.47 10.09,-8.57 0,-4.53 -3.18,-7.27 -8.66,-8.47l-1.43,-0.34v-6.06c1.98,0.3 3.1,1.43 3.26,3.18h6.46c-0.06,-4.95 -3.79,-8.42 -9.71,-8.8v-3.35h-2.29v3.35c-5.83,0.4 -9.88,3.81 -9.88,8.74 0,4.27 2.97,6.72 7.86,7.85l2.02,0.48v6.38c-2.46,-0.3 -4.04,-1.68 -4.17,-4.09h-6.46c0.1,6.19 4.19,9.39 10.63,9.71zM191.41,92.71v-5.81c2.23,0.67 3.29,1.49 3.29,2.86 0,1.52 -1.24,2.65 -3.29,2.95zM189.12,80.4c-1.81,-0.57 -2.93,-1.39 -2.93,-2.84 0,-1.35 0.99,-2.38 2.93,-2.67z"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.2v15.6a.8.8 0 001.2.7l13-7.8a.8.8 0 000-1.4l-13-7.8A.8.8 0 007 4.2z"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+<symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8.5A2.5 2.5 0 016.5 6H8l1.3-2h5.4L16 6h1.5A2.5 2.5 0 0120 8.5v9a2.5 2.5 0 01-2.5 2.5h-11A2.5 2.5 0 014 17.5z"/><circle cx="12" cy="13" r="3.6"/></symbol>
+<symbol id="i-wifioff" viewBox="0 0 24 24"><path d="M2.5 9a15 15 0 015-3.2M21.5 9a15 15 0 00-8.7-4M5.8 12.6a10 10 0 014-2.4M18.2 12.6a10 10 0 00-3.4-2.2M9.4 16.2a5 5 0 015.2 0M12 19.6h.01M3 3l18 18"/></symbol>
+<symbol id="i-trend" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></symbol>
+<symbol id="i-micoff" viewBox="0 0 24 24"><path d="M9 9.5V6a3 3 0 015.8-1M15 10v1a3 3 0 01-4.5 2.6M5 11a7 7 0 0010.8 5.9M19 11a7 7 0 01-.8 3.2M12 18v3M3 3l18 18"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v5.5c0 4.6-3.2 8.3-8 9.5-4.8-1.2-8-4.9-8-9.5V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8 6.8 19.6l1-5.8L3.5 9.7l5.9-.8z"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M4 6.5L5.5 8 8 5.5M4 12.5L5.5 14 8 11.5M4 18.5L5.5 20 8 17.5M11 7h9M11 13h9M11 19h9"/></symbol>
+<symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 3h12v18l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5L6 21zM9 8h6M9 12h6"/></symbol>
+<symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2.2l2.1 10.3a1 1 0 001 .8h8.5a1 1 0 001-.8L19.5 8H6"/><circle cx="9.5" cy="19.3" r="1.2"/><circle cx="16.5" cy="19.3" r="1.2"/></symbol>
+<symbol id="i-cash" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.6"/><path d="M6.5 12h.01M17.5 12h.01"/></symbol>
+<symbol id="i-pencil" viewBox="0 0 24 24"><path d="M4 20l.9-4L16.4 4.5a2 2 0 012.8 2.8L7.7 18.8zM14.6 6.4l3 3"/></symbol>
+<symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h8M16 7h4M4 17h4M12 17h8"/><circle cx="14" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2.5L5 13.5h6L10 21.5l8-11h-6z" fill="currentColor"/></symbol>
+<symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+</svg>
 <a class="skip" href="#contenido">Saltar al contenido</a>
 <header class="site-nav">
   <div class="nav-in" data-open="false">
     <a class="brand" href="/" aria-label="Chekash, inicio"><svg aria-hidden="true"><use href="#logo"/></svg><span class="wordmark">chekash<i>.</i></span></a>
-    <nav class="nav-links" aria-label="Principal"><a href="/#funciones">Funciones</a><a href="/#calculadora">Calculadora</a><a href="/#planes">Planes</a><a href="/#preguntas">Preguntas</a></nav>
-    <a class="btn btn-primary btn-sm nav-cta" data-play data-live-text="Descargar" href="mailto:appchekash@gmail.com?subject=Av%C3%ADsame%20cuando%20Chekash%20est%C3%A9%20en%20Google%20Play">Avísame cuando salga</a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Abrir menú"><svg class="i i-menu" aria-hidden="true"><use href="#i-menu"/></svg><svg class="i i-x" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <nav class="nav-links" aria-label="Principal">
+      <a href="/#funciones">Funciones</a><a href="/#planes">Planes</a><a href="/#preguntas">Preguntas</a>
+    </nav>
+    <a class="btn btn-ink btn-sm nav-cta" data-play data-live-text="Descargar" href="mailto:appchekash@gmail.com?subject=Av%C3%ADsame%20cuando%20Chekash%20est%C3%A9%20en%20Google%20Play">Avísame cuando salga</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Abrir menú"><svg class="i" aria-hidden="true"><use href="#i-menu"/></svg></button>
   </div>
-  <div class="nav-panel" id="nav-panel" inert><a href="/#funciones">Funciones</a><a href="/#calculadora">Calculadora</a><a href="/#planes">Planes</a><a href="/#preguntas">Preguntas</a><a class="btn btn-primary btn-lg" data-play data-live-text="Descargar" href="mailto:appchekash@gmail.com?subject=Av%C3%ADsame%20cuando%20Chekash%20est%C3%A9%20en%20Google%20Play">Avísame cuando salga</a></div>
 </header>
 <main id="contenido">
-  <div class="legal-top"><div class="wrap"><h1>Términos de uso de Chekash</h1><p class="meta">Versión 2.2 · Última actualización: 11 de noviembre de 2026</p></div></div>
+  <div class="legal-top"><div class="wrap"><h1>Términos de uso de Chekash</h1><p class="meta">Versión 2.2 · Última actualización: 17 de noviembre de 2026</p></div></div>
   <div class="wrap legal-grid">
     <details class="toc" open><summary>Contenido</summary><nav aria-label="Contenido"><ol><li><a href="#sec-1">1. Qué es Chekash</a></li><li><a href="#sec-2">2. Uso permitido</a></li><li><a href="#sec-3">3. La app es una ayuda, no una factura</a></li><li><a href="#sec-4">4. Tasas de cambio</a></li><li><a href="#sec-5">5. Planes gratis y Premium</a></li><li><a href="#sec-6">6. Suscripción, precios, cobro, cancelación y reembolsos</a></li><li><a href="#sec-7">7. Anuncios</a></li><li><a href="#sec-8">8. Tu cuenta</a></li><li><a href="#sec-9">9. Tus datos y tu contenido</a></li><li><a href="#sec-10">10. Disponibilidad y cambios</a></li><li><a href="#sec-11">11. Propiedad intelectual</a></li><li><a href="#sec-12">12. Sin garantías</a></li><li><a href="#sec-13">13. Límite de responsabilidad</a></li><li><a href="#sec-14">14. Menores</a></li><li><a href="#sec-15">15. Terminación</a></li><li><a href="#sec-16">16. Ley aplicable y disputas</a></li><li><a href="#sec-17">17. Si alguna parte no se puede aplicar</a></li><li><a href="#sec-18">18. Contacto</a></li></ol></nav></details>
     <article class="legal-body">
@@ -56,6 +93,7 @@
 <li><strong>Lectura de precios.</strong> El reconocimiento de texto puede equivocarse (etiquetas borrosas, con brillo, de varios precios, por kilo o por unidad). Los productos, precios y totales que muestra son una <strong>estimación</strong>. Revisa cada renglón antes de pagar. El precio que cobra el comercio es el que vale.</li>
 <li><strong>Impuestos.</strong> El IVA que calcula la app es una opción que tú activas y con el porcentaje que tú indicas; pueden cambiar por ley y varían según el producto y el comercio. No sustituyen una factura ni asesoría tributaria. Confirma el porcentaje vigente con el comercio o con el SENIAT.</li>
 <li><strong>Pagos.</strong> Chekash no procesa los pagos de tus compras en el comercio ni mueve dinero entre tú y el comercio. La suscripción Premium es distinta: la cobra y la procesa Google Play, no Chekash (ver sección 6).</li>
+<li><strong>Comparar con factura.</strong> El resultado lo produce una inteligencia artificial que lee la foto de la factura y puede equivocarse (fotos cortadas, borrosas, con poca luz, renglones mal leídos). Es una ayuda para que revises, no una prueba ni un reclamo oficial: la factura que te dio el comercio es la que vale. Cuando no se puede emparejar un producto con seguridad, la app lo marca como «No pudimos confirmarlo» y no lo cuenta como olvidado.</li>
 <li><strong>Comparaciones de precios.</strong> Los avisos como «subió» o «más barato en…» se basan únicamente en lo que tú mismo escaneaste antes.</li>
 </ul>
 <h2 id="sec-4">4. Tasas de cambio</h2>
@@ -70,7 +108,8 @@
 <li><strong>Cuenta y respaldo en la nube:</strong> son una función de Premium. Si ya tenías una sesión iniciada, la conservas.</li>
 <li><strong>Conexión a internet:</strong> el plan gratis necesita conectarse a internet cada cierto tiempo (por ejemplo, tras 10 productos agregados sin conexión o 24 horas sin internet); si no, aparece «Conéctate para seguir» hasta que haya conexión. No se borra nada: sigues justo donde ibas. Usar la app sin internet, sin esa condición, es una función de Premium.</li>
 </ul>
-<p><strong>Chekash Premium</strong> incluye: <strong>sin anuncios</strong>; <strong>historial completo</strong> y exportación en <strong>texto, PDF y Excel (CSV)</strong>; <strong>memoria de precios completa</strong> (lo que pagaste antes, dónde estaba más barato y avisos cuando sube un precio); <strong>respaldo en la nube</strong>; y <strong>funcionamiento sin internet</strong>, sin tener que reconectarte cada cierto tiempo como en el plan gratis.</p>
+<p><strong>Chekash Premium</strong> incluye: <strong>sin anuncios</strong>; <strong>historial completo</strong> y exportación en <strong>texto, PDF y Excel (CSV)</strong>; <strong>memoria de precios completa</strong> (lo que pagaste antes, dónde estaba más barato y avisos cuando sube un precio); <strong>respaldo en la nube</strong>; y <strong>funcionamiento sin internet</strong>, sin tener que reconectarte cada cierto tiempo como en el plan gratis; y <strong>«Comparar con factura»</strong>: hasta <strong>3 comparaciones al día</strong> de la factura del supermercado con tu compra.</p>
+<p><strong>Comparar con factura (solo Premium).</strong> Para usarla debes aceptar un aviso la primera vez. Al tocar «Comparar», las fotos de la factura que tú elijas (hasta 3) se envían a un servidor de Chekash, que verifica tu Premium y las pasa a <strong>DeepSeek</strong>, un servicio de inteligencia artificial de otra empresa que puede procesarlas fuera de Venezuela, incluso en China. Chekash no guarda las fotos ni el resultado. Lo que DeepSeek hace con ellas depende de sus propias reglas, y aún no tenemos su confirmación por escrito sobre si las almacena o las usa para entrenar modelos: si eso te preocupa, no uses la función. Aplica un límite de 3 comparaciones al día; si el servicio de lectura falla o tarda demasiado, esa comparación no se descuenta. Evita fotografiar facturas con datos de otras personas. Más detalles en la <a href="privacy-policy.html#camara">política de privacidad</a>.</p>
 <p>Podemos ajustar qué incluye cada plan y sus límites; si el cambio es importante te lo avisaremos en la app (ver sección 10).</p>
 <h2 id="sec-6">6. Suscripción, precios, cobro, cancelación y reembolsos</h2>
 <ul>
@@ -86,7 +125,7 @@
 </ul>
 <h2 id="sec-7">7. Anuncios</h2>
 <ul>
-<li><strong>Dónde salen.</strong> El plan gratis muestra anuncios de <strong>Google AdMob</strong>: al abrir la app (a partir de la segunda sesión; la primera sesión no tiene anuncios), al entrar a Historial o a Mi lista, al fijar el presupuesto, al finalizar una compra, al reiniciar la cuenta y al volver el internet después del aviso «Conéctate para seguir», y un banner abajo en Historial y en Mi lista. Nunca salen mientras escaneas con la cámara. Con Premium no hay anuncios.</li>
+<li><strong>Dónde salen.</strong> El plan gratis muestra anuncios de <strong>Google AdMob</strong>: al abrir la app (a partir de la segunda sesión; la primera sesión no tiene anuncios), al entrar a Historial o a Mi lista, al fijar el presupuesto, al finalizar una compra y al reiniciar la cuenta, y un banner abajo en Historial y en Mi lista. Nunca salen mientras escaneas con la cámara. Con Premium no hay anuncios.</li>
 <li><strong>Con qué frecuencia.</strong> Entre dos anuncios de pantalla completa pasan al menos 3 minutos, con un máximo de 10 por día. Después de algunos anuncios, la app te ofrece Premium para quitarlos.</li>
 <li><strong>Anuncios con recompensa.</strong> Son <strong>voluntarios</strong>: tú decides si verlos. Sirven para exportar una compra en texto y para desbloquear una compra más del Historial. La recompensa depende de que Google confirme que viste el anuncio completo; si lo cierras antes de que termine, no se da.</li>
 <li><strong>Contenido de los anuncios.</strong> Los anuncios los ponen los anunciantes. Chekash no es responsable de su contenido ni de los sitios web o apps de terceros a los que un anuncio pueda llevarte; esos sitios y apps tienen sus propias reglas y políticas.</li>
@@ -102,14 +141,11 @@
 <li>Si olvidas tu clave, puedes recuperarla desde «¿Olvidaste tu clave?» con un código que te llega al correo de tu cuenta; si no te llega, escríbenos desde ese correo.</li>
 </ul>
 <h2 id="sec-9">9. Tus datos y tu contenido</h2>
-<p>Lo que registras en la app (tus compras, listas y ajustes) es tuyo. Nos das el permiso limitado necesario para guardarlo y sincronizarlo cuando usas una cuenta, y solo para eso. Tú eres responsable de hacer copias o exportar lo que necesites (puedes compartir tus compras en texto, y en PDF o CSV con Premium). Si activas el registro del lector o el uso anónimo de la app (ambos opcionales), nos autorizas a usar esos reportes anónimos para corregir fallos y mejorar la app, como explica la política de privacidad.</p>
+<p>Lo que registras en la app (tus compras, listas y ajustes) es tuyo. Nos das el permiso limitado necesario para guardarlo y sincronizarlo cuando usas una cuenta, y solo para eso. Tú eres responsable de hacer copias o exportar lo que necesites (puedes compartir tus compras en texto, y en PDF o CSV con Premium).</p>
 <h2 id="sec-10">10. Disponibilidad y cambios</h2>
 <p>Trabajamos para que la app funcione bien, pero no garantizamos que esté siempre disponible, sin interrupciones o sin errores, ni que las funciones que dependen de internet (tasas, anuncios, cuenta y respaldo) estén siempre activas. Podemos cambiar, mejorar, limitar o retirar funciones, <strong>cambiar los precios, los planes y los límites</strong>, actualizar estos términos o dejar de ofrecer el servicio; si el cambio es importante te lo avisaremos en la app. Los cambios de precio de una suscripción se avisan según las reglas de Google Play, y lo que ya pagaste se respeta hasta el fin del periodo pagado. Seguir usando la app después de un cambio significa que lo aceptas.</p>
-<p><strong>Actualizaciones obligatorias.</strong> Para mantener la app segura y compatible con las tasas, los anuncios y los pagos, algunas versiones pueden ser obligatorias: Google Play te mostrará una pantalla de actualización y, mientras no actualices, no podrás seguir usando la app. Si rechazas una actualización obligatoria, la app se cierra.</p>
-<p><strong>Notificaciones.</strong> Chekash puede enviarte notificaciones push con novedades y avisos importantes si lo permites. Puedes apagarlas cuando quieras en los ajustes de Android.</p>
-<p><strong>Versiones de prueba.</strong> Si usas una versión de prueba (por ejemplo, de las pruebas cerradas en Google Play), puede tener errores y cambiar o dejar de funcionar sin aviso previo. Estos términos también aplican a esas versiones.</p>
 <h2 id="sec-11">11. Propiedad intelectual</h2>
-<p>La app, su diseño, su logo y su código pertenecen a su desarrollador, Gámez Dev. Te damos una licencia personal, limitada, revocable, no exclusiva e intransferible para usar la app en tus dispositivos. «Chekash» y su logo no pueden usarse como marca sin permiso. La tipografía incluida (Outfit) y otros componentes de código abierto mantienen sus propias licencias (SIL Open Font License y las de cada biblioteca). Parte de los datos de productos del catálogo proviene de <strong>Open Food Facts</strong> (© Open Food Facts contributors) y se usa bajo la licencia <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>; esos datos siguen bajo esa licencia.</p>
+<p>La app, su diseño, su logo y su código pertenecen a su desarrollador, Gámez Dev. Te damos una licencia personal, limitada, revocable, no exclusiva e intransferible para usar la app en tus dispositivos. «Chekash» y su logo no pueden usarse como marca sin permiso. Las tipografías incluidas (Bricolage Grotesque y DM Mono) y otros componentes de código abierto mantienen sus propias licencias (SIL Open Font License y las de cada biblioteca).</p>
 <h2 id="sec-12">12. Sin garantías</h2>
 <p>La app se ofrece <strong>«tal cual» y «según disponibilidad»</strong>, sin garantías de ningún tipo, expresas o implícitas, en la medida permitida por la ley, incluidas las de exactitud de lectura, de cálculos, de tasas, de idoneidad para un fin particular y de funcionamiento ininterrumpido.</p>
 <h2 id="sec-13">13. Límite de responsabilidad</h2>
@@ -128,22 +164,25 @@
     </article>
   </div>
 </main>
-<footer class="site-footer">
+<footer class="site-footer on-dark">
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <a class="brand" href="/" aria-label="Chekash, inicio"><svg aria-hidden="true"><use href="#logo"/></svg><span class="wordmark">chekash<i>.</i></span></a>
+        <a class="brand" href="/" aria-label="Chekash, inicio" style="color:#fff"><svg aria-hidden="true"><use href="#logo"/></svg><span class="wordmark">chekash<i>.</i></span></a>
         <p>Una ayuda para calcular tus compras en dólares, euros y bolívares.</p>
       </div>
       <div class="foot-cols">
-        <div><h4>Chekash</h4><ul><li><a href="/#funciones">Funciones</a></li><li><a href="/#calculadora">Calculadora</a></li><li><a href="/#planes">Planes</a></li><li><a href="/#preguntas">Preguntas</a></li></ul></div>
-        <div><h4>Legal</h4><ul><li><a href="/Chekash/privacy-policy.html">Política de privacidad</a></li><li><a href="/Chekash/terminos-de-uso.html">Términos de uso</a></li><li><a href="/Chekash/eliminar-cuenta.html">Eliminar mi cuenta</a></li></ul></div>
+        <div><h4>Chekash</h4><ul><li><a href="/#funciones">Funciones</a></li><li><a href="/#planes">Planes</a></li><li><a href="/#preguntas">Preguntas</a></li></ul></div>
+        <div><h4>Legal</h4><ul><li><a href="privacy-policy.html">Política de privacidad</a></li><li><a href="terminos-de-uso.html">Términos de uso</a></li></ul></div>
         <div><h4>Contacto</h4><ul><li><a href="mailto:appchekash@gmail.com">appchekash@gmail.com</a></li></ul></div>
       </div>
     </div>
-    <div class="foot-base"><span>© 2026 Gámez Dev. Chekash es una ayuda para calcular: revisa siempre el total en la caja.</span><span>Hecho en Venezuela</span></div>
+    <div class="foot-base">
+      <span>© 2026 Gámez Dev. Chekash es una ayuda para calcular: revisa siempre el total en la caja.</span>
+      <span>Hecho en Venezuela</span>
+    </div>
   </div>
 </footer>
-<script src="site.js?v=20261114" defer></script>
+<script src="assets/site.js" defer></script>
 </body>
 </html>
